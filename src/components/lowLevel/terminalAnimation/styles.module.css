@@ -1,0 +1,15 @@
+.typingFrame {
+    background-color: black;
+    color: white;
+    padding: 5vmax 2vmax 2vmax;
+    font-family: "Lucida Grande", serif;
+}
+
+.console {
+    border: #653181 3px solid;
+    padding: 1vmax 2vmax;
+}
+
+.inputLine {
+    display: flex;
+}
