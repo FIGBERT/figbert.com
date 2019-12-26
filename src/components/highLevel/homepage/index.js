@@ -28,7 +28,7 @@ export class Homepage extends React.Component {
                                 Hey there user! You’ve stumbled upon my site – the official website and home of FIGBERT on
                                 the clearnet. This site should server as a place for me to put finished programs, write-
                                 throughs, things I find interesting, photos of me from around the world, and other
-                                information about me. <span style={{textDecoration: 'line-through'}}>Also my resume cuz
+                                information about me. <span style={{textDecoration: 'line-through'}}>Also my resume because
                                 self-promotion.</span>
                             </p>
                         </div>
@@ -49,7 +49,7 @@ export class Homepage extends React.Component {
                                     The ‘Blog’ link leads to… my blog. Duh. I write about my experiences as a tech-y
                                     individual, my adventures online, some programming walkthroughs, and other miscellaneous
                                     stuff. <span style={{textDecoration: 'line-through'}}>Fun fact: I can write about
-                                    anything I want, because this is my site and I make the rules so suck it up</span>
+                                    anything I want, because this is my site and I make the rules. So there.</span>
                                 </p>
                             </div>
                         </div>
