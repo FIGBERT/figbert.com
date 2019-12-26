@@ -1,7 +1,8 @@
 import React from 'react';
-import { Nav } from "../lowLevel/navbar";
-import { Terminal } from "../lowLevel/terminalAnimation";
-import styles from './homepage.module.css'
+import { Nav } from "../../lowLevel/navbar";
+import { Terminal } from "../../lowLevel/terminalAnimation";
+import Footer from "../../lowLevel/footer";
+import styles from './styles.module.css'
 
 export class Homepage extends React.Component {
     render() {
@@ -68,6 +69,7 @@ export class Homepage extends React.Component {
                             </div>
                         </div>
                     </div>
+                    <Footer />
                 </div>
             </div>
         );
