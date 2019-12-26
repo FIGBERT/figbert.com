@@ -1,6 +1,6 @@
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0;
@@ -13,21 +13,13 @@ nav {
 .logoSymbol {
     height: 3vmax;
     width: auto;
-    margin-left: 2vw;
-}
-
-.links {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .linkText {
     color: white;
     text-decoration: none;
     position: relative;
-    font-size: 1vw;
+    font-size: 1.5ex;
     font-weight: bold;
 }
 
@@ -55,11 +47,12 @@ nav {
 .dropButton {
     background-color: transparent;
     color: white;
-    font-size: 1vw;
+    font-size: 1.5ex;
     font-weight: bold;
     height: 4vmax;
-    padding: 1vmax 2vmax;
+    padding: 0;
     border: none;
+    text-align: center;
 }
 
 .dropdown {

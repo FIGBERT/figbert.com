@@ -14,19 +14,17 @@ export class Nav extends React.Component {
                         className={styles.logoSymbol}
                     />
                 </Link>
-                <div className={styles.links}>
-                    <div className={styles.dropdown}>
-                        <button className={styles.dropButton}>Programs</button>
-                        <div className={styles.dropdownContent}>
-                            <Link to='/figENC' className={styles.linkText}>figENC</Link>
-                            <Link to='/figbertMath' className={styles.linkText}>figbertMath</Link>
-                        </div>
+                <div className={styles.dropdown}>
+                    <button className={styles.dropButton}>Programs</button>
+                    <div className={styles.dropdownContent}>
+                        <Link to='/figENC' className={styles.linkText}>figENC</Link>
+                        <Link to='/figbertMath' className={styles.linkText}>figbertMath</Link>
                     </div>
-                    <Link to='/blog' className={styles.linkText}>Blog</Link>
-                    <Link to='/world' className={styles.linkText}>World</Link>
-                    <Link to='/contact' className={styles.linkText}>Contact</Link>
-                    <Link to='/about' className={styles.linkText}>About</Link>
                 </div>
+                <Link to='/blog' className={styles.linkText}>Blog</Link>
+                <Link to='/world' className={styles.linkText}>World</Link>
+                <Link to='/contact' className={styles.linkText}>Contact</Link>
+                <Link to='/about' className={styles.linkText}>About</Link>
             </nav>
         );
     }

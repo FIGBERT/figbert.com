@@ -1,0 +1,32 @@
+.account {
+    color: #B494C7;
+    font-weight: bolder;
+}
+
+.verticalContainer {
+    color: white;
+    background-color: #1A181C;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontalContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    text-align: center;
+    width: 33vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .horizontalContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        width: 75vw;
+    }
+}
