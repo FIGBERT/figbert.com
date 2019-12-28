@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav } from "../../lowLevel/navbar";
+import Nav from "../../lowLevel/navbar";
 import Footer from "../../lowLevel/footer";
 import styles from "../smallpage.module.css";
 
