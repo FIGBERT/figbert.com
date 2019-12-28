@@ -1,6 +1,6 @@
-import React from 'react';
-import TypeWriter from 'react-typewriter';
-import styles from './styles.module.css';
+import React from "react";
+import TypeWriter from "react-typewriter";
+import styles from "./styles.module.css";
 
 export class Terminal extends React.Component {
     render() {
