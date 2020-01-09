@@ -5,10 +5,10 @@ import styles from "../smallpage.module.css";
 
 function ContactPage() {
     return (
-        <div>
+        <div className={styles.body}>
             <Nav />
             <div className={styles.page}>
-                <div className={styles.body}>
+                <div className={styles.text}>
                     <h1>Contact Me</h1>
                     <p>
                         If you’re looking to reach me, you can find my Twitter, Reddit, and Github profiles, as well as
@@ -25,7 +25,7 @@ function ContactPage() {
                          of my profiles in the same place doesn't ruin that ;). Hello, bots + big data.
                     </p>
                 </div>
-                <Footer />
+                <Footer smallPage={true}/>
             </div>
         </div>
     );

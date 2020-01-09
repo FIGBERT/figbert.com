@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./styles.module.css";
 
-function Footer() {
+function Footer(props) {
     return (
-        <footer className={styles.footer}>
+        <footer className={props.smallPage ? styles.absolute : styles.relative}>
             <p>2019 © FIGBERT. All rights reserved.</p>
         </footer>
     );

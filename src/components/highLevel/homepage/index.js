@@ -68,7 +68,7 @@ function Homepage() {
                         </div>
                     </div>
                 </div>
-                <Footer />
+                <Footer smallPage={false} />
             </div>
         </div>
     );
