@@ -103,7 +103,7 @@ disqusShortname = "FIGBERT"
             url = "projects/"
 
             [[languages.en.menu.main]]
-            name = "Contact me"
+            name = "Contact"
             weight = 5
             url = "contact/"
 
