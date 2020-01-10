@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/figbert
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://figbert.com
+  * I am figbert (https://keybase.io/figbert) on keybase.
+  * I have a public key with fingerprint ABB2 5DD0 14CC 0120 E6EE  EEDF A47F 302D 38D9 8119
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01017588bbb0cb8513db64f2092bf9fafb063ef63974a5ca2c62ae5e3b08f6c951b80a",
+      "fingerprint": "abb25dd014cc0120e6eeeedfa47f302d38d98119",
+      "host": "keybase.io",
+      "key_id": "a47f302d38d98119",
+      "kid": "01017588bbb0cb8513db64f2092bf9fafb063ef63974a5ca2c62ae5e3b08f6c951b80a",
+      "uid": "ce13d72bdc487b62c622536d2de99d19",
+      "username": "figbert"
+    },
+    "service": {
+      "hostname": "figbert.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1576358599,
+  "expire_in": 157680000,
+  "prev": "8ff4ee78980584a8ab6dcb3e137c49bee948fae14b01cb2996beed77bcbc8320",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIcAnicrVJbSBVRFL0+U8OSTNQ0w6GHkNm858wFCcq0zB6agUl1m/MYHdQ717lz
+fWSif6mJGIZRUUiBD6gsDfQrvD5IsyIS+irUoKAgpUCIPqQzVh9Bn+2fw1lnrbXX
+PuzJ2DBXTEjP5KEve9silkNmg90B19mVoqcNDDRxPeNuYCrI2kEqMfHbngoDM26G
+5VhOkQCAELIIAokTMJRFnWdVHuqqrumQlQWiy4KqiJqENB7JvEYkIkAW6DJSJQ4C
+VmMyGd3wlhHLZxlem9pqEPISxiwnIsRyPEtkQgvrmqjoAstjAWAVcJxKheWm31HQ
+cFDzkyzDpBi9eNbi/YP/n3MH1uwQoQYKDzESgQJlh81Lgox5TFQVr/UN+Inl1aoI
+ZetGGSSWzTRmMhSsMRBx/tUZ5G9CFjKrqNJnmbaJzEr6UG7bPr/bEdr1PodZS6Dn
+t4cHGl5Mf5EqaojlN0wv4+YoE9mGY8pJiixIQFLVTIbU+QyLeAzvLxiwtJw+pIZa
+Al0XCVGAClgJiBrQoIwRFOiEChJVSIgqAl0jnAhZDkFeVWWKYUWBCCIg8CzjTFXt
+Nak3T3NqZdTTb5R5NTtgEaZxfOxMuCskxhUZEeqslysmOu7P0qV+jHK9aA4m9J5L
+yliJPJU/8OBb+khuxum0joiSTrBUm3stLOXArd0fwrLfuItPDOeGRim9SRe3bBpp
+movs3nB9z8SIbwQ1tb9N3/mqZ3rw0nE+sPJpMLk0Ck9/PrpueC6xMHYp58bDhYRi
+88q2HUWLxl2YJ+xvzbvNNSfuWg0uzqvd7/XR8f7swvyC8197B5Jvmu+Wc5515E61
+zSrbD+fExZQ+Tp5oKQwdXSgIRCuvhav92tCFl+1T1ZHBKZza/iOnImTV35k2kxLe
+ZY0FI27M3s8vOVhxJ/g8Txmqj4rfTLpmm/panhSRy3VHjn2fm3nUNn8yPpFnre7m
+vvX3eje27tva9ROpujnw
+=PUlW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/figbert
+
+==================================================================
