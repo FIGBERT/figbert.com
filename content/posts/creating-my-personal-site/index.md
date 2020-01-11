@@ -58,9 +58,10 @@ React is fast, but [Go is faster][14]. Nobody likes to wait for a website to loa
 There are a bunch of open-source themes to start from (this site uses a modified version of the [Coder][13] theme), 
 licensed under open-source licenses which allow for modification.
 ### Website programming
-Thus, my journey with Hugo began. I created a new branch in my repo, and initialized a new Hugo site. For those looking 
-to use the Coder theme, I would advise not to download the release version from Github, but to use it as a git 
-submodule as suggested in the Quick Start section of the [README][16].
+Thus, my journey with Hugo began. I created a new branch in my repo, and initialized a new Hugo site. As the freeCodeCamp 
+article suggests, if you intend to modify your theme you should not access it as a git submodule but rather as a direct 
+download to the themes folder (that way you can push changes online, rather than having to create a pull request to the 
+public repository).
 
 The Coder theme comes with multi-language support which defaults to Portuguese, and so the first thing I did was to add 
 Hebrew to the site. This was **supremely** easy – customizing Hugo is a breeze. With some simple edits to two `.toml` 
