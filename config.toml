@@ -1,7 +1,7 @@
 baseurl = "http://figbert.com"
 title = "FIGBERT"
 
-theme = "hugo-coder"
+theme = "hugo-coder-master"
 
 languagecode = "en"
 defaultcontentlanguage = "en"
