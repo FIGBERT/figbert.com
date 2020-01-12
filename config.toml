@@ -72,6 +72,11 @@ pygmentscodefencesguesssyntax = true
     weight = 4
     url = "https://www.reddit.com/user/therealFIGBERT"
 [[params.social]]
+    name = "Protonmail"
+    icon = "fas fa-envelope"
+    weight = 4
+    url = "mailto:f1gb3rt@protonmail.com"
+[[params.social]]
     name = "Monero"
     icon = "fab fa-monero"
     weight = 4
