@@ -73,10 +73,10 @@ After adding Hebrew, I customized the buttons underneath my name on the homepage
 >*The row of buttons on the homepage*
 
 The icons are declared in one of the above `.toml` files, and the process is fairly simple. The one challenge I faced 
-was a simple lack of information and documentation, though I figured it out with some trial and error. The icons appear 
-to be from a limited version of [Font Awesome icons][18], which made it difficult to figure out which icons were available. 
-Icons like `envelope` and `car` are missing, but logos such as `keybase` are added. However, as the buttons are just added 
-decoration and not my primary method of conveying contact information, I had no problem there.
+was a simple lack of information, though I figured it out with some trial and error. The icons appear to be from a 
+some version of [Font Awesome icons][18], but I have no idea where the icons are sourced from. In `.toml` files, 
+**icons** like `envelope` and `car` are referenced by setting `icon = fas fa-ICON`, but **logos** such as 
+`keybase` are referenced by setting `icon = fab fa-COMPANY`. Hope that saves somebody some time!
 
 The final step was customizing the site pages. I converted the JSX from the React site's About page to Markdown, put it 
 in the `about.md` file, and repeated the process for the Contact and Projects pages. Posts, also in Markdown, get 
