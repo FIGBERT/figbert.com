@@ -76,7 +76,22 @@ The icons are declared in one of the above `.toml` files, and the process is fai
 was a simple lack of information, though I figured it out with some trial and error. The icons appear to be from a 
 some version of [Font Awesome icons][18], but I have no idea where the icons are sourced from. In `.toml` files, 
 **icons** like `envelope` and `car` are referenced by setting `icon = fas fa-ICON`, but **logos** such as 
-`keybase` are referenced by setting `icon = fab fa-COMPANY`. Hope that saves somebody some time!
+`keybase` are referenced by setting `icon = fab fa-COMPANY`.
+
+However, referencing icons in Markdown is more complex. In order to do this, create a new directory named `shortcodes` 
+inside the `layouts` folder in the root directory. Inside the new directory, create two new files:
+
+`fab.html`
+```html
+<i class="fab {{ range $element := .Params }} fa-{{ $element }} {{ end }}"></i>
+```
+`fas.html`
+```html
+<i class="fas {{ range $element := .Params }} fa-{{ $element }} {{ end }}"></i>
+```
+
+From now on, you can reference icons in your Markdown files by writing `{{< fas ICON-NAME SCALE-NUMx >}}`, and reference 
+logos in by writing `{{< fab COMPANY SCALE-NUMx >}}`. To make them links, surround them in the regular Markdown!
 
 The final step was customizing the site pages. I converted the JSX from the React site's About page to Markdown, put it 
 in the `about.md` file, and repeated the process for the Contact and Projects pages. Posts, also in Markdown, get 
