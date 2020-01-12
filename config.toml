@@ -67,11 +67,6 @@ pygmentscodefencesguesssyntax = true
     weight = 3
     url = "https://twitter.com/therealFIGBERT"
 [[params.social]]
-    name = "Reddit"
-    icon = "fab fa-reddit"
-    weight = 4
-    url = "https://www.reddit.com/user/therealFIGBERT"
-[[params.social]]
     name = "Protonmail"
     icon = "fas fa-envelope"
     weight = 4
