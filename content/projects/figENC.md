@@ -27,10 +27,9 @@ The GUI code is comprised of over 1000 lines of Python 3 `tkinter` code in the F
 a clear, native experience to allow people with any amount of experience with encryption to use the app. The app takes 
 advantage of the library's features like `messageBox` and `Toplevel` to provide create an interactive experience for the 
 user.
-# Future plans
+# Future Development
 Going forward, my main goal for the figENC project is to create a terminal version for [APT][3] and [Homebrew][4], so that 
 users on ~~Linux~~ all platforms, and users with only shell access (i.e. SSH), can use the application.
-
 # Downloads
 | MacOS | Windows | GitHub |
 |:-----:|:-------:|:------:|
