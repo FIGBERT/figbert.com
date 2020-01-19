@@ -63,11 +63,8 @@ article suggests, if you intend to modify your theme you should not access it as
 download to the themes folder (that way you can push changes online, rather than having to create a pull request to the 
 public repository).
 
-The Coder theme comes with multi-language support which defaults to Portuguese, and so the first thing I did was to add 
-Hebrew to the site. This was **supremely** easy – customizing Hugo is a breeze. With some simple edits to two `.toml` 
-files, based on provided templates, the site had Hebrew support.
-
-After adding Hebrew, I customized the buttons underneath my name on the homepage.
+The Coder theme comes with a whole host of preconfigured components, which took some time to get familiar with. Diving 
+in headfirst, I started by customizing the buttons underneath my name on the homepage.
 >![The row of buttons on the homepage][17]
 >
 >*The row of buttons on the homepage*
@@ -98,11 +95,13 @@ in the `about.md` file, and repeated the process for the Contact and Projects pa
 thrown in the `posts` folder. Simple as that!
 ## Conclusion
 ---
-Hugo ludicrously simplifies the web design process. The ability to deploy pages with Markdown, while at the same time 
-having the option to customize the backend, drastically reduces the time it takes to go from concept to deployment. If 
-you don't mind starting from a template, or you want to quickly deploy a great-looking site, Hugo's the way to go. If you 
-want to control every aspect of the site, or have a very specific design or complicated backend system in mind, ReactJS is 
-still your best friend. Hugo is definitely going into my toolbox, and I'll continue to use it going into 2020.
+Hugo ludicrously simplifies the web design process. The ability to quickly deploy pages with Markdown drastically 
+reduces the time it takes to go from concept to deployment. If you don't mind starting from a template, or you want to 
+simply deploy a great-looking site, Hugo's the way to go. If you want to control every aspect of the site, or have a 
+very specific design or complicated backend system in mind, ReactJS is still your best friend. Hugo is definitely going 
+into my toolbox, and I'll continue to use it going into 2020. That being said, I think that I'll probably rewrite this 
+site again in NextJS, because ~~I'm indecisive and masochistic~~ of the control over specific details that 
+you get from building a site from scratch.
 
 [1]: https://www.wix.com/
 [2]: https://www.squarespace.com/
