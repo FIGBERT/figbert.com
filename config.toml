@@ -1,4 +1,4 @@
-baseurl = "https://figbert.netlify.com"
+baseurl = "https://figbert.com"
 title = "FIGBERT"
 
 theme = "hugo-coder-master"
