@@ -109,38 +109,3 @@ pygmentscodefencesguesssyntax = true
             name = "Contact"
             weight = 5
             url = "contact/"
-
-
-    [languages.he]
-        languagename = "עברית"
-        title = "פיגברת"
-        rtl = true
-
-        [languages.he.params]
-            author = "פיגברת"
-            info = "מתכנת ״פול סתאק״"
-            description = "האתר והבית הרשמי של פיגברת באינטרנט"
-            keywords = "בלוג, מפתח, אישי, אבטחת סייבר"
-            footercontent = "האתר והבית הרשמי של פיגברת באינטרנט"
-
-        [languages.he.menu]
-
-            [[languages.he.menu.main]]
-            name = "אודות"
-            weight = 1
-            url = "about/"
-
-            [[languages.he.menu.main]]
-            name = "בלוג"
-            weight = 2
-            url = "posts/"
-
-            [[languages.he.menu.main]]
-            name = "פרויקטים"
-            weight = 3
-            url = "projects/"
-
-            [[languages.he.menu.main]]
-            name = "צור קשר"
-            weight = 5
-            url = "contact/"
