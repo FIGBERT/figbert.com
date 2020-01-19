@@ -107,6 +107,17 @@
     </main>
 
     {{ template "_internal/google_analytics.html" . }}
+    <script>
+      (function() {
+        window.counter = 'https://figbert.goatcounter.com/count'
+
+        let script = document.createElement('script');
+        script.async = 1;
+        script.src = '//gc.zgo.at/count.js';
+        let ins = document.getElementsByTagName('script')[0];
+        ins.parentNode.insertBefore(script, ins)
+      })();
+    </script>
 
   </body>
 
