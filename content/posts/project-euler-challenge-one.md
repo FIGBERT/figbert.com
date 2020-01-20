@@ -9,7 +9,12 @@ disable_comments = true
 +++
 
 This challenge was a fairly simple start to the Project Euler challenge. I programmed my solution in Python, in 17 sloc 
-(including comments).
+(including comments). In this challenge, we were tasked to:
+
+> If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these
+> multiples is 23.
+>
+> Find the sum of all the multiples of 3 or 5 below 1000.
 
 To solve the challenge, I created two functions. The first function, `multOfThreeOrFive`, accepts an integer prop `num` 
 and determines if it is divisible by either 3 or 5 and returns the resulting boolean value. The second function, 
