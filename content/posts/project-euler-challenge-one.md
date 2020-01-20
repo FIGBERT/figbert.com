@@ -9,7 +9,7 @@ disable_comments = true
 +++
 
 This challenge was a fairly simple start to the Project Euler challenge. I programmed my solution in Python, in 17 sloc 
-(including comments). In this challenge, we were tasked to:
+(including comments). In this challenge, I was tasked to:
 
 > If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these
 > multiples is 23.
