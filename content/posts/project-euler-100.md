@@ -15,7 +15,9 @@ as the hub of this new project, and I'll update it frequently with any new infor
 in Python, but may alternate between a few other languages or take the opportunity to learn a new one.
 
 ### Challenges
-Nothing to see here yet!
+* **Challenge #1**
+    * [Walkthrough][w1]
+    * [Solution][s1]
 
 ### Links:
 * [Announcement tweet][1]
@@ -29,3 +31,5 @@ Nothing to see here yet!
 [3]: https://projecteuler.net/
 [4]: https://www.freecodecamp.org/news/projecteuler100-coding-challenge-competitive-programming/
 [5]: https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/
+[w1]: /posts/project-euler-challenge-one/
+[s1]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem001.py
