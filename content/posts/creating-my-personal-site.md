@@ -65,6 +65,7 @@ public repository).
 
 The Coder theme comes with a whole host of preconfigured components, which took some time to get familiar with. Diving 
 in headfirst, I started by customizing the buttons underneath my name on the homepage.
+
 >![The row of buttons on the homepage][17]
 >
 >*The row of buttons on the homepage*
