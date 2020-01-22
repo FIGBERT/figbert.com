@@ -52,16 +52,14 @@ def primeFactors(num):
     
     return primes
 
-def largestInList(lst):
-    largest = 0
-    for i in range(len(lst)):
-        largest = lst[i] if lst[i] > largest else largest
-    return largest
-
-factors = primeFactors(600851475143)
-answer = largestInList(factors)
+answer = max(primeFactors(600851475143))
 print("The largest prime factor of the number 600851475143 is %s" % answer)
 ```
+
+## Edit 21/01/2020
+Today I found out that the `largestInList` function I coded already existed, and ships as `max` in Python 3. Cut out a 
+whole bunch of the code that way, and the solution is now much simpler. The code above has been edited to reflect the 
+changes.
 
 ### Links
 * [Announcement tweet][1]
