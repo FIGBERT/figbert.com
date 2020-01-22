@@ -1,5 +1,5 @@
 +++ 
-date = "2020-01-20"
+date = "2020-01-21"
 title = "Project Euler Challenge #3"
 slug = "project-euler-challenge-three" 
 tags = ["Algorithms", "Data Structures", "Challenge", "Python"]
@@ -25,7 +25,7 @@ do this, I divide `num` by two as many times as I can and then divide `num` by `
 odd numbers from `3` up until `the square root of num`. `largestInList` accepts a list prop `lst` and returns the 
 largest integer in the `lst`.
 
-Combining these two functions gives us the [final code][code], which looks like this:
+The [final code][code] looks like this:
 ```python3
 # problemName = "Largest prime factor"
 # problemNum = 3
