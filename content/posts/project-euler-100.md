@@ -18,6 +18,24 @@ in Python, but may alternate between a few other languages or take the opportuni
 * **Challenge #1**
     * [Walkthrough][w1]
     * [Solution][s1]
+* **Challenge #2**
+    * [Walkthrough][w2]
+    * [Solution][s2]
+* **Challenge #3**
+    * [Walkthrough][w3]
+    * [Solution][s3]
+* **Challenge #4**
+    * [Walkthrough][w4]
+    * [Solution][s4]
+* **Challenge #5**
+    * [Walkthrough][w5]
+    * [Solution][s5]
+* **Challenge #6**
+    * [Walkthrough][w6]
+    * [Solution][s6]
+* **Challenge #7**
+    * [Walkthrough][w7]
+    * [Solution][s7]
 
 ### Links:
 * [Announcement tweet][1]
@@ -32,4 +50,16 @@ in Python, but may alternate between a few other languages or take the opportuni
 [4]: https://www.freecodecamp.org/news/projecteuler100-coding-challenge-competitive-programming/
 [5]: https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/
 [w1]: /posts/project-euler-challenge-one/
+[w2]: /posts/project-euler-challenge-two/
+[w3]: /posts/project-euler-challenge-three/
+[w4]: /posts/project-euler-challenge-four/
+[w5]: /posts/project-euler-challenge-five/
+[w6]: /posts/project-euler-challenge-six/
+[w7]: /posts/project-euler-challenge-seven/
 [s1]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem001.py
+[s2]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem002.py
+[s3]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem003.py
+[s4]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem004.py
+[s5]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem005.py
+[s6]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem006.py
+[s7]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem007.py
