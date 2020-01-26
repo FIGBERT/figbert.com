@@ -71,7 +71,7 @@ print("The smallest positive number that is evenly divisible by all of the numbe
 * [freeCodeCamp challenge announcement][4]
 * [freeCodeCamp port of Project Euler][5]
 
-[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem003.py
+[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem005.py
 [1]: https://twitter.com/therealFIGBERT/status/1219155513855733761
 [2]: https://github.com/therealFIGBERT/ProjectEuler100
 [3]: https://projecteuler.net/

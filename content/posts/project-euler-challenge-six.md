@@ -52,7 +52,7 @@ print("The difference between the sum of the squares of the first one hundred na
 * [freeCodeCamp challenge announcement][4]
 * [freeCodeCamp port of Project Euler][5]
 
-[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem003.py
+[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem006.py
 [1]: https://twitter.com/therealFIGBERT/status/1219155513855733761
 [2]: https://github.com/therealFIGBERT/ProjectEuler100
 [3]: https://projecteuler.net/

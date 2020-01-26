@@ -48,7 +48,7 @@ print("The largest palindrome made from the product of two 3-digit numbers is %s
 * [freeCodeCamp challenge announcement][4]
 * [freeCodeCamp port of Project Euler][5]
 
-[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem003.py
+[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem004.py
 [1]: https://twitter.com/therealFIGBERT/status/1219155513855733761
 [2]: https://github.com/therealFIGBERT/ProjectEuler100
 [3]: https://projecteuler.net/

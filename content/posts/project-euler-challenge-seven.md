@@ -73,7 +73,7 @@ print("The 10,001st prime number is %s" % returnValue[10000])
 * [freeCodeCamp challenge announcement][4]
 * [freeCodeCamp port of Project Euler][5]
 
-[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem003.py
+[code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem007.py
 [sieve]: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 [pseudo]: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Pseudocode
 [primeDef]: https://en.wikipedia.org/wiki/Prime_number#Definition_and_examples
