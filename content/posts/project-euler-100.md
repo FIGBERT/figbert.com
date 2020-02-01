@@ -36,6 +36,15 @@ in Python, but may alternate between a few other languages or take the opportuni
 * **Challenge #7**
     * [Walkthrough][w7]
     * [Solution][s7]
+* **Challenge #8**
+    * [Walkthrough][w8]
+    * [Solution][s8]
+* **Challenge #9**
+    * [Walkthrough][w9and10]
+    * [Solution][s9]
+* **Challenge #10**
+    * [Walkthrough][w9and10]
+    * [Solution][s10]
 
 ### Links:
 * [Announcement tweet][1]
@@ -56,6 +65,8 @@ in Python, but may alternate between a few other languages or take the opportuni
 [w5]: /posts/project-euler-challenge-five/
 [w6]: /posts/project-euler-challenge-six/
 [w7]: /posts/project-euler-challenge-seven/
+[w8]: /posts/project-euler-challenge-eight/
+[w9and10]: /posts/project-euler-challenge-nine-and-ten/
 [s1]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem001.py
 [s2]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem002.py
 [s3]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem003.py
@@ -63,3 +74,6 @@ in Python, but may alternate between a few other languages or take the opportuni
 [s5]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem005.py
 [s6]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem006.py
 [s7]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem007.py
+[s8]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem008.py
+[s9]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem009.py
+[s10]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem010.py
