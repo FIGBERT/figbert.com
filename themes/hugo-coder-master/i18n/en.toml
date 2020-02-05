@@ -14,10 +14,10 @@ other = "{{ .Count }}-minute read"
 other = "Page Not Found"
 
 [page_does_not_exist]
-other = "Sorry, this page does not exist."
+other = "This is not the page you're looking for. Dirbusters beware."
 
 [head_back]
-other = "You can head back to <a href=\"{{ . }}\">homepage</a>."
+other = "Head back to the <a href=\"{{ . }}\">homepage</a>."
 
 [powered_by]
 other = "Powered by"
