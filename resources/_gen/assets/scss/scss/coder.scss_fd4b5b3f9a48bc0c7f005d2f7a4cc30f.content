@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("/Fonts/JetBrainsMono-1.0.2/web/woff2/JetBrainsMono-Regular.woff2") format("woff2"), url("/Fonts/JetBrainsMono-1.0.2/web/woff/JetBrainsMono-Regular.woff") format("woff"), url("/Fonts/JetBrainsMono-1.0.2/ttf/JetBrainsMono-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "JetBrainsMono";
+  font-weight: bold;
+  src: url("/Fonts/JetBrainsMono-1.0.2/web/woff2/JetBrainsMono-Bold.woff2") format("woff2"), url("/Fonts/JetBrainsMono-1.0.2/web/woff/JetBrainsMono-Bold.woff") format("woff"), url("/Fonts/JetBrainsMono-1.0.2/ttf/JetBrainsMono-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/Fonts/Merriweather/Merriweather-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Merriweather";
+  font-weight: bold;
+  src: url("/Fonts/Merriweather/Merriweather-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lato";
+  src: url("/Fonts/Lato/Lato-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lato";
+  font-weight: bold;
+  src: url("/Fonts/Lato/Lato-Bold.ttf") format("truetype"); }
+
 *,
 *:after,
 *:before {
@@ -10,7 +37,7 @@ html {
 body {
   color: #212121;
   background-color: #FAFAFA;
-  font-family: Merriweather, Georgia, serif;
+  font-family: "Merriweather", serif;
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.8em; }
@@ -35,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lato, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #000;
   margin: 6.4rem 0 3.2rem 0; }
@@ -99,7 +126,7 @@ b, strong {
 
 pre {
   display: block;
-  font-family: "Source Code Pro", "Lucida Console", monospace;
+  font-family: "JetBrainsMono", monospace;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
@@ -111,7 +138,7 @@ pre {
     color: inherit; }
 
 code {
-  font-family: "Source Code Pro", "Lucida Console", monospace;
+  font-family: "JetBrainsMono", monospace;
   font-size: 1.6rem;
   font-weight: 400;
   background-color: #E0E0E0;
@@ -251,7 +278,7 @@ img {
     .list ul li .title {
       font-size: 1.8rem;
       color: #212121;
-      font-family: Lato, Helvetica, sans-serif;
+      font-family: "Lato", sans-serif;
       font-weight: 700; }
       .list ul li .title:hover, .list ul li .title:focus {
         color: #653181; }
@@ -315,7 +342,7 @@ img {
   .navigation a, .navigation span {
     display: inline;
     font-size: 1.6rem;
-    font-family: Lato, Helvetica, sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     line-height: 6.0rem;
     color: #212121; }
@@ -388,7 +415,7 @@ img {
 .pagination {
   margin-top: 6.0rem;
   text-align: center;
-  font-family: Lato, Helvetica, sans-serif; }
+  font-family: "Lato", sans-serif; }
   .pagination li {
     display: inline;
     text-align: center;

@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("/Fonts/JetBrainsMono-1.0.2/web/woff2/JetBrainsMono-Regular.woff2") format("woff2"), url("/Fonts/JetBrainsMono-1.0.2/web/woff/JetBrainsMono-Regular.woff") format("woff"), url("/Fonts/JetBrainsMono-1.0.2/ttf/JetBrainsMono-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "JetBrainsMono";
+  font-weight: bold;
+  src: url("/Fonts/JetBrainsMono-1.0.2/web/woff2/JetBrainsMono-Bold.woff2") format("woff2"), url("/Fonts/JetBrainsMono-1.0.2/web/woff/JetBrainsMono-Bold.woff") format("woff"), url("/Fonts/JetBrainsMono-1.0.2/ttf/JetBrainsMono-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/Fonts/Merriweather/Merriweather-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Merriweather";
+  font-weight: bold;
+  src: url("/Fonts/Merriweather/Merriweather-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lato";
+  src: url("/Fonts/Lato/Lato-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Lato";
+  font-weight: bold;
+  src: url("/Fonts/Lato/Lato-Bold.ttf") format("truetype"); }
+
 body.colorscheme-dark {
   color: #dadada;
   background-color: #212121; }
