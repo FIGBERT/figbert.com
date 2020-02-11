@@ -22,9 +22,9 @@ tasked to:
 >
 > Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-To start I defined two variables, `sumOfTheSquares` and `squareOfTheSum`, both zero. The directions specify the first 
-one hundred numbers, so a simple `for i in range(1, 101)` should do all the looping we need. From there, we need to add 
-the squares of the numbers, and the number itself (`i**2` and `i`) to `sumOfTheSquares` and `squareOfTheSum` 
+To start I defined two variables, `sum_of_the_squares` and `square_of_the_sum`, both zero. The directions specify the 
+first one hundred numbers, so a simple `for i in range(1, 101)` should do all the looping we need. From there, we need 
+to add the squares of the numbers, and the number itself (`i**2` and `i`) to `sum_of_the_squares` and `square_of_the_sum` 
 respectively.
 
 This challenge was really easy, and explaining it any further would be pointless, so here's the [final code][code]:
@@ -35,14 +35,18 @@ This challenge was really easy, and explaining it any further would be pointless
 # language = "Python"
 # dateCompleted = "24/01/2020"
 
-sumOfTheSquares = 0
-squareOfTheSum = 0
-for i in range(1, 101):
-    sumOfTheSquares += i**2
-    squareOfTheSum += i
-squareOfTheSum = squareOfTheSum**2
-answer = squareOfTheSum - sumOfTheSquares
-print("The difference between the sum of the squares of the first one hundred natural numbers and the square of the sum is %s" % answer)
+if __name__ == "__main__":
+    sum_of_the_squares = 0
+    square_of_the_sum = 0
+    for i in range(1, 101):
+        sum_of_the_squares += i**2
+        square_of_the_sum += i
+    square_of_the_sum = square_of_the_sum**2
+    answer = square_of_the_sum - sum_of_the_squares
+    print((
+        "The difference between the sum of the squares of the first one "
+        "hundred natural numbers and the square of the sum is %s" % answer
+    ))
 ```
 
 ### Links

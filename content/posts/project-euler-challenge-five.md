@@ -16,27 +16,27 @@ In this challenge, I was tasked to:
 >
 > What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
-The brute force is the simplest solution. The first thing I did was define a function `divisibleByOneToTwenty` to 
+The brute force is the simplest solution. The first thing I did was define a function `divisible_by_one_to_twenty` to 
 determine if the passed `num` prop was divisible by every number by one to twenty. You could do this by writing an if 
 statement with a bunch of `% x == 0`, `and`, and a `return True`. However, that's not very Pythonic. So instead, I 
 wrote this:
 ```python3
-def divisibleByOneToTwenty(num):
+def divisible_by_one_to_twenty(num):
     for i in range(1,21):
         if num % i != 0:
             return False
 ```
 
 Next, I wrote a while loop to increment an integer variable `answer` by 2 (because it needs to be divisible by 2) if 
-`divisibleByOneToTwenty(answer)` is `False`. That looks like this:
+`divisible_by_one_to_twenty(answer)` is `False`. That looks like this:
 ```python3
 answer = 2
-while not divisibleByOneToTwenty(answer):
+while not divisible_by_one_to_twenty(answer):
     answer += 2
 print(answer)
 ```
 However, though this solution still finds the correct answer, it takes 8 minutes and 53 seconds to do so (on my machine). 
-That is waaaaaay too long. ~~Also I just realized I could have made it increment by 5 instead of 2 and that would 
+That is waaaaaay too long. ~~Also I just realized I could have made it increment by 10 instead of 2 and that would 
 have been faster but whatever I'm not doing it again.~~
 
 So, I rewrote the whole thing and now it solves it almost instantly! Basically, I just replaced all the adding from the 
@@ -54,14 +54,18 @@ The [final code][code] looks like this:
 # language = "Python"
 # dateCompleted = "21/01/2020"
 
-answer = 1
-for i in range(1, 21):
-    if answer % i > 0:
-        for k in range(1, 21):
-            if (answer * k) % i == 0:
-                answer *= k
-                break
-print("The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is %s" % answer)
+if __name__ == "__main__":
+    answer = 1
+    for i in range(1, 21):
+        if answer % i > 0:
+            for k in range(1, 21):
+                if (answer * k) % i == 0:
+                    answer *= k
+                    break
+    print((
+        "The smallest positive number that is evenly divisible by all "
+        "of the numbers from 1 to 20 is %s" % answer
+    ))
 ```
 
 ### Links

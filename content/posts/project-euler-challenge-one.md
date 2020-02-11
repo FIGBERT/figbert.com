@@ -16,10 +16,10 @@ This challenge was a fairly simple start to the Project Euler challenge. I progr
 >
 > Find the sum of all the multiples of 3 or 5 below 1000.
 
-To solve the challenge, I created two functions. The first function, `multOfThreeOrFive`, accepts an integer prop `num` 
+To solve the challenge, I created two functions. The first function, `mult_of_three_or_five`, accepts an integer prop `num` 
 and determines if it is divisible by either 3 or 5 and returns the resulting boolean value. The second function, 
-`sumOfMultiplesOfThreeOrFive`, accepts an integer prop `num` and iterates over every number smaller than `num` and 
-greater than 0. It tests each resulting number against the `multOfThreeOrFive` function, and if it returns `True` adds 
+`sum_of_multiples_of_three_or_five`, accepts an integer prop `num` and iterates over every number smaller than `num` and 
+greater than 0. It tests each resulting number against the `mult_of_three_or_five` function, and if it returns `True` adds 
 the number to a list. The function then returns the sum of all the numbers in the list using `sum()`.
 
 The [final code][code] looks like this:
@@ -30,20 +30,21 @@ The [final code][code] looks like this:
 # language = "Python"
 # dateCompleted = "20/01/2020"
 
-def multOfThreeOrFive(num):
-    return num % 3 is 0 or num % 5 is 0
+def mult_of_three_or_five(num):
+    return num % 3 == 0 or num % 5 == 0
 
-def sumOfMultiplesOfThreeOrFive(num):
-    lstOfMults = []
-    numStep = num - 1
-    while numStep > 0:
-        if multOfThreeOrFive(numStep):
-            lstOfMults.append(numStep)
-        numStep -= 1
-    return sum(lstOfMults)
+def sum_of_multiples_of_three_or_five(num):
+    list_of_multiples = []
+    num_step = num - 1
+    while num_step > 0:
+        if mult_of_three_or_five(num_step):
+            list_of_multiples.append(num_step)
+        num_step -= 1
+    return sum(list_of_multiples)
 
-answer = sumOfMultiplesOfThreeOrFive(1000)
-print("The sum of all the multiples of 3 or 5 below 1000 is %s" % answer)
+if __name__ == "__main__":
+    answer = sum_of_multiples_of_three_or_five(1000)
+    print("The sum of all the multiples of 3 or 5 below 1000 is %s" % answer)
 ```
 
 ### Links

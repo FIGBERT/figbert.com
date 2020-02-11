@@ -55,10 +55,14 @@ def triplet(a, b):
         return int(a*b*c)
     return False
 
-for (i, k) in [(a, b) for a in range(500) for b in range(500) if a < b]:
-    answer = triplet(i, k)
-    if answer:
-        print(f"The product of abc, where:\n\ta < b < c,\n\ta2 + b2 = c2,\n\ta + b + c = 1000\nis {answer}")
+if __name__ == "__main__":
+    for (i, k) in [(a, b) for a in range(500) for b in range(500) if a < b]:
+        answer = triplet(i, k)
+        if answer:
+            print((
+                "The product of abc, where:\n\ta < b < c,\n\ta2 + b2 = c2,\n"
+                f"\ta + b + c = 1000\nis {answer}"
+            ))
 ```
 ## Challenge Ten
 In this challenge, I was tasked to:
@@ -67,7 +71,7 @@ In this challenge, I was tasked to:
 > Find the sum of all the primes below two million.
 
 This one is stupidly easy. We already programmed a sieve of Eratosthenes for [problem #7][probSeven], so I just 
-copy-pasted that sieve function into my code. Then I defined a list variable `primes` as `sieveOfEratosthenes(2000000)` 
+copy-pasted that sieve function into my code. Then I defined a list variable `primes` as `sieve_of_eratosthenes(2000000)` 
 to get all the primes we need. After that it's as simple as running `sum(primes)`, and you have your answer!
 
 The [final code][codeTwo] looks like this:
@@ -78,19 +82,20 @@ The [final code][codeTwo] looks like this:
 # language = "Python"
 # dateCompleted = "28/01/2020"
 
-def sieveOfEratosthenes(limit):
+def sieve_of_eratosthenes(limit):
     prime = [True for _ in range(limit+1)]
-    p = 2
-    while (p * p <= limit): 
-        if (prime[p] == True): 
-            for i in range(p * 2, limit + 1, p): 
+    prime_pos = 2
+    while (prime_pos**2 <= limit):
+        if (prime[prime_pos] == True):
+            for i in range(prime_pos * 2, limit + 1, prime_pos):
                 prime[i] = False
-        p += 1
+        prime_pos += 1
     prime[0:2] = [False, False]
-    return [p for p in range(limit + 1) if prime[p]]
+    return [prime_pos for prime_pos in range(limit + 1) if prime[prime_pos]]
 
-primes = sieveOfEratosthenes(2000000)
-print(f"The sum of all the primes below two million is {sum(primes)}")
+if __name__ == "__main__":
+    primes = sieve_of_eratosthenes(2000000)
+    print(f"The sum of all the primes below two million is {sum(primes)}")
 ```
 
 ### Links

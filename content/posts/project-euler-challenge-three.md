@@ -17,12 +17,12 @@ challenge, I was tasked to:
 > What is the largest prime factor of the number 600851475143 ?
 
 As I was writing this challenge, I realized I was going to have to find the square root of a number – the first thing 
-I did when writing my solution with to `import math`. After that, I defined another two functions, `primeFactors` and 
-`largestInList`.
+I did when writing my solution with to `import math`. After that, I defined another two functions, `prime_factors` and 
+`largest_in_list`.
 
-`primeFactors` accepts an integer prop `num` and returns a list of `num`'s prime factors. In order to 
+`prime_factors` accepts an integer prop `num` and returns a list of `num`'s prime factors. In order to 
 do this, I divide `num` by two as many times as I can and then divide `num` by `i`, a variable which iterates over the 
-odd numbers from `3` up until `the square root of num`. `largestInList` accepts a list prop `lst` and returns the 
+odd numbers from `3` up until the square root of `num`. `largest_in_list` accepts a list prop `lst` and returns the 
 largest integer in the `lst`.
 
 The [final code][code] looks like this:
@@ -34,30 +34,29 @@ The [final code][code] looks like this:
 # dateCompleted = "21/01/2020"
 import math
 
-def primeFactors(num):
+def prime_factors(num):
     primes = []
-    factorLimit = int(math.sqrt(num)) + 1
-
+    factor_limit = int(math.sqrt(num)) + 1
     while num % 2 == 0: 
         primes.append(2)
         num = num / 2
-    
-    for i in range(3, factorLimit, 2):
+    for i in range(3, factor_limit, 2):
         while num % i == 0: 
             primes.append(i)
             num = num / i
-    
     if num > 2: 
         primes.append(num)
-    
     return primes
 
-answer = max(primeFactors(600851475143))
-print("The largest prime factor of the number 600851475143 is %s" % answer)
+if __name__ == "__main__":
+    answer = max(prime_factors(600851475143))
+    print(
+        "The largest prime factor of the number 600851475143 is %s" % answer
+    )
 ```
 
 ## Edit 21/01/2020
-Today I found out that the `largestInList` function I coded already existed, and ships as `max` in Python 3. Cut out a 
+Today I found out that the `largest_in_list` function I coded already existed, and ships as `max` in Python 3. Cut out a 
 whole bunch of the code that way, and the solution is now much simpler. The code above has been edited to reflect the 
 changes.
 

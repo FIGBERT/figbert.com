@@ -18,9 +18,9 @@ in Python for this one as well. In this challenge, I was tasked to:
 >
 > By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
-To solve the challenge, I wrote another two functions. The first function, `fib`, accepts an integer prop `limit` and 
-returns a list containing the Fibonacci sequence up until the passed property. The second function, `sumOfEvensInList`, 
-accepts a list prop `srcList` and iterates over every number in the list, appending the number to another list, `lst`, 
+To solve the challenge, I wrote another two functions. The first function, `fibonacci`, accepts an integer prop `limit` and 
+returns a list containing the Fibonacci sequence up until the passed property. The second function, `sum_of_evens_in_list`, 
+accepts a list prop `src_list` and iterates over every number in the list, appending the number to another list, `list_`, 
 if the number is even. The function then returns the sum of all the numbers in the list using `sum()`.
 
 The [final code][code] looks like this:
@@ -31,25 +31,27 @@ The [final code][code] looks like this:
 # language = "Python"
 # dateCompleted = "20/01/2020"
 
-def fib(limit):
-    lst = [1,2]
-    while lst[-1] <= limit:
-        lst.append(lst[-2] + lst[-1])
-    return lst
+def fibonacci(limit):
+    list_ = [1,2]
+    while list_[-1] <= limit:
+        list_.append(list_[-2] + list_[-1])
+    return list_
 
-def sumOfEvensInList(srcList):
-    lst = []
-    for i in srcList:
+def sum_of_evens_in_list(src_list):
+    list_ = []
+    for i in src_list:
         if i % 2 == 0:
-            lst.append(i)
-    return sum(lst)
+            list_.append(i)
+    return sum(list_)
 
-fibUntil4Mil = fib(4000000)
-answer = sumOfEvensInList(fibUntil4Mil)
-print((
-    "By considering the terms in the Fibonacci sequence whose values do not "
-    "exceed four million, the sum of the even-valued terms is {}".format(answer)
-))
+if __name__ == "__main__":
+    fibonacci_until_4_mil = fibonacci(4000000)
+    answer = sum_of_evens_in_list(fibonacci_until_4_mil)
+    print((
+        "By considering the terms in the Fibonacci sequence whose values do "
+        "not exceed four million, the sum of the even-valued terms is "
+        "{}".format(answer)
+    ))
 ```
 
 ### Links
