@@ -144,7 +144,7 @@ if __name__ == "__main__":
 * [freeCodeCamp port of Project Euler][5]
 
 [code]: https://github.com/therealFIGBERT/ProjectEuler100/blob/master/problem011.py
-[gif]: /images/project-euler-problem-eleven-selection-visualization.gif
+[gif]: /images/project-euler-challenge-eleven-selection-visualization.gif
 [1]: https://twitter.com/therealFIGBERT/status/1219155513855733761
 [2]: https://github.com/therealFIGBERT/ProjectEuler100
 [3]: https://projecteuler.net/
