@@ -120,5 +120,5 @@ you get from building a site from scratch.
 [14]: https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/go-node.html
 [15]: https://github.com/ReactTraining/react-router
 [16]: https://github.com/luizdepra/hugo-coder/blob/master/README.md
-[17]: /creating-my-personal-site-buttons.png
+[17]: /images/creating-my-personal-site-buttons.png
 [18]: https://fontawesome.com/v4.7.0/icons/
