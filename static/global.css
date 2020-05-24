@@ -5,30 +5,35 @@
 @font-face {
     font-family: "vistaserv-retro";
     src: url("fonts/times-regular.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv-retro";
     src: url("fonts/times-bold.woff") format("woff");
     font-weight: bold;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv-retro";
     src: url("fonts/times-italic.woff") format("woff");
     font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv-retro";
     src: url("fonts/times-bolder.woff") format("woff");
     font-weight: 800;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv-retro";
     src: url("fonts/times-superbold.woff") format("woff");
     font-weight: 900;
+    font-display: swap;
 }
 
 @font-face {
@@ -36,6 +41,7 @@
     src: url("fonts/JetBrainsMono-Regular.woff2") format("woff2"),
         url("fonts/JetBrainsMono-Regular.woff") format("woff"),
         url("fonts/JetBrainsMono-Regular.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -44,6 +50,7 @@
         url("fonts/JetBrainsMono-Bold.woff") format("woff"),
         url("fonts/JetBrainsMono-Bold.ttf") format("truetype");
     font-weight: bold;
+    font-display: swap;
 }
 
 * {
