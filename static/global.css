@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "vistaserv-retro";
+    src: url("fonts/times-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "vistaserv-retro";
+    src: url("fonts/times-bold.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "vistaserv-retro";
+    src: url("fonts/times-italic.woff") format("woff");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "vistaserv-retro";
+    src: url("fonts/times-bolder.woff") format("woff");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "vistaserv-retro";
+    src: url("fonts/times-superbold.woff") format("woff");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "jetbrains-mono";
+    src: url("fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Regular.woff") format("woff"),
+        url("fonts/JetBrainsMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "jetbrains-mono";
+    src: url("fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+        url("fonts/JetBrainsMono-Bold.woff") format("woff"),
+        url("fonts/JetBrainsMono-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+* {
+    font-family: "vistaserv-retro", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #212121;
+    color: whitesmoke;
+}
+
+a:hover, a:focus {
+    color: #8e60a7;
+}
+
+code {
+    font-family: "jetbrains-mono", "Courier New", Courier, monospace;
+    font-variant-ligatures: contextual;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    background-color: black;
+    border-radius: 0.25rem;
+    font-size: .875rem;
+    color: #81A1C1;
+}
+
+em, strong {
+    color: inherit;
+}
