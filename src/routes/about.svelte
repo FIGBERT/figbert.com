@@ -1,5 +1,6 @@
 <svelte:head>
 	<title>FIGBERT About</title>
+	<meta name="description" content="FIGBERT About: Everything about FIGBERT, an Israeli-American high school student and full-stack developer, except actual PID – that's kind of the point of a pseudonym.">
 </svelte:head>
 
 <div class="w-3/4">

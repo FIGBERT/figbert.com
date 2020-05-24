@@ -16,6 +16,7 @@
 
 <svelte:head>
 	<title>{post.title} by FIGBERT</title>
+	<meta name="description" content={post.preview}>
 </svelte:head>
 
 <div class="w-3/4">

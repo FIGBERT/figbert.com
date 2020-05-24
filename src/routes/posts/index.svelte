@@ -12,6 +12,7 @@
 
 <svelte:head>
 	<title>FIGBERT Blog</title>
+	<meta name="description" content="FIGBERT Blog: My writeups, logs, posts, and general thoughts organized chronologically for your viewing pleasure.">
 </svelte:head>
 
 <div class="w-3/4">

@@ -1,5 +1,6 @@
 <svelte:head>
 	<title>FIGBERT Contact</title>
+    <meta name="description" content="FIGBERT Contact: All the ways you can reach me. My social media, email + PGP key, and Keybase.">
 </svelte:head>
 
 <div class="w-3/4">

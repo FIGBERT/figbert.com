@@ -1,5 +1,6 @@
 <svelte:head>
 	<title>FIGBERT</title>
+	<meta name="description" content="The home of FIGBERT on the clearnet – my blog, portfolio, and general hub of information.">
 </svelte:head>
 
 <div class="w-3/4">

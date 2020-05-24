@@ -12,6 +12,7 @@
 
 <svelte:head>
 	<title>FIGBERT Projects</title>
+	<meta name="description" content="FIGBERT Projects: My portfolio and log of all the work I've done in the public sphere.">
 </svelte:head>
 
 <div class="w-3/4">
