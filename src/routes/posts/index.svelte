@@ -18,17 +18,15 @@
 <div class="w-3/4">
 	<h1>Posts</h1>
 	<ul class="ml-6">
-		{#if posts.length > 0}
-			{#each posts as post}
-				<li>
-					<a rel="prefetch" href="posts/{post.slug}" class="underline">{post.title} – {post.date}</a>
-					<div>
-						{@html post.preview}
-					</div>
-				</li>
-			{/each}
+		{#each posts as post}
+			<li>
+				<a rel="prefetch" href="posts/{post.slug}" class="underline">{post.title} – {post.date}</a>
+				<div>
+					{@html post.preview}
+				</div>
+			</li>
 		{:else}
 			<p>Nothing to see here... yet!</p>
-		{/if}
+		{/each}
 	</ul>
 </div>

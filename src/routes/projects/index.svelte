@@ -18,17 +18,15 @@
 <div class="w-3/4">
 	<h1>Projects</h1>
 	<ul class="ml-6">
-		{#if projects.length > 0}
-			{#each projects as project}
-				<li>
-					<a rel="prefetch" href="projects/{project.slug}" class="underline">{project.title}</a>
-					<div>
-						{@html project.preview}
-					</div>
-				</li>
-			{/each}
+		{#each projects as project}
+			<li>
+				<a rel="prefetch" href="projects/{project.slug}" class="underline">{project.title}</a>
+				<div>
+					{@html project.preview}
+				</div>
+			</li>
 		{:else}
 			<p>Nothing to see here... yet!</p>
-		{/if}
+		{/each}
 	</ul>
 </div>
