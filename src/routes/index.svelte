@@ -10,7 +10,7 @@
 		digital garden</a> if you will. To see my posts organized in chronological order, take a look at some of my <a href="/posts" class="underline">posts</a>, and to see all
 		of my projects navigate to the <a href="/posts" class="underline">projects</a> page.
 	</p>
-	<pre class="whitespace-pre">
+	<pre class="hidden sm:block whitespace-pre">
 		{#if Math.floor(Math.random() * 2) == 0}
 <!--      -->&nbsp;&nbsp;_______________________
 <!--     -->/ \ ~~~~~~~~~~~~~~~~~~~~ \.
@@ -35,4 +35,7 @@
 <!--     -->'----------------------------'
 		{/if}
 	</pre>
+	<li class="block sm:hidden mt-8">
+		<ul>&rightarrow; &rightarrow; <a href="/projects/txtodo" class="underline">txtodo</a> &leftarrow; &leftarrow;<ul>
+	</li>
 </div>
