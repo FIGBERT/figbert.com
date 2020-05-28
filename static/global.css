@@ -76,3 +76,7 @@ code {
 em, strong {
     color: inherit;
 }
+
+.preview {
+    color: #bababa;
+}

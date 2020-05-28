@@ -70,8 +70,7 @@ class generate_js:
                 link["rel"] = "noopener noreferrer"
         for paragraph in soup.find_all("p"):
             if preview:
-                paragraph["class"] = paragraph.get("class", []) + ["text-sm"]
-                paragraph["style"] = paragraph.get("style", []) + ["color: #bababa;"]
+                paragraph["class"] = paragraph.get("class", []) + ["text-sm", "preview"]
             else:
                 paragraph["class"] = paragraph.get("class", []) + ["leading-loose mb-3"]
         for header in soup.find_all("h2"):
