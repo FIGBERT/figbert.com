@@ -3,6 +3,14 @@
 	<meta name="description" content="The home of FIGBERT on the clearnet – my blog, portfolio, and general hub of information.">
 </svelte:head>
 
+<script context="module">
+	export function preload({ params, query }) {
+		return this.fetch("rss.xml").then(() => {
+			return this.fetch("atom.xml")
+		});
+	}
+</script>
+
 <div class="w-3/4">
 	<h1>Welcome to the home of FIGBERT on the clearnet</h1>
 	<p>
