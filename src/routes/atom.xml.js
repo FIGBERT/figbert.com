@@ -53,7 +53,7 @@ const render = (posts, projects) => `<?xml version="1.0" encoding="utf-8"?>
 
 export function get(req, res) {
 	res.writeHead(200, {
-		"Content-Type": "application/rss+xml"
+		"Content-Type": "application/atom+xml"
 	});
     res.end(render(postsJSON, projectsJSON));
 }
