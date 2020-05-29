@@ -6,11 +6,7 @@
 <script context="module">
 	export function preload({ params, query }) {
 		return this.fetch("posts/rss.xml").then(() => {
-			return this.fetch("posts/atom.xml").then(() => {
-				return this.fetch("projects/rss.xml").then(() => {
-					return this.fetch("projects/atom.xml");
-				});
-			});
+			return this.fetch("projects/rss.xml")
 		});
 	}
 </script>
