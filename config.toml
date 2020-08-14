@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://figbert.com"
 title = "FIGBERT"
-description = "figbert.com is the official website and home of FIGBERT on the clearnet. It's my blog, portfolio, and wiki – a cask of information floating on the open web."
+description = "figbert.com is the website and home of FIGBERT on the clearnet. It's my blog, portfolio, and wiki – my personal stash of information floating on the open web."
 
 # RSS/Atom feeds
 generate_feed = true
