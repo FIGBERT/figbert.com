@@ -3,7 +3,10 @@ base_url = "https://figbert.com"
 title = "FIGBERT"
 description = "figbert.com is the website and home of FIGBERT on the clearnet. It's my blog, portfolio, and wiki – my personal stash of information floating on the open web."
 
-# RSS/Atom feeds
+# The default language; used in feeds.
+default_language = "en"
+
+# When set to "true", a feed is automatically generated.
 generate_feed = true
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -17,7 +20,7 @@ highlight_theme = "ayu-mirage"
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-# Language configuration
+# The additional languages for the site.
 languages = [
     {code = "he", feed = true},
 ]
