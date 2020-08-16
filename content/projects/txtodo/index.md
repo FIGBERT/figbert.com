@@ -9,7 +9,9 @@ weight = 0
 short-term tasks to help you get things done without overthinking it. With txtodo, you list all your tasks for the day in the morning, and throughout the day you check off tasks
 as you complete them. Then, at midnight, all tasks are discarded so you can start fresh tomorrow – you can also create up to three long-term tasks that "float" with you from
 day-to-day. Did I mention that it's completely open-source and built with SwiftUI? You can download txtodo from the app store [here][txtodo-store] and view the source code
-[here][txtodo-src]
+[here][txtodo-src].
+
+<!-- more -->
 
 ## Mobile App
 ### Story
