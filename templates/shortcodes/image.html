@@ -1,0 +1,7 @@
+<picture>
+  {% for source in sources %}
+    <source srcset="{{ source }}">
+  {% endfor %}
+  <img src="{{ fallback-path }}" alt="{{ fallback-alt }}"/>
+</picture>
+
