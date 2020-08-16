@@ -44,6 +44,10 @@ pre {
   padding: 1rem;
 }
 
+video, picture, img {
+  width: 100%;
+}
+
 h1::before {
   content: "#";
   padding-right: 0.5rem;
