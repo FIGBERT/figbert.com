@@ -84,10 +84,16 @@ h6::before {
   color: var(--secondary-color);
 }
 
-/* .emoji {
+.emoji {
   width: 4%;
   vertical-align: middle;
-} */
+}
+
+.anchor {
+  width: 2.5%;
+  vertical-align: top;
+  transform: rotate(-45deg);
+}
 
 .post-preview {
   margin-top: 2rem;
