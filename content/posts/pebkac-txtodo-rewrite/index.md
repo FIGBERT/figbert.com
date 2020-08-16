@@ -2,6 +2,7 @@
 title = "Problem Exists Between Keyboard and Chair: How I Spent 2 Days Chasing a Bug that Didn't Exist"
 description = "Post-WWDC2020, I decided to rewrite the backend of txtodo in SwiftUI using the new App and Scene structure. Rebuilding the app from scratch may have not been the best choice, but during that process I have massively simplified the app's data structure, despaghettified some messy UI code, and spent two full days trying to solve a problem that didn't exist. This is the story of that last bit."
 date = 2020-07-28
+updated = 2020-08-16
 +++
 
 Post-[WWDC2020][wwdc], I decided to rewrite the backend of txtodo in SwiftUI using the new [App and Scene structure][app-and-scene]. Rebuilding the app from scratch may have not
@@ -36,15 +37,37 @@ removed some of the text styling, which I planned to port over after I got the U
 
 I ran the app on my device, and this happened:
 
-![As you check off any task in the vertical stack, instead of checking off the task that you selected, tasks are checked off starting from the bottom and moving upwards in an
-ascending order.][ascending-checkmarks-error]
+{{ video(sources=["ascending-checkmarks-error.webm"])  }}
 
 Well that was unexpected. Instead of checking off the tasks I selected, tasks were checked off starting from the bottom and ascending – obviously not the intended behavior! My
 first thought was that it was caused by the use of `@ObservedObject` to declare the view's task property – I haven't seen it used to manipulate a Core Data entity before, but
 it's worked fine so far in txtodo – so I rewrote the variables to match version 2.0.
 
-![The variables declared before the UI of version 3.0 and version 2.0. Version 3.0 has two variables, task and config, but version 2.0 has nine: task, completed, name, priority,
-deleted, editingText, editingPriority, viewingNotes, and confirmingDelete.][contrasting-variables]
+```swift
+// VERSION 3.0
+struct TaskView: View {
+  @Environment(\.managedObjectContext) var managedObjectContext
+  @ObservedObject var task: Task
+  @State var priority: Int
+  @State private var config = TaskConfig()
+  // UI...
+}
+
+// VERSION 2.0
+struct floatingTaskView: View {
+  @Environment(\.managedObjectContext) var managedObjectContext
+  @ObservedObject var task: FloatingTask
+  @State var completed: Bool
+  @State var name: String
+  @State var priority: Int
+  @State var deleted: Bool = false
+  @State private var editingText: Bool = false
+  @State private var editingPriority: Bool = false
+  @State private var viewingNotes: Bool = false
+  @State private var confirmingDelete: Bool = false
+  // UI...
+}
+```
 
 Still no change. It was getting pretty late at this point, but I decided to stick it out for just a bit longer. I rewrote the `TaskView` struct from scratch *two more times* to
 no avail. Something was wrong, but I had no idea where it was and there was no way I was going to figure it out at two in the morning by coding it again the exact same way.
@@ -88,8 +111,7 @@ newTask.daily = Bool.random()
 
 I ran the app again and saw this:
 
-![The tasks were not being marked off in ascending order – rather, they were being moved to the bottom when completed, which I couldn't tell before because they were all
-identical.][the-big-reveal]
+{{ video(sources=["randomized-test-values.webm"])  }}
 
 ## Intentional Behavior
 
@@ -106,7 +128,7 @@ you might think: [garbage in, garbage out][GIGO] definitely applies here. If all
 To make the sorting more clear, I randomized the tasks' priority, name, and category (as seen above) and added an animation with `.animation(.easeIn(duration: 0.25))`. The
 current prototype looks something like this:
 
-![Animated, randomized tasks being checked off, deleted, and delayed.][current-txtodo]
+{{ video(sources=["update-preview.webm"]) }}
 
 This has been a really fun blog post to write! A got a big laugh out of this bug chase, and I hope you've enjoyed reading it.
 
@@ -114,9 +136,5 @@ Till next time, FIGBERT
 
 [wwdc]: https://developer.apple.com/wwdc20/
 [app-and-scene]: https://developer.apple.com/videos/play/wwdc2020/10037/
-[ascending-checkmarks-error]: ascending-checkmarks-error.webm
-[contrasting-variables]: variable-comparison.webp
-[the-big-reveal]: randomized-test-values.webm
-[current-txtodo]: update-preview.webm
 [GIGO]: https://en.wikipedia.org/wiki/Garbage_in%2C_garbage_out
 

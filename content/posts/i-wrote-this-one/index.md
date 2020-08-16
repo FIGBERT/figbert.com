@@ -36,7 +36,7 @@ and downloaded what is supposedly "The ultimate Vim configuration." from [amix][
 with the fantastic [Jetbrains Mono][jetbrains-mono] font. I'm still not that good at actually using vim to its fullest potential but I'm confident that I'll improve with a
 little practice and ascend to elite vim status in no time.
 
-![The virgin classic developer vs the chad linux dev][vim-dev]
+{{ image(sources=["chad.jpg"], fallback_path="chad.jpg", fallback_alt="The virgin classic developer vs the chad linux dev") }}
 
 ## Maybe Rust?
 
@@ -53,7 +53,7 @@ and loved it – the chromium feel with a powerful built in adblocker? It sounde
 they [hijacked links][brave-hijack], launched a [weird Zoom competitor][brave-zoom] with no fanfare or announcement, and refuse to get rid of their [required KYC][brave-kyc].
 Anyways, I dropped it. Now my dock is all blue!
 
-![My dock with all blue apps][dock]
+{{ image(sources=["dock.png"], fallback_path="dock.png", fallback_alt="My dock with all blue apps") }}
 
 ## New Music
 
@@ -77,8 +77,6 @@ FIGBERT
 [signing-commits]: https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification
 [ultimate-vim]: https://github.com/amix/vimrc
 [jetbrains-mono]: https://www.jetbrains.com/lp/mono/
-[vim-dev]: chad.jpg
-[dock]: dock.png
 [hn]: https://news.ycombinator.com/
 [brave]: https://brave.com/
 [firefox]: https://www.mozilla.org/en-US/firefox/developer/

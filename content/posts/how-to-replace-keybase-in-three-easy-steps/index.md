@@ -46,7 +46,7 @@ pretty great tutorials out there (I would recommend [this one][kev-article] by t
 go into too much detail about exactly how to do that. However, it's important to note that though Kev recommends hiding your h-card with the `display: none;` property: [don't do
 that][invisible-metadata]. I just merged my about and contact pages onto my homepage, and added the microformats classes to my existing markup.
 
-![My IndieWeb h-card](h-card.png)
+{{ image(sources=["h-card.png"], fallback_path="h-card.png", fallback_alt="My Indieweb h-card") }}
 
 ### Step #3: File Storage
 

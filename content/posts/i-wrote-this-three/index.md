@@ -16,7 +16,7 @@ These past few weeks, my main work has been on interactive fiction as part of a 
 I will refer to them for the rest of the article, becuase calling them "interactive fiction" makes me sound like ~~a dick~~ a snob). I gathered a collection of games to play in
 free time (if I ever have any more of that), from the very first of the genre – Adventure – to modern ones like Lost Pig.
 
-![My collection of text adventures: Adventure, Bronze, Counterfeit Monkey, Curses, Hitchhiker's Guide to the Galaxy, Lost Pig, and Slouching Towards Bedlam][if-collection]
+{{ image(sources=["collection.png"], fallback_path="collection.png", fallback_alt="My collection of text adventures: Adventure, Bronze, Counterfeit Monkey, Curses, Hitchhiker's Guide to the Galaxy, Lost Pig, and Slouching Towards Bedlam") }}
 
 In the second week, we all made our own text adventures. It was a really interesting experience – drastically different than any other programming I've done. The main thing I
 struggled with was the semi-NLP style of [Inform7][inform]. Rather than telling the computer what to do, I felt like I was making suggestions. I also struggled with the editor a
@@ -137,7 +137,6 @@ keep finding cool and interesting things to do, and I need to work on finishing 
 
 Salamat, FIGBERT
 
-[if-collection]: collection.png
 [inform]: https://inform7.com/
 [angry-wizard]: /content/One%20Angry%20Wizard%2C%20or%20the%20Tentac.gblorb
 [email]: mailto:figbert+textadventures@figbert.com

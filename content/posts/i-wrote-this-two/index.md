@@ -25,10 +25,7 @@ stands in high contrast to the iOS App Store's ubiquitous freemium payment model
 
 All in all, I spent around USD$21 on tweaks, which is infinitely more than I have spent on the App Store – so maybe charging upfront does work. Huh.
 
-<video autoplay loop muted playsinline>
-  <source src="jailbreak.webm" type="video/webm">
-  <source src="jailbreak.mp4" type="video/mp4">
-</video>
+{{ gif(sources=["jailbreak.webm", "jailbreak.mp4"]) }}
 
 ## Updating my iDevices to Developer Betas
 
@@ -49,10 +46,7 @@ Interestingly, I was having a bunch of issues with brew (`curl` was broken?) aft
 For my next medium-large project, I'm going to need to make some 3D art and models. One problem: I don't know how to do that, or rather, I didn't. Thanks internet! I powered
 through the incredible [Blender Beginner Tutorial Series][18] by the [Blender Guru][19]. Here's my final animation:
 
-<video autoplay loop muted playsinline>
-  <source src="doughnut.webm" type="video/webm">
-  <source src="doughnut.mp4" type="video/mp4">
-</video>
+{{ gif(sources=["doughnut.webm", "doughnut.mp4"]) }}
 
 ## Replacing Keybase
 
@@ -75,7 +69,7 @@ mapping API (preferably not by Google) that will tell me the size of different l
 I'm also planning on revamping the txtodo macOS app with Mac Catalyst, which I feel I haven't properly explored. I've also discovered a bug in the app that causes issues when
 tasks are modified by CloudKit instead of the user, so I'm going to have to work on that as well. Shouldn't be hard!
 
-![Let's go. In and out. Twenty-minute adventure.][29]
+{{ image(sources=["rick-and-morty.jpg"], fallback_path="rick-and-morty.jpg", fallback_alt="Let's go. In and out. Twenty-minute adventure.") }}
 
 ## Interesting Blog Tidbits
 
@@ -134,7 +128,6 @@ FIGBERT
 [26]: https://godotengine.org
 [27]: https://www.blender.org
 [28]: https://www.image-line.com/flstudio
-[29]: rick-and-morty.jpg
 [30]: https://en.wikipedia.org/wiki/Present_continuous
 [31]: https://keybase.io/
 
