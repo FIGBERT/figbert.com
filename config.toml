@@ -33,7 +33,3 @@ nav = [
   { name = "PROJECTS", path = "/projects/" },
 ]
 
-icon = "404.png"
-profile_small = "404.png"
-profile_large = "404.png"
-
