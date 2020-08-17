@@ -85,12 +85,12 @@ h6::before {
 }
 
 .emoji {
-  width: 4%;
+  width: 2rem;
   vertical-align: middle;
 }
 
 .anchor {
-  width: 2.5%;
+  width: 1rem;
   vertical-align: top;
   transform: rotate(-45deg);
 }
