@@ -14,6 +14,8 @@ in everything from front-end design{{ emoji(name="paint", alt="A paint pallet") 
 You can contact me via email at: [figbert@figbert.com][email]{{ emoji(name="envelope", alt="An envelope") }}. Feel free to encrypt emails to this address with [this PGP
 key][pgp]{{ emoji(name="key", alt="A key") }}. You can also find me on [Github][github]{{ emoji(name="github", alt="The Github logo") }}, [Twitter][twitter]{{ emoji(
 name="twitter", alt="The Twitter logo") }}, [Mastodon][mastodon]{{ emoji(name="elephant", alt="An elephant like the Mastodon mascot") }}, [Reddit][reddit]{{ emoji(name="robot",
+alt="A robot like Snoo, the Reddit mascot") }}, and [Hacker News][hn]{{ emoji(name="scroll", alt="An orange scroll reminiscent of the Hacker News logo") }}. If for some reason
+you want to send me money{{ emoji(name="credit-card", alt="A credit card") }}, feel free to send it to my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.
 
 [email]: mailto:figbert@figbert.com
 [pgp]: /publickey-pgp.asc
