@@ -28,10 +28,9 @@ languages = [
 # Put all your custom variables here
 [extra]
 nav = [
-  { name = "Home", path = "/" },
-  { name = "Posts", path = "/posts/" },
-  { name = "Projects", path = "/projects/" },
-  { name = "About", path = "/about/" },
+  { name = "HOME", path = "/" },
+  { name = "POSTS", path = "/posts/" },
+  { name = "PROJECTS", path = "/projects/" },
 ]
 
 icon = "404.png"
