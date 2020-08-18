@@ -6,16 +6,16 @@ title = "Home"
 
 I'm [FIGBERT](/), an Israeli-American {{ emoji(name="israel", alt="An Israeli flag") }}{{ emoji(name="us", alt="An American flag") }} high school student with a passion for
 Computer Science and Engineering. I spend my time coding side-projects{{ emoji(name="arduino", alt="An arduino") }}, doing schoolwork{{ emoji(name="school", alt="A schoolhouse")
-}}, and playing the occasional videogame{{ emoji(name="joystick", alt="A game joystick", top=true) }}. My current goal is to become a full-stack developer, proficient
-in everything from front-end design{{ emoji(name="paint", alt="A paint pallet") }} to cybersecurity{{ emoji(name="surveillance", alt="A surveillance camera", top=true) }}.
+}}, and playing the occasional videogame{{ emoji(name="joystick", alt="A game joystick") }}. My current goal is to become a full-stack developer, proficient
+in everything from front-end design{{ emoji(name="paint", alt="A paint pallet") }} to cybersecurity{{ emoji(name="surveillance", alt="A surveillance camera") }}.
 
 ## My Work
 
 To see some of the things I do, you can:
 
-* Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol", top=true) }}.
-* Download [txtodo][txtodo-site] from [the App Store][txtodo-store]{{ emoji(name="apple", alt="Retro Apple logo", top=true) }} and read the [writeup][txtodo-article].
-* Take a look at the [source code for this site][site-src]{{ emoji(name="desktop-computer", alt="A computer", top=true) }}. It's all open source ([emojis][openmoji] included)!
+* Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol") }}.
+* Download [txtodo][txtodo-site] from [the App Store][txtodo-store]{{ emoji(name="apple", alt="Retro Apple logo") }} and read the [writeup][txtodo-article].
+* Take a look at the [source code for this site][site-src]{{ emoji(name="desktop-computer", alt="A computer") }}. It's all open source ([emojis][openmoji] included)!
 * Check out my text adventure, [One Angry Wizard][txt-adventure]{{ emoji(name="keyboard", alt="A keyboard") }}.
 
 I'm constantly working on more stuff, so continue checking back for more project highlights.

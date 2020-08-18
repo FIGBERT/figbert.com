@@ -89,10 +89,6 @@ h6::before {
 
 .emoji {
   width: 2rem;
-  vertical-align: middle;
-}
-
-.emoji__top {
   vertical-align: top;
 }
 
