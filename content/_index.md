@@ -23,7 +23,7 @@ To see some of the things I do, you can:
 
 * Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol") }}.
 * Download [txtodo][txtodo-site] from [the App Store][txtodo-store]{{ emoji(name="apple", alt="Retro Apple logo", top=true) }} and read the [writeup][txtodo-article].
-* Download and play my text adventure, [One Angry Wizard][txt-adventure]{{ emoji(name="keyboard", alt="A keyboard") }}.
+* Check out my text adventure, [One Angry Wizard][txt-adventure]{{ emoji(name="keyboard", alt="A keyboard") }}.
 
 I'm constantly working on more stuff, so continue checking back for more project highlights.
 
