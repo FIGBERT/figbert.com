@@ -27,6 +27,14 @@ name="twitter", alt="The Twitter logo") }}, [Mastodon][mastodon]{{ emoji(name="e
 alt="A robot like Snoo, the Reddit mascot") }}, and [Hacker News][hn]{{ emoji(name="scroll", alt="An orange scroll reminiscent of the Hacker News logo") }}. If for some reason
 you want to send me money{{ emoji(name="credit-card", alt="A credit card") }}, feel free to send it to my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.
 
+## Webrings
+
+This site is a proud member of [Hotline Webring][hotline-webring]{{ emoji(name="telephone", alt="An old telephone") }}! Check out the previous site [here][hw-prev] and the next
+site [here][hw-next].
+
+This site is a proud member of the [geekring][geekring]{{ emoji(name="circuit", alt="A small circuit") }}! Check out the previous site [here][gr-prev], the next site
+[here][gr-next], or a random ring-member [here][gr-rand].
+
 [email]: mailto:figbert@figbert.com
 [pgp]: /publickey-pgp.asc
 [github]: https://github.com/figbert
@@ -43,4 +51,11 @@ you want to send me money{{ emoji(name="credit-card", alt="A credit card") }}, f
 [txtodo-store]: https://apps.apple.com/us/app/txtodo/id1504609185
 [txtodo-article]: @/projects/txtodo/index.md
 [txt-adventure]: /one-angry-wizard.gblorb
+[hotline-webring]: https://hotlinewebring.club/
+[hw-prev]: https://hotlinewebring.club/FIGBERT/previous
+[hw-next]: https://hotlinewebring.club/FIGBERT/next
+[geekring]: https://geekring.net/
+[gr-prev]: http://geekring.net/site/79/previous
+[gr-next]: http://geekring.net/site/79/next
+[gr-rand]: http://geekring.net/site/79/random
 
