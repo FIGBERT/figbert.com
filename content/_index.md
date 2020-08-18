@@ -17,6 +17,16 @@ name="twitter", alt="The Twitter logo") }}, [Mastodon][mastodon]{{ emoji(name="e
 alt="A robot like Snoo, the Reddit mascot") }}, and [Hacker News][hn]{{ emoji(name="scroll", alt="An orange scroll reminiscent of the Hacker News logo") }}. If for some reason
 you want to send me money{{ emoji(name="credit-card", alt="A credit card") }}, feel free to send it to my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.
 
+## My Work
+
+To see some of the things I do, you can:
+
+* Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol") }}.
+* Download [txtodo][txtodo-site] from [the App Store][txtodo-store]{{ emoji(name="apple", alt="Retro Apple logo") }} and read the [writeup][txtodo-article].
+* Download and play my text adventure, [One Angry Wizard][txt-adventure]{{ emoji(name="keyboard", alt="A keyboard") }}.
+
+I'm constantly working on more stuff, so continue checking back for more project highlights.
+
 [email]: mailto:figbert@figbert.com
 [pgp]: /publickey-pgp.asc
 [github]: https://github.com/figbert
@@ -27,4 +37,10 @@ you want to send me money{{ emoji(name="credit-card", alt="A credit card") }}, f
 [bitcoin]: /bitcoin.txt
 [monero]: /monero.txt
 [zcash]: /zcash.txt
+[posts]: @/posts/_index.md
+[atom]: /atom.xml
+[txtodo-site]: https://txtodo.app/
+[txtodo-store]: https://apps.apple.com/us/app/txtodo/id1504609185
+[txtodo-article]: @/projects/txtodo/index.md
+[txt-adventure]: /one-angry-wizard.gblorb
 
