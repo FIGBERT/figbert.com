@@ -15,6 +15,7 @@ To see some of the things I do, you can:
 
 * Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol", top=true) }}.
 * Download [txtodo][txtodo-site] from [the App Store][txtodo-store]{{ emoji(name="apple", alt="Retro Apple logo", top=true) }} and read the [writeup][txtodo-article].
+* Take a look at the [source code for this site][site-src]{{ emoji(name="desktop-computer", alt="A computer", top=true) }}. It's all open source ([emojis][openmoji] included)!
 * Check out my text adventure, [One Angry Wizard][txt-adventure]{{ emoji(name="keyboard", alt="A keyboard") }}.
 
 I'm constantly working on more stuff, so continue checking back for more project highlights.
@@ -50,6 +51,8 @@ This site is a proud member of the [geekring][geekring]{{ emoji(name="circuit", 
 [txtodo-site]: https://txtodo.app/
 [txtodo-store]: https://apps.apple.com/us/app/txtodo/id1504609185
 [txtodo-article]: @/projects/txtodo/index.md
+[site-src]: https://github.com/figbert/figbert.com
+[openmoji]: https://openmoji.org/
 [txt-adventure]: /one-angry-wizard.gblorb
 [hotline-webring]: https://hotlinewebring.club/
 [hw-prev]: https://hotlinewebring.club/FIGBERT/previous
