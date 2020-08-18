@@ -13,7 +13,7 @@ in everything from front-end design{{ emoji(name="paint", alt="A paint pallet") 
 
 To see some of the things I do, you can:
 
-* Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol") }}.
+* Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol", top=true) }}.
 * Download [txtodo][txtodo-site] from [the App Store][txtodo-store]{{ emoji(name="apple", alt="Retro Apple logo", top=true) }} and read the [writeup][txtodo-article].
 * Check out my text adventure, [One Angry Wizard][txt-adventure]{{ emoji(name="keyboard", alt="A keyboard") }}.
 
