@@ -91,6 +91,10 @@ h6::before {
   vertical-align: middle;
 }
 
+.emoji__top {
+  vertical-align: top;
+}
+
 .anchor {
   width: 1rem;
   vertical-align: top;
