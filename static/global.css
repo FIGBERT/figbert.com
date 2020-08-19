@@ -93,9 +93,9 @@ h6::before {
 }
 
 .anchor {
-  width: 1rem;
-  vertical-align: top;
-  transform: rotate(-45deg);
+  width: 1.75rem;
+  vertical-align: middle;
+  margin-left: 0.25rem;
 }
 
 .post-preview {
