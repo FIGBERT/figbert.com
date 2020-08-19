@@ -92,12 +92,6 @@ h6::before {
   vertical-align: top;
 }
 
-.anchor {
-  width: 1.75rem;
-  vertical-align: middle;
-  margin-left: 0.25rem;
-}
-
 .post-preview {
   margin-top: 2rem;
   margin-bottom: 4rem;
