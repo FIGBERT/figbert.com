@@ -45,6 +45,7 @@ a:hover {
 
 pre {
   padding: 1rem;
+  white-space: pre-wrap;
 }
 
 video, picture, img {
