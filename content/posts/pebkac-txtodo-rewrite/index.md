@@ -37,7 +37,7 @@ removed some of the text styling, which I planned to port over after I got the U
 
 I ran the app on my device, and this happened:
 
-{{ video(sources=["ascending-checkmarks-error.webm"])  }}
+{{ video(sources=["ascending-checkmarks-error.webm", "ascending-checkmarks-error.mp4"])  }}
 
 Well that was unexpected. Instead of checking off the tasks I selected, tasks were checked off starting from the bottom and ascending – obviously not the intended behavior! My
 first thought was that it was caused by the use of `@ObservedObject` to declare the view's task property – I haven't seen it used to manipulate a Core Data entity before, but
@@ -111,7 +111,7 @@ newTask.daily = Bool.random()
 
 I ran the app again and saw this:
 
-{{ video(sources=["randomized-test-values.webm"])  }}
+{{ video(sources=["randomized-test-values.webm", "randomized-test-values.mp4"])  }}
 
 ## Intentional Behavior
 
@@ -128,7 +128,7 @@ you might think: [garbage in, garbage out][GIGO] definitely applies here. If all
 To make the sorting more clear, I randomized the tasks' priority, name, and category (as seen above) and added an animation with `.animation(.easeIn(duration: 0.25))`. The
 current prototype looks something like this:
 
-{{ video(sources=["update-preview.webm"]) }}
+{{ video(sources=["update-preview.webm", "update-preview.mp4"]) }}
 
 This has been a really fun blog post to write! A got a big laugh out of this bug chase, and I hope you've enjoyed reading it.
 
