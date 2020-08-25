@@ -88,8 +88,9 @@ h6::before {
   color: var(--secondary-color);
 }
 
-.emoji {
+.emoji > svg {
   width: 2rem;
+  height: auto;
   vertical-align: top;
 }
 

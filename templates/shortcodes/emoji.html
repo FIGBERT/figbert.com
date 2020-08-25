@@ -1,2 +1,2 @@
-<img src="/emoji/{{ name }}.svg" alt="{{ alt }}" class="emoji"/>
+<span class="emoji" role="img" aria-label="{{ alt }}">{{ load_data(path="static/emoji/" ~ name ~ ".svg", format="plain") | safe }}</span>
 
