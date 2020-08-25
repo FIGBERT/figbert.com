@@ -30,6 +30,8 @@ you want to send me money{{ emoji(name="credit-card", alt="A credit card") }}, f
 
 ## Webrings
 
+Check out my friend's [awesome blog here][burning-silicon] for great tech content out of UC Davis.
+
 This site is a proud member of [Hotline Webring][hotline-webring]{{ emoji(name="telephone", alt="An old telephone") }}! Check out [the previous][hw-prev] or [the next][hw-next]
 sites in the ring.
 
@@ -54,6 +56,7 @@ This site is a proud member of the [geekring][geekring]{{ emoji(name="circuit", 
 [site-src]: https://github.com/figbert/figbert.com
 [openmoji]: https://openmoji.org/
 [txt-adventure]: /one-angry-wizard.gblorb
+[burning-silicon]: https://burningsilicon.dev/
 [hotline-webring]: https://hotlinewebring.club/
 [hw-prev]: https://hotlinewebring.club/FIGBERT/previous
 [hw-next]: https://hotlinewebring.club/FIGBERT/next
