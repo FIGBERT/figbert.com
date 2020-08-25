@@ -30,11 +30,11 @@ you want to send me money{{ emoji(name="credit-card", alt="A credit card") }}, f
 
 ## Webrings
 
-This site is a proud member of [Hotline Webring][hotline-webring]{{ emoji(name="telephone", alt="An old telephone") }}! Check out the previous site [here][hw-prev] and the next
-site [here][hw-next].
+This site is a proud member of [Hotline Webring][hotline-webring]{{ emoji(name="telephone", alt="An old telephone") }}! Check out [the previous][hw-prev] or [the next][hw-next]
+sites in the ring.
 
-This site is a proud member of the [geekring][geekring]{{ emoji(name="circuit", alt="A small circuit") }}! Check out the previous site [here][gr-prev], the next site
-[here][gr-next], or a random ring-member [here][gr-rand].
+This site is a proud member of the [geekring][geekring]{{ emoji(name="circuit", alt="A small circuit") }}! Check out [the previous site][gr-prev], [the next site][gr-next], or a
+[random ring-member][gr-rand].
 
 [email]: mailto:figbert@figbert.com
 [pgp]: /publickey-pgp.asc
