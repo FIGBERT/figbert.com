@@ -2,7 +2,7 @@
 title = "Projects"
 description = ""
 sort_by = "weight"
-template = "projects.html"
+template = "page-list.html"
 page_template = "article.html"
 +++
 
