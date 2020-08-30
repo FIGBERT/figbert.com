@@ -53,11 +53,19 @@
 {% endblock %}
 
 {% block content %}
-  <div>
-    <h1>{{ page.title }}</h1>
-    <small>{{ page.date | date(format="%B %d, %Y") }}</small>
+  <div class="h-entry">
+    <div>
+      <a class="hidden u-url u-uid" href="{{ current_url }}" rel="me">FIGBERT</a>
+      <a class="hidden p-author h-card" href="{{ config.base_url }}">FIGBERT</a>
+      <h1 class="p-name">{{ page.title }}</h1>
+      <small><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time></small>
+      {% if page.summary -%}
+        <p class="hidden p-summary">{{ page.summary | safe | striptags }}</p>
+      {% else %}
+        <p class="hidden p-summary">{{ page.content | safe | striptags | truncate(length=300) }}</p>
+      {%- endif %}
+    </div>
+    <div class="e-content">{{ page.content | safe }}</div>
   </div>
-
-  <div>{{ page.content | safe }}</div>
 {% endblock content %}
 
