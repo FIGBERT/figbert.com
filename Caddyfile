@@ -4,7 +4,7 @@ www.figbert.com {
 }
 
 figbert.com {
-	root * /var/www/figbert.com/public
+	root * /srv
 	encode zstd gzip
 	file_server
 	header {
