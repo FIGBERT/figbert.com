@@ -4,7 +4,7 @@ www.figbert.com {
 }
 
 figbert.com {
-	root * /srv
+	root * /usr/share/caddy
 	encode zstd gzip
 	file_server
 	header {

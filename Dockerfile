@@ -11,6 +11,6 @@ RUN /bin/ash -c "echo \"http://dl-cdn.alpinelinux.org/alpine/edge/testing\" >> /
 
 FROM caddy:alpine
 
-COPY --from=builder /home/site/public /srv
+COPY --from=builder /home/site/public /usr/share/caddy
 COPY ./Caddyfile /etc/caddy/Caddyfile
 
