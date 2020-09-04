@@ -4,11 +4,11 @@ title = "Home"
 
 ## Hello World
 
-<p class="h-card p-note">I'm <a class="p-name u-url u-uid" href="https://figbert.com/" rel="me">FIGBERT</a>, an Israeli-American {{ emoji(name="israel", alt="An Israeli flag")
-}}{{ emoji(name="us", alt="An American flag") }} high school student with a passion for Computer Science and Engineering. I spend my time coding side-projects{{
-emoji(name="arduino", alt="An arduino") }}, doing schoolwork{{ emoji(name="school", alt="A schoolhouse") }}, and playing the occasional videogame{{ emoji(name="joystick",
-alt="A game joystick") }}. My current goal is to become a full-stack developer, proficient in everything from front-end design{{ emoji(name="paint", alt="A paint pallet") }} to
-cybersecurity{{ emoji(name="surveillance", alt="A surveillance camera") }}.</p>
+<div class="h-card"><p class="p-note">I'm <a class="p-name u-url u-uid" href="https://figbert.com/" rel="me">FIGBERT</a>, an Israeli-American {{ emoji(name="israel",
+alt="An Israeli flag") }}{{ emoji(name="us", alt="An American flag") }} high school student with a passion for Computer Science and Engineering. I spend my time coding
+side-projects{{ emoji(name="arduino", alt="An arduino") }}, doing schoolwork{{ emoji(name="school", alt="A schoolhouse") }}, and playing the occasional videogame{{
+emoji(name="joystick", alt="A game joystick") }}. My current goal is to become a full-stack developer, proficient in everything from front-end design{{ emoji(name="paint",
+alt="A paint pallet") }} to cybersecurity{{ emoji(name="surveillance", alt="A surveillance camera") }}.</p>
 
 ## My Work
 
@@ -29,7 +29,7 @@ text="Github") }}{{ emoji(name="github", alt="The Github logo") }}, {{ indielink
 alt="The Twitter logo") }}, {{ indielink(href="https://fosstodon.org/@figbert", text="Mastodon") }}{{ emoji(name="elephant", alt="An elephant like the Mastodon mascot") }},
 {{ indielink(href="https://www.reddit.com/user/therealFIGBERT", text="Reddit") }}{{ emoji(name="robot", alt="A robot like Snoo, the Reddit mascot") }}, and {{
 indielink(href="https://news.ycombinator.com/user?id=figbert", text="Hacker News") }}{{ emoji(name="ycombinator", alt="The Hacker News logo") }}. If for some reason you want to
-send me money{{ emoji(name="credit-card", alt="A credit card") }}, feel free to send it to my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.
+send me money{{ emoji(name="credit-card", alt="A credit card") }}, feel free to send it to my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.</div>
 
 ## Webrings
 
