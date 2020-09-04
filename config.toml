@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "https://figbert.com"
+# base_url = "https://figbert.com"
+base_url = "http://127.0.0.1:80"
 title = "FIGBERT"
 description = "figbert.com is the website and home of FIGBERT on the clearnet. It's my blog, portfolio, and wiki – my personal stash of information floating on the open web."
 

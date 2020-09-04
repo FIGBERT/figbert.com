@@ -9,8 +9,8 @@ RUN /bin/ash -c "echo \"http://dl-cdn.alpinelinux.org/alpine/edge/testing\" >> /
   && apk --no-cache add zola \
   && zola build
 
-FROM caddy:alpine
+FROM nginx:alpine
 
-COPY --from=builder /home/site/public /usr/share/caddy
-COPY ./Caddyfile /etc/caddy/Caddyfile
+COPY --from=builder /home/site/public /usr/share/nginx/html
+COPY ./nginx.conf /etc/nginx/nginx.conf
 
