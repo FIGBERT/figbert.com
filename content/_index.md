@@ -16,7 +16,7 @@ To see some of the things I do, you can:
 
 * Read my writing [on this site][posts] or in the [Atom feed][atom]{{ emoji(name="rss", alt="RSS symbol") }}.
 * Download [txtodo][txtodo-site] from [the App Store][txtodo-store]{{ emoji(name="apple", alt="Retro Apple logo") }} and read the [writeup][txtodo-article].
-* Take a look at the [source code for this site][site-src]{{ emoji(name="desktop-computer", alt="A computer") }}. It's all open source ([emojis][openmoji] included)!
+* Take a look at the [source code for this site][site-src]{{ emoji(name="desktop-computer", alt="A computer") }}. It's all open source!
 * Check out my text adventure, [One Angry Wizard][txt-adventure]{{ emoji(name="keyboard", alt="A keyboard") }}.
 
 I'm constantly working on more stuff, so continue checking back for more project highlights.
