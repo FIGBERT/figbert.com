@@ -45,7 +45,7 @@ This site is a proud member of the [geekring][geekring] &#x1F4BE;! Check out [th
 [txtodo-site]: https://txtodo.app/
 [txtodo-store]: https://apps.apple.com/us/app/txtodo/id1504609185
 [txtodo-article]: @/projects/txtodo/index.md
-[site-src]: https://github.com/figbert/figbert.com
+[site-src]: https://git.figbert.com/FIGBERT/figbert.com
 [openmoji]: https://openmoji.org/
 [txt-adventure]: /one-angry-wizard.gblorb
 [burning-silicon]: https://burningsilicon.dev/
