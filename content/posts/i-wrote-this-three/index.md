@@ -2,6 +2,7 @@
 title = "I Wrote This #3"
 description = "It appears I'm not that great at keeping a weekly schedule. Right after I published my last post, I started a class on text adventures and have been living and breathing in Inform7 ever since. I've also spent some time working on this site – though I've got even bigger changes coming in the future – learning a few new languages, and listening to a whole lot of music. I think something happened in cybersec too? Oh also I learned how to drive."
 date = 2020-07-04
+updated = 2020-10-05
 +++
 
 It appears I'm not that great at keeping a weekly schedule. Right after I published my last post, I started a class on text adventures and have been living and breathing in
@@ -72,7 +73,7 @@ The second thing I want to do is a bit of a larger project, and one I'm not yet 
 [figbert.com][figbert]. Sapper generates inline scripts and blobs, which tanks the security of my CSP. [Their proposed solution][sapper-csp] is to inject nonces with JS
 middleware, but this doesn't work with CaddyServer. I would much rather Sapper [avoid inline scripts][sapper-gh] altogether, but this doesn't seem likely. I really like the
 freedom that writing static sites in Svelte provides me versus other static site generators, but this could be a dealbreaker. I might talk a look at [Routify][routify] and see
-if that's any better. I've also been reconsidering using TailwindCSS, however useful it is, after reading [these][etcd] [three][library-overuse] [articles][tailwind]. I
+if that's any better. I've also been reconsidering using TailwindCSS, however useful it is, after reading [these][etcd] [three][library-overuse][^1] [articles][tailwind]. I
 attempted to replicate the current look of [figbert.com][figbert] without TailwindCSS, and failed. So I'm probably going to rewrite the site again, though I'm not sure how.
 Through iteration, we will arrive at a stable version – this one, unfortunately, is not yet it. If I do leave Svelte, which is probably a 50/50 chance at this point, I would
 probably go either back to [Hugo][hugo] (with some variation of the incredible [archie][archie] theme) or to [Zola][zola].
@@ -137,6 +138,10 @@ keep finding cool and interesting things to do, and I need to work on finishing 
 
 Salamat, FIGBERT
 
+---
+
+[^1]: The site appears to be down, and I neglected to archive it. Such is the nature of the internet.
+
 [inform]: https://inform7.com/
 [angry-wizard]: /content/One%20Angry%20Wizard%2C%20or%20the%20Tentac.gblorb
 [email]: mailto:figbert+textadventures@figbert.com
@@ -156,7 +161,7 @@ Salamat, FIGBERT
 [goaccess]: https://goaccess.io/
 [goaccess-gh]: https://github.com/allinurl/goaccess/issues/1768#issuecomment-646674023
 [goaccess-script]: https://alexmv12.xyz/blog/goaccess_caddy/
-[plausible]: https://github.com/plausible/analytics/blob/master/HOSTING.md#plausible-analytics
+[plausible]: https://docs.plausible.io/self-hosting/
 [gitea]: https://docs.gitea.io/en-us/install-with-docker/
 [figbert]: https://figbert.com/
 [flavio-docker]: https://flaviocopes.com/tags/docker/
