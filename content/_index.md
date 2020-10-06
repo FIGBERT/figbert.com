@@ -22,11 +22,11 @@ I'm constantly working on more stuff, so continue checking back for more project
 ## Contact
 
 You can contact me via email at: <a class="u-email" href="mailto:figbert@figbert.com" rel="me">figbert@figbert.com</a> &#x2709;&#xFE0F;. Feel free to encrypt emails to this
-address with [this PGP key][pgp] &#x1F511;. You can also find me on {{ indielink(href="https://github.com/figbert", text="Github") }}, {{
-indielink(href="https://twitter.com/therealfigbert", text="Twitter") }} &#x1F426;, {{ indielink(href="https://fosstodon.org/@figbert", text="Mastodon") }} &#x1F418;, {{
-indielink(href="https://www.reddit.com/user/therealFIGBERT", text="Reddit") }} &#x1F916;, and {{ indielink(href="https://news.ycombinator.com/user?id=figbert",
-text="Hacker News") }} &#x1F4F0;. If for some reason you want to send me money &#x1F4B5;, feel free to send it to my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash]
-addresses.</div>
+address with [this PGP key][pgp] &#x1F511;. You can also find me on my self-hosted {{ indielink(href="https://git.figbert.com/FIGBERT", text="Gitea") }} &#x2615;&#xFE0F;
+instance, {{ indielink(href="https://github.com/figbert", text="Github") }} &#x1F419;, {{ indielink(href="https://twitter.com/therealfigbert", text="Twitter") }} &#x1F426;, {{
+indielink(href="https://fosstodon.org/@figbert", text="Mastodon") }} &#x1F418;, {{ indielink(href="https://www.reddit.com/user/therealFIGBERT", text="Reddit") }} &#x1F916;,
+and {{ indielink(href="https://news.ycombinator.com/user?id=figbert", text="Hacker News") }} &#x1F4F0;. If for some reason you want to send me money &#x1F4B5;, feel free to send
+it to my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.</div>
 
 ## Webrings
 
