@@ -100,6 +100,21 @@ h6::before {
   color: var(--secondary-color);
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: var(--secondary-color);
+}
+
+td, th {
+  border: 1px solid var(--text-color);
+  padding: 0.5rem;
+  text-align: left;
+}
+
 .emoji > svg {
   width: 2rem;
   height: auto;
