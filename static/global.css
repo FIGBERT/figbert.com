@@ -64,6 +64,10 @@ video, picture, img {
   width: 100%;
 }
 
+code {
+  font-size: 1.25rem;
+}
+
 h1::before {
   content: "#";
   padding-right: 0.5rem;
