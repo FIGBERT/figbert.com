@@ -13,7 +13,8 @@ going to view the output on my phone?
 Well turns out it's really easy, and requires no non-default software:
 
 1. Open Quicktime
-2. Press `File -> New Movie Recording` or <kbd>⌥⌘N</kbd>
+2. Press <kbd>File</kbd> -> <kbd>New Movie Recording</kbd> or <kbd>⌥</kbd> +
+<kbd>⌘</kbd> + <kbd>N</kbd>
 3. Plug in your iDevice (I've only tested with an iPhone) via USB
 4. Click the down caret by the red record button
 5. Select your device as the Camera
