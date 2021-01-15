@@ -1,31 +1,24 @@
-# The URL the site will be built for
 base_url = "https://figbert.com"
 title = "FIGBERT"
 description = "figbert.com is the website and home of FIGBERT on the clearnet. It's my blog, portfolio, and wiki – my personal stash of information floating on the open web."
 
-# The default language; used in feeds.
 default_language = "en"
-
-# When set to "true", a feed is automatically generated.
-generate_feed = true
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-highlight_theme = "two-dark"
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
-# The additional languages for the site.
 languages = [
-  {code = "he", feed = true},
+  { code = "he", feed = true },
 ]
 
-# Put all your custom variables here
+generate_feed = true
+compile_sass = true
+minify_html = true
+
+[markdown]
+  highlight_code = true
+  highlight_theme = "ayu-light"
+  external_links_target_blank = true
+  external_links_no_follow = true
+  external_links_no_referrer = true
+  smart_punctuation = true
+
 [extra]
 nav = [
   { name = "HOME", path = "/" },
