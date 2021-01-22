@@ -2,6 +2,7 @@
 title = "SASS and Light Mode"
 description = "I'm on a roll! A second blog post in less than a month! Crazy. Anyway, as you may have noticed – depending on whether or not you read this via RSS or on the main site – I changed the site styles. I got rid of dark mode, added styles for code and keyboard blocks, and changed the look of links to a new cool design."
 date = 2021-01-02
+updated = 2021-01-22
 +++
 
 I'm on a roll! A second blog post in less than a month! Crazy. Anyway,
@@ -9,6 +10,8 @@ as you may have noticed – depending on whether or not you read this
 via RSS or on the main site – I changed the site styles. I got rid
 of dark mode, added styles for code and keyboard blocks, and changed
 the look of links to a new cool design.
+
+**Update:** I brought back dark mode. Light mode gave me anxiety.
 <!-- more -->
 
 It all started the other day when I was cruising through cyberspace
