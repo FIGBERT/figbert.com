@@ -1,10 +1,6 @@
 @import variables.sass
 
-h1
-  &::before
-    content: "#"
-    padding-right: 0.5rem
-    color: $secondary-color
+h1, h2, h3, h4, h5, h6
   a
     color: inherit
     &::before
@@ -12,63 +8,10 @@ h1
     &::after
       content: ""
 
-h2
+.zola-anchor
+  color: $secondary-color
   &::before
-    content: "##"
-    padding-right: 0.5rem
-    color: $secondary-color
-  a
-    color: inherit
-    &::before
-      content: ""
-    &::after
-      content: ""
-
-h3
-  &::before
-    content: "###"
-    padding-right: 0.5rem
-    color: $secondary-color
-  a
-    color: inherit
-    &::before
-      content: ""
-    &::after
-      content: ""
-
-h4
-  &::before
-    content: "####"
-    padding-right: 0.5rem
-    color: $secondary-color
-  a
-    color: inherit
-    &::before
-      content: ""
-    &::after
-      content: ""
-
-h5
-  &::before
-    content: "#####"
-    padding-right: 0.5rem
-    color: $secondary-color
-  a
-    color: inherit
-    &::before
-      content: ""
-    &::after
-      content: ""
-
-h6
-  &::before
-    content: "######"
-    padding-right: 0.5rem
-    color: $secondary-color
-  a
-    color: inherit
-    &::before
-      content: ""
-    &::after
-      content: ""
+    content: ""
+  &::after
+    content: ""
 
