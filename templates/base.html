@@ -43,24 +43,19 @@
       {% endblock title %}
     </title>
 
-    {% block head %}{% endblock head %}
-    {% block styles %}
-      <link rel="stylesheet" href="{{ get_url(path="global.css") | safe }}">
-    {% endblock styles %}
+    <link rel="stylesheet" href="{{ get_url(path="global.css") | safe }}">
     {% block posthead %}{% endblock posthead %}
     <script async defer data-website-id="05bb9f50-5cd2-451b-8b15-d9088cc614d0" integrity="sha384-SFgC+hTq6Y/T7BVtH5jNjyKuiSefSCTh8BN9KApl6huoN9KYDDnCXZd2e3dcoxbL" src="https://umami.figbert.com/umami.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    {% block header %}
-      <header>
-        <nav>
-          {% for link in config.extra.nav %}
-            <a href="{{ link.path }}">{{ link.name }}</a>
-          {% endfor %}
-        </nav>
-        <hr/>
-      </header>
-    {% endblock header %}
+    <header>
+      <nav>
+        {% for link in config.extra.nav %}
+          <a href="{{ link.path }}">{{ link.name }}</a>
+        {% endfor %}
+      </nav>
+      <hr/>
+    </header>
     <main>
       {% block content %}{% endblock content %}
     </main>
