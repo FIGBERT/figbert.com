@@ -54,13 +54,11 @@
     {% block header %}
       <header>
         <nav>
-          <div>
-            {% for link in config.extra.nav %}
-              <a href="{{ link.path }}">{{ link.name }}</a>
-            {% endfor %}
-          </div>
-          <hr/>
+          {% for link in config.extra.nav %}
+            <a href="{{ link.path }}">{{ link.name }}</a>
+          {% endfor %}
         </nav>
+        <hr/>
       </header>
     {% endblock header %}
     <main>
