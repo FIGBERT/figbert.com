@@ -1,6 +1,7 @@
 +++
 title = "Home"
 insert_anchor_links = "left"
+template = "section.html"
 +++
 
 ## Hello World
