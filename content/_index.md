@@ -25,14 +25,26 @@ source!
 I'm constantly working on more stuff, so continue checking back for more project
 highlights.
 
-## Contact
+## Web Presence
+
+You can find me on most platforms as FIGBERT:
+
+- My self-hosted [Gitea][gitea] instance
+- [Github][github] (FIGBERT)
+- [Twitter][twitter] (@therealfigbert)
+- [Mastodon][mastodon] (@figbert@fosstodon.org)
+- [Reddit][reddit] (@therealFIGBERT)
+- [Hacker News][hn] (figbert)
+
+## Keys and Crypto
 
 You can contact me via email at: [figbert@figbert.com][email]. Feel free to
-encrypt emails to this address with [this PGP key][pgp]. You can also find me on
-my self-hosted [Gitea][gitea] instance, [Github][github], [Twitter][twitter],
-[Mastodon][mastodon], [Reddit][reddit], and [Hacker News][hn]. If for some
-reason you want to send me money, feel free to send it to my [Bitcoin][bitcoin],
-[Monero][monero], or [ZCash][zcash] addresses.
+encrypt emails to this address with [this PGP key][pgp]. For those with more
+modern crypto in mind, feel free to use my [age][age] key. Messages from me
+will be signed with my [minisign][minisign] key.
+
+If for some reason you want to send me money, feel free to send it to
+my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.
 
 ## Webrings
 
@@ -52,14 +64,16 @@ site][gr-prev], [the next site][gr-next], or a [random ring-member][gr-rand].
 [txtodo-article]: @/projects/txtodo/index.md
 [site-src]: https://git.figbert.com/FIGBERT/figbert.com
 [txt-adventure]: /one-angry-wizard.gblorb
-[email]: mailto:figbert@figbert.com
-[pgp]: /publickey-pgp.asc
 [gitea]: https://git.figbert.com/FIGBERT
 [github]: https://github.com/figbert
 [twitter]: https://twitter.com/therealfigbert
 [mastodon]: https://fosstodon.org/@figbert
 [reddit]: https://www.reddit.com/user/therealFIGBERT
 [hn]: https://news.ycombinator.com/user?id=figbert
+[email]: mailto:figbert@figbert.com
+[pgp]: /publickey-pgp.asc
+[age]: /age.txt
+[minisign]: /minisign.pub
 [bitcoin]: /bitcoin.txt
 [monero]: /monero.txt
 [zcash]: /zcash.txt
