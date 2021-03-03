@@ -3,10 +3,7 @@ FROM alpine as builder
 WORKDIR /home/site
 COPY . .
 
-RUN /bin/ash -c "echo \"http://dl-cdn.alpinelinux.org/alpine/edge/community\" >> /etc/apk/repositories" \
-  && apk update \
-  && apk upgrade \
-  && apk --no-cache add zola \
+RUN apk add zola --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ \
   && zola build
 
 FROM nginx:alpine
