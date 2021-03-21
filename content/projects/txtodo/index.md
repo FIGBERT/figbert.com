@@ -7,10 +7,10 @@ weight = 0
 +++
 
 [**txtodo**][txtodo] is a minimalist open-source todo list app
-inspired by Jeff Huang's [*One File to Rule Them All*][ofrta].
-Inspired by [Mac-assed Mac apps][mma] like [IINA][iina],
-[Sketch][sktch], and Safari. It's available for download on iOS and
-macOS via the App Store.
+inspired by Jeff Huang's [*One File to Rule Them All*][ofrta] and
+[Mac-assed Mac apps][mma] like [IINA][iina], [Sketch][sktch], and
+Safari. It's available for download on iOS and macOS via the App
+Store.
 
 <!-- more -->
 
@@ -24,15 +24,14 @@ long-term tasks that "float" with you from day-to-day.
 On 15 February 2020, I deleted my account with Trello. A solo
 developer, I know my projects inside and out. I know what features
 need work, and which graphics need a refresh. I don't need a massive
-[crudware][crud] suite keep track of every little move. I just need to
-[trick the monkey][monkey] into getting something done. I need
+[crudware][crud] suite keep track of every little move. I need
 something small.
 
 ![txtodo on iOS 14, with no tasks][ios]
 
-A dead-simple UX and a midnight expiration date prevents the
-overwhelming buildup of tasks we delay over and over again, and trains
-you to deal only with tasks you can get done *that day*.
+A dead-simple UX and midnight expiration date prevents the
+overwhelming buildup of tasks we delay over and over again, and helps
+you deal only with tasks you can get done *that day*.
 
 Download the app [on the App Store][store], and explore the source
 code [on my Gitea][src]
@@ -45,7 +44,6 @@ code [on my Gitea][src]
 
 [macos]: blank.jpg
 [crud]: http://catb.org/jargon/html/C/crudware.html
-[monkey]: https://www.youtube.com/watch?v=arj7oStGLkU
 [ios]: simulator.jpg
 
 [store]: https://apps.apple.com/us/app/txtodo/id1504609185
