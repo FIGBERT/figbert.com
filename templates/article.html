@@ -53,13 +53,13 @@
 {% endblock %}
 
 {% block content %}
-  <div>
+  <article>
     <h1><a href="{{ current_url }}">{{ page.title }}</a></h1>
     <small>
       <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
       by <a href="{{ config.base_url }}">FIGBERT</a>
     </small>
-    <div>{{ page.content | safe }}</div>
-  </div>
+    {{ page.content | safe }}
+  </article>
 {% endblock content %}
 
