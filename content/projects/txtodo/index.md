@@ -2,7 +2,7 @@
 title = "txtodo"
 description = "txtodo is a minimalist open-source todo list app inspired by Jeff Huang’s One File to Rule Them All. Inspired by Mac-assed Mac apps like IINA, Sketch, and Safari."
 date = 2020-05-20
-updated = 2021-03-20
+updated = 2021-04-08
 weight = 0
 +++
 
@@ -34,7 +34,7 @@ overwhelming buildup of tasks we delay over and over again, and helps
 you deal only with tasks you can get done *that day*.
 
 Download the app [on the App Store][store], and explore the source
-code [on my Gitea][src]
+code [on my Gitea][src].
 
 [txtodo]: https://txtodo.app/
 [ofrta]: https://jeffhuang.com/productivity_text_file/
