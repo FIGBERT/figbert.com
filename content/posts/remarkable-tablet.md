@@ -2,6 +2,7 @@
 title = "Quite the reMarkable Device"
 description = "Lately, there’s been renewed interest in clean, simple technology built to help us focus. Protocols like Gemini strip away the chaos of the web. Hardware hackers fit screens in mirrors and build beautiful minimalist displays to read the news, display data neatly in a picture frame, or provide a daily summary. Hidden amongst these many awesome projects is the reMarkable 2."
 date = 2021-01-22
+updated = 2021-04-12
 +++
 
 Lately, there's been renewed interest in clean, simple technology
@@ -85,6 +86,10 @@ HN that is either really long, or I just want to save for later, I
 hit a button and it sends it to the tablet. Again, just incredibly
 convenient.
 
+**EDIT:** [Dario Vladović][dv] has pointed out to me that extensions
+are unpackable, and thus though it's not open source it is, by nature,
+source available.
+
 ## jailBreak
 
 This section is titled "jailbreak," which is actually a bit of
@@ -119,6 +124,11 @@ like pencil. Neat.
 Also, comparing the reMarkable to the Kindle makes me want to
 jailbreak that too – I'll find some time to look into that soon.
 
+**EDIT:** I ended up jailbreaking one of my Kindles, which I now use
+daily as my primary book-reading device (as opposed to the reMarkable,
+which I think of as an article-reading device). I should write some
+stuff about that.
+
 [tablet]: https://remarkable.com/
 [github]: https://github.com/reMarkable
 [gemini]: https://gemini.circumlunar.space/
@@ -127,6 +137,7 @@ jailbreak that too – I'll find some time to look into that soon.
 [frame]: https://onezero.medium.com/meet-accent-352cfa95813a
 [dashboard]: https://healeycodes.com/hacking-together-an-e-ink-dashboard/
 [rorm]: https://chrome.google.com/webstore/detail/read-on-remarkable/bfhkfdnddlhfippjbflipboognpdpoeh
+[dv]: https://github.com/vladimyr
 [folio]: https://remarkable.com/store/remarkable-2/folios
 [marker]: https://remarkable.com/store/remarkable-2/markers
 [wiki]: https://remarkablewiki.com/
