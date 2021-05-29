@@ -1,4 +1,4 @@
-<a class="zola-anchor" href="#{{ id }}" aria-label="Anchor link for: {{ id }}">
+<a class="zola-anchor" href="#{{ id | safe }}" aria-label="Anchor link for: {{ id | safe }}">
   {%- if level == 1 -%}
     #
   {%- elif level == 2 -%}
@@ -11,5 +11,5 @@
    #####
   {%- elif level == 6 -%}
    ######
-  {% endif %}
+  {%- endif -%}
 </a>
