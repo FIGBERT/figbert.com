@@ -3,6 +3,7 @@
   --secondary-color: #214ED4;
   --tertiary-color: #6082E6;
   --text-color: #F5F5F5;
+  --link-color: #DCE4F9;
 }
 
 /* Main */
@@ -22,46 +23,24 @@ video, picture, img {
   width: 100%;
 }
 
+p {
+  margin-top: 0;
+}
+
 article > p {
-  line-height: 2.5
-  margin-bottom: 1.75rem
+  line-height: 2;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-/* Code */
-pre {
-  padding: 1rem;
-  white-space: pre-wrap;
-  border: 1px solid #ccc;
+a {
+  font-weight: 450;
+  color: var(--link-color);
+  text-decoration-color: var(--tertiary-color);
 }
 
-pre > code {
-  border: none;
-}
-
-code {
-  font-size: 1rem;
-  padding: 0 4px;
-  border: 1px solid #ccc;
-}
-
-/* Error */
-.error {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  height: 100%;
-}
-
-.error > svg {
-  max-width: 19rem;
-}
-
-.error > strong {
-  font-size: 5rem;
-}
-
-.error > p {
-  font-size: 2rem;
+a:hover {
+  text-decoration-color: var(--secondary-color);
 }
 
 /* Headings */
@@ -71,7 +50,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 0;
+  margin: 0;
+  font-weight: 400;
 }
 
 h1 > a,
@@ -81,7 +61,6 @@ h4 > a,
 h5 > a,
 h6 > a {
   text-decoration: none;
-  font-weight: 600;
   color: inherit;
 }
 
@@ -99,29 +78,6 @@ h6:hover > .zola-anchor {
   display: initial;
 }
 
-/* Keyboard */
-kbd {
-  color: var(--background-color);
-  font-size: 1.25rem;
-  padding: 0.1rem 0.6rem;
-  text-shadow: 0 1px 0 #fff;
-  background-color: #e4e6e8;
-  border: 1px solid #726E6E;
-  border-radius: 3px;
-  box-shadow: 0 1px 1px rgba(244,245,245,0.15), inset 0 1px 0 0 #fff;
-}
-
-/* Links */
-a {
-  font-weight: 450;
-  color: var(--text-color);
-  text-decoration-color: var(--tertiary-color);
-}
-
-a:hover {
-  text-decoration-color: var(--secondary-color);
-}
-
 /* Nav */
 nav {
   width: 100%;
@@ -136,7 +92,24 @@ nav > a {
 }
 
 header {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Code */
+pre {
+  padding: 1rem;
+  white-space: pre-wrap;
+  border: 1px solid #CCC;
+}
+
+pre > code {
+  border: none;
+}
+
+code {
+  font-size: 1rem;
+  padding: 0 4px;
+  border: 1px solid #CCC;
 }
 
 /* Quotes */
@@ -162,6 +135,18 @@ td, th {
   text-align: left;
 }
 
+/* Keyboard */
+kbd {
+  color: var(--background-color);
+  font-size: 1.25rem;
+  padding: 0.05rem 0.4rem;
+  text-shadow: 0 1px 0 #FFF;
+  background-color: #E4E6E8;
+  border: 1px solid #726E6E;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(244,245,245,0.15), inset 0 1px 0 0 #FFF;
+}
+
 /* Posts and Projects */
 .date-list {
   padding: 0;
@@ -177,4 +162,24 @@ td, th {
 
 .date-list > li > a {
   flex-basis: 50%;
+}
+
+/* Error */
+.error {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.error > svg {
+  max-width: 19rem;
+}
+
+.error > strong {
+  font-size: 5rem;
+}
+
+.error > p {
+  font-size: 2rem;
 }
