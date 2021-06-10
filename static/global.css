@@ -52,6 +52,7 @@ h5,
 h6 {
   margin: 0;
   font-weight: 400;
+  position: relative;
 }
 
 h1 > a,
@@ -65,7 +66,10 @@ h6 > a {
 }
 
 .zola-anchor {
-  display: none;
+  opacity: 0;
+  position: absolute;
+  right: 101%;
+  transition: opacity .1s linear;
   color: var(--tertiary-color);
 }
 
@@ -75,7 +79,7 @@ h3:hover > .zola-anchor,
 h4:hover > .zola-anchor,
 h5:hover > .zola-anchor,
 h6:hover > .zola-anchor {
-  display: initial;
+  opacity: 100;
 }
 
 /* Nav */
