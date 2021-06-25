@@ -182,8 +182,10 @@ kbd {
 
 .error > strong {
   font-size: 5rem;
+  margin-bottom: 1.5rem;
 }
 
 .error > p {
   font-size: 2rem;
+  margin: 0;
 }
