@@ -1,7 +1,7 @@
 +++
 title = "An Update on Bad Backups and Internet Celebrity"
 description = "My recent post on the Great Alpine Migration Tragedy of 2021 garnered some serious attention! I got a number of emails, a whole host of feedback on Lobste.rs, and over 100 points on Hacker News! As I understand it, that means I’m now a top internet celebrity (and eligible for the 10 KB Club). Still, I must remain humble even as I catapult toward digital infamy and thus I am here to respond to feedback, answer questions, and talk about what I’ve done to prevent something like this from happening again."
-date = 2021-06-25
+date = 2021-06-27
 +++
 
 My recent post on the [Great Alpine Migration Tragedy] of 2021 garnered
