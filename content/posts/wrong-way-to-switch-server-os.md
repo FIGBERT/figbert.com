@@ -42,7 +42,7 @@ I had read through the Tarsnap online documentation a number of times,
 and was ready to make my first attempt. I loaded my Tarsnap account up
 with USD$10 and ran:
 
-```shell
+```sh
 $ sudo tarsnap -c -f backup-name docker-compose.yml ...
 ```
 
@@ -77,7 +77,7 @@ bothered me when using Debian.
 
 With Alpine set up, I started to restore the backup:
 
-```shell
+```sh
 $ doas tarsnap -x -f backup-name
 ```
 
@@ -95,7 +95,7 @@ my files seemed like they were already there...
 I pressed `<Ctrl-C>`, cutting off the download, and tried to bring
 everything back online:
 
-```shell
+```sh
 $ doas docker-compose up -d
 ```
 
@@ -108,7 +108,7 @@ is self-hosted and was thus down).
 
 I ran it again:
 
-```shell
+```sh
 $ doas docker-compose up -d
 ```
 
@@ -132,7 +132,7 @@ tarsnap clients at once to extract archives **fast**. Fucking
 precisely. I wiped out the incomplete files I had restored, downloaded
 Ruby and started restoring from the backup once again:
 
-```shell
+```sh
 $ doas redsnapper backup-name
 ```
 
@@ -175,7 +175,7 @@ changed the command slightly before rerunning. After a number of
 errors I couldn't explain, I realized my account was negative and
 topped it up with another USD$25 before running:
 
-```shell
+```sh
 $ doas redsnapper backup-name -- --exclude='*/jellyfin/*'
 ```
 
