@@ -2,7 +2,7 @@
 title = "I Wrote This #3"
 description = "It appears I'm not that great at keeping a weekly schedule. Right after I published my last post, I started a class on text adventures and have been living and breathing in Inform7 ever since. I've also spent some time working on this site – though I've got even bigger changes coming in the future – learning a few new languages, and listening to a whole lot of music. I think something happened in cybersec too? Oh also I learned how to drive."
 date = 2020-07-04
-updated = 2020-10-05
+updated = 2021-08-10
 +++
 
 It appears I'm not that great at keeping a weekly schedule. Right after I published my last post, I started a class on text adventures and have been living and breathing in
@@ -142,7 +142,7 @@ Salamat, FIGBERT
 
 [^1]: The site appears to be down, and I neglected to archive it. Such is the nature of the internet.
 
-[inform]: https://inform7.com/
+[inform]: http://inform7.com/
 [angry-wizard]: /content/One%20Angry%20Wizard%2C%20or%20the%20Tentac.gblorb
 [email]: mailto:figbert+textadventures@figbert.com
 [geekring]: https://geekring.net/
@@ -184,7 +184,7 @@ Salamat, FIGBERT
 [mac-malware]: https://www.wired.com/story/new-mac-ransomware-thiefquest-evilquest/
 [mastodon]: https://fosstodon.org/@figbert 
 [mast]: https://apps.apple.com/us/app/mast/id1437429129
-[mast-src]: https://github.com/ShihabMe/Mast2
+[mast-src]: https://github.com/tiagomartinho/Mast2
 [feedly]: https://feedly.com/
 [octal]: https://apps.apple.com/us/app/octal/id1308885491
 [element]: https://element.io/
