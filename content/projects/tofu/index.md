@@ -2,7 +2,7 @@
 title = "Tofu"
 description = "Tofu is an easy-to-use, open-source, two-factor authentication app designed specifically for iOS, made by Calle Luks. I adopted it after migrating from Authy, and ended up overhauling its icon system."
 date = 2021-04-07
-weight = 1
+weight = 2
 +++
 
 [**Tofu**][tofu] is an easy-to-use, open-source, two-factor
@@ -53,4 +53,3 @@ code [on GitHub][tofu].
 [heredoc]: https://stackoverflow.com/a/2954835
 
 [store]: https://apps.apple.com/app/tofu-authenticator/id1082229305
-

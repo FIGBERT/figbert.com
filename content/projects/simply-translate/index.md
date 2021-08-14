@@ -2,7 +2,7 @@
 title = "SimplyTranslate"
 description = "SimplyTranslate is a collection of “translation scrapers with interfaces for gemini and the web,” made by metalune. In other words, it’s a privacy-respecting front end for Google Translate, similar to Twitter’s Nitter. Over the course of a couple days – and one synchronous hacking session – I containerized the program to make it easier to deploy on servers worldwide."
 date = 2021-07-02
-weight = 2
+weight = 3
 +++
 
 [**SimplyTranslate**][st] is a collection of "translation scrapers with
