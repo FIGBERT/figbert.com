@@ -6,6 +6,8 @@ default_language = "en"
 generate_feed = true
 minify_html = true
 
+theme = "d3c3nt"
+
 [markdown]
   highlight_code = true
   highlight_theme = "visual-studio-dark"
@@ -20,8 +22,11 @@ minify_html = true
     generate_feed = true
 
 [extra]
-  nav = [
+  d3_nav = [
     { name = "HOME", path = "/" },
     { name = "POSTS", path = "/posts/" },
     { name = "PROJECTS", path = "/projects/" },
   ]
+  d3_icon = "/icon.png"
+  d3_twitter = "therealFIGBERT"
+  d3_author = "FIGBERT"
