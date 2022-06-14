@@ -14,11 +14,6 @@ minify_html = true
   external_links_no_referrer = true
   smart_punctuation = true
 
-[languages]
-  [languages.he]
-    title = "FIGBERT"
-    generate_feed = true
-
 [extra]
   d3_nav = [
     { name = "HOME", path = "/" },
