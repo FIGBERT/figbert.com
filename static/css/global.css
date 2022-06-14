@@ -1,7 +1,7 @@
 :root {
   --background-color: #212121;
   --text-color: #f5f5f5;
-  --secondary-color: #5c5c5c;
+  --secondary-color: #bababa;
   --link-color: #8e60a7;
 
   font-family: vistaserv, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
@@ -23,15 +23,15 @@ header {
 
 main {
   width: 75%;
+  font-size: 105%;
 }
 
 p {
-  font-size: 105%;
   margin-top: 0;
 }
 
 a {
-  color: var(--text-color);
+  color: inherit;
 }
 
 a:hover, a:focus {
@@ -51,4 +51,20 @@ h4 > a, h5 > a, h6 > a {
 
 video, picture, img {
   width: 100%;
+}
+
+#section-title {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+#section-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.summary {
+  color: var(--secondary-color);
+  font-size: 90%;
 }
