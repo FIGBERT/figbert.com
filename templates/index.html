@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} :: {% endif %}{{ config.title }}</title>
+
+    <link rel="stylesheet" href="{{ get_url(path="css/fonts.css") }}">
+    <link rel="stylesheet" href="{{ get_url(path="css/global.css") }}">
+    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="posts/atom.xml") }} title="Posts :: {{ config.title }}">
+    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="projects/atom.xml") }} title="Projects :: {{ config.title }}">
+
+    <meta name="description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | safe }} :: {% endif %}{{ config.title }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
+    <meta property="og:type" content="website">
+
+    {% if current_url %}
+    <meta property="og:url" content="{{ current_url }}">
+    <link rel="canonical" href="{{ current_url }}">
+    {% endif %}
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@therealFIGBERT">
+
+    <link rel="icon" href="{{ get_url(path="icon.png") }}">
+    <meta name="theme-color" content="#212121">
+  </head>
+  <body>
+    <header>
+      <section>
+        <h1><a href="{{ config.base_url }}">{{ config.title }}</a></h1>
+        <h2 id="subtitle">Full Stack Developer</h2>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="{{ config.base_url }}">Home</a></li>
+          <li>
+            <a href="{{ get_url(path="posts/atom.xml") }}" class="rss">RSS</a>
+            <a href="{{ get_url(path="@/posts/_index.md") }}">Posts</a>
+          </li>
+          <li>
+            <a href="{{ get_url(path="projects/atom.xml") }}" class="rss">RSS</a>
+            <a href="{{ get_url(path="@/projects/_index.md") }}">Projects</a>
+          </li>
+        </ul>
+      </nav>
+      <section id="webrings">
+        <hr>
+        <b>Proud member of <a href="https://hotlinewebring.club/" target="_blank" rel="noopener">Hotline Webring</a>!</b><br>
+        <a href="https://hotlinewebring.club/FIGBERT/previous" target="_blank" rel="noopener">Previous site</a> -- 
+        <a href="https://hotlinewebring.club/FIGBERT/next" target="_blank" rel="noopener">Next site</a>
+
+        <hr>
+        <b>This site is a proud member of the <a href="https://geekring.net/" target="_blank" rel="noopener">geekring</a>! Check some other geeky websites here!</b><br>
+        <a href="http://geekring.net/site/79/previous" target="_blank" rel="noopener">Previous site</a> -- 
+        <a href="http://geekring.net/site/79/random" target="_blank" rel="noopener">Random site</a> -- 
+        <a href="http://geekring.net/site/79/next" target="_blank" rel="noopener">Next site</a>
+      </section>
+    </header>
+    <main>
+      {% block content %}{{ section.content | safe }}{% endblock content %}
+    </main>
+  </body>
+</html>

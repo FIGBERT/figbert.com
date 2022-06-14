@@ -3,7 +3,7 @@ title = "FIGBERT"
 description = "figbert.com is the website and home of FIGBERT on the clearnet. It's my blog, portfolio, and wiki – my personal stash of information floating on the open web."
 
 default_language = "en"
-generate_feed = true
+generate_feed = false
 minify_html = true
 
 [markdown]
@@ -13,13 +13,3 @@ minify_html = true
   external_links_no_follow = true
   external_links_no_referrer = true
   smart_punctuation = true
-
-[extra]
-  d3_nav = [
-    { name = "HOME", path = "/" },
-    { name = "POSTS", path = "/posts/" },
-    { name = "PROJECTS", path = "/projects/" },
-  ]
-  d3_icon = "/icon.png"
-  d3_twitter = "therealFIGBERT"
-  d3_author = "FIGBERT"

@@ -2,8 +2,6 @@
 insert_anchor_links = "left"
 +++
 
-## Hello World
-
 I'm FIGBERT, an Israeli-American high school student with a passion for
 Computer Science and Engineering. I spend my time coding side-projects,
 doing schoolwork, and playing the occasional videogame. My current goal
@@ -57,14 +55,6 @@ I have some friends. Some of them have blogs:
   Impala]
 - [art3mis] is the better at web design than all of us :/
 
-This site is a proud member of [Hotline Webring]! Check out [the
-previous][hw-prev] or [the next][hw-next] sites in the ring.
-
-This site is a proud member of the [geekring]! Check out [the previous
-site][gr-prev], [the next site][gr-next], or a [random
-ring-member][gr-rand].
-
-
 [on this site]: @/posts/_index.md
 [Atom feed]: /atom.xml
 [Privacy Redirect for Safari]: @/projects/privacy-redirect-for-safari/index.md
@@ -100,11 +90,3 @@ ring-member][gr-rand].
 [Jacob Neplokh]: https://jacobneplokh.com
 [Tame Impala]: https://en.wikipedia.org/wiki/Tame_Impala
 [art3mis]: https://art3mis.pm
-
-[Hotline Webring]: https://hotlinewebring.club/
-[hw-prev]: https://hotlinewebring.club/FIGBERT/previous
-[hw-next]: https://hotlinewebring.club/FIGBERT/next
-[geekring]: https://geekring.net/
-[gr-prev]: http://geekring.net/site/79/previous
-[gr-next]: http://geekring.net/site/79/next
-[gr-rand]: http://geekring.net/site/79/random
