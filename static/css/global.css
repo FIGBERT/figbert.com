@@ -10,22 +10,23 @@
 }
 
 body {
+  width: 85%;
   display: flex;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem auto 2rem auto;
 }
 
 header {
-  width: 18vw;
+  width: 25%;
   text-align: right;
   margin: 0 3rem 0 2rem;
 }
 
 main {
-  width: 60vw;
+  width: 75%;
 }
 
 nav {
-  margin: 2rem 0 2rem 0;
+  margin: 2.5rem 0 2.5rem 0;
   font-size: 1.125rem;
 }
 
@@ -51,12 +52,18 @@ nav > ul > li > a {
   font-size: 0.75rem;
 }
 
+#webrings > section {
+  margin-bottom: 2rem;
+}
+
 hr {
   border-width: 0;
   border-top: 0.1rem dashed;
+  margin-left: 2rem;
 }
 
 p {
+  font-size: 105%;
   margin-top: 0;
 }
 
