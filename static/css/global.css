@@ -25,47 +25,6 @@ main {
   width: 75%;
 }
 
-nav {
-  margin: 2.5rem 0 2.5rem 0;
-  font-size: 1.125rem;
-}
-
-#subtitle {
-  font-size: 1.25rem;
-  font-weight: initial;
-}
-
-ul {
-  list-style: square;
-}
-
-nav > ul {
-  list-style: none;
-}
-
-nav > ul > li > a {
-  text-decoration: none;
-}
-
-.rss {
-  color: var(--secondary-color);
-  font-size: 0.75rem;
-}
-
-#webrings {
-  font-size: 0.75rem;
-}
-
-#webrings > section {
-  margin-bottom: 2rem;
-}
-
-hr {
-  border-width: 0;
-  border-top: 0.1rem dashed;
-  margin-left: 2rem;
-}
-
 p {
   font-size: 105%;
   margin-top: 0;
