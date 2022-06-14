@@ -53,6 +53,19 @@ video, picture, img {
   width: 100%;
 }
 
+small {
+  color: var(--secondary-color);
+  font-size: 100%;
+}
+
+small > a {
+  text-decoration: none;
+}
+
+#article-header {
+  margin-bottom: 1.5rem;
+}
+
 #section-title {
   font-weight: normal;
   font-size: inherit;

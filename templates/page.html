@@ -1,11 +1,15 @@
 {% extends "index.html" %}
 {% block content %}
       <article>
-        <h1><a href="{{ current_url }}">{{ page.title }}</a></h1>
-        <small>
-          <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
-          by <a href="{{ config.base_url }}">{{ config.title }}</a>
-        </small>
+        <section id="article-header">
+          <h1><a href="{{ current_url }}">{{ page.title }}</a></h1>
+          <small>
+            Published by <a href="{{ config.base_url }}">{{ config.title }}</a> on
+            <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+            <br/>
+            <a href="..">&lt; Back</a>
+          </small>
+        </section>
         {{ page.content | safe }}
       </article>
 {% endblock content %}
