@@ -35,6 +35,10 @@ nav {
   font-weight: initial;
 }
 
+ul {
+  list-style: square;
+}
+
 nav > ul {
   list-style: none;
 }
