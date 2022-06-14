@@ -1,88 +1,110 @@
 +++
-title = "Home"
 insert_anchor_links = "left"
-template = "section.html"
 +++
 
 ## Hello World
 
-I'm FIGBERT, an Israeli-American high school student with a passion for Computer
-Science and Engineering. I spend my time coding side-projects, doing schoolwork,
-and playing the occasional videogame. My current goal is to become a full-stack
-developer, proficient in everything from front-end design to cybersecurity.
+I'm FIGBERT, an Israeli-American high school student with a passion for
+Computer Science and Engineering. I spend my time coding side-projects,
+doing schoolwork, and playing the occasional videogame. My current goal
+is to become a full-stack developer, proficient in everything from
+front-end design to cybersecurity.
 
 ## My Work
 
 To see some of the things I do, you can:
 
-- Read my writing [on this site][posts] or in the [Atom feed][atom].
-- Download [txtodo][txtodo-site] from [the App Store][txtodo-store] and read
-the [writeup][txtodo-article].
-- Take a look at the [source code for this site][site-src]. It's all open
-source!
-- Check out my text adventure, [One Angry Wizard][txt-adventure].
+- Read my writing [on this site] or in the [Atom feed].
+- Check out [Privacy Redirect for Safari], a [SMMR Software] creation.
+- Download [txtodo] on [the App Store] and read the [writeup].
+- Take a look at the [source code for this site].
+- Play my text adventure, [One Angry Wizard].
 
-I'm constantly working on more stuff, so continue checking back for more project
-highlights.
+I'm constantly working on more stuff, so continue checking back for more
+project highlights.
 
 ## Web Presence
 
-You can find me on most platforms as FIGBERT:
+I host a few things and have accounts in a few places:
 
-- My self-hosted [Gitea][gitea] instance
-- [Github][github] (FIGBERT)
-- [Twitter][twitter] (@therealfigbert)
-- [Mastodon][mastodon] (@figbert@fosstodon.org)
-- [Reddit][reddit] (@therealFIGBERT)
-- [Hacker News][hn] (figbert)
+- All of [my code] is hosted with [Stagit]
+- The corresponding [mailing lists] are on my [Crabmail]
+- I am unfortunately still on [Github]
+- Professionally lurking on [Twitter]
+- Actually quite active these days on [Mastodon]
+- I really don't use [Reddit]
+- Curing my addiction to [Hacker News]
 
 ## Keys and Crypto
 
-You can contact me via email at: [figbert@figbert.com][email]. Feel free to
-encrypt emails to this address with [this PGP key][pgp]. For those with more
-modern crypto in mind, feel free to use my [age][age] key. Messages from me
-will be signed with my [minisign][minisign] key.
+You can contact me via email at: [figbert@figbert.com]. Feel free to
+encrypt emails to this address with [this PGP key]. For those with more
+modern crypto in mind, feel free to use my [age] key. Messages from me
+will be signed with my [minisign] key.
 
 If for some reason you want to send me money, feel free to send it to
-my [Bitcoin][bitcoin], [Monero][monero], or [ZCash][zcash] addresses.
+my [Bitcoin], [Monero], or [ZCash] addresses.
 
-## Webrings
+## Elsewhere on the Net
 
-Check out my friend's [awesome blog here][burning-silicon] for great tech
-content out of UC Davis.
+Some people say they have seen me over in [Geminispace].
 
-This site is a proud member of [Hotline Webring][hotline-webring]! Check out
-[the previous][hw-prev] or [the next][hw-next] sites in the ring.
+I have some friends. Some of them have blogs:
 
-This site is a proud member of the [geekring][geekring]! Check out [the previous
-site][gr-prev], [the next site][gr-next], or a [random ring-member][gr-rand].
+- [Burning Silicon] has content on machine learning, computer vision,
+  and a variety of other subjects coming out of Purdue University.
+- [Jacob Neplokh] co-founded SMMR Software and introduced me to [Tame
+  Impala]
+- [art3mis] is the better at web design than all of us :/
 
-[posts]: @/posts/_index.md
-[atom]: /atom.xml
-[txtodo-site]: https://txtodo.app/
-[txtodo-store]: https://apps.apple.com/us/app/txtodo/id1504609185
-[txtodo-article]: @/projects/txtodo/index.md
-[site-src]: https://git.figbert.com/FIGBERT/figbert.com
-[txt-adventure]: /one-angry-wizard.gblorb
-[gitea]: https://git.figbert.com/FIGBERT
-[github]: https://github.com/figbert
-[twitter]: https://twitter.com/therealfigbert
-[mastodon]: https://fosstodon.org/@figbert
-[reddit]: https://www.reddit.com/user/therealFIGBERT
-[hn]: https://news.ycombinator.com/user?id=figbert
-[email]: mailto:figbert@figbert.com
-[pgp]: /publickey-pgp.asc
-[age]: /age.txt
-[minisign]: /minisign.pub
-[bitcoin]: /bitcoin.txt
-[monero]: /monero.txt
-[zcash]: /zcash.txt
-[burning-silicon]: https://burningsilicon.dev/
-[hotline-webring]: https://hotlinewebring.club/
+This site is a proud member of [Hotline Webring]! Check out [the
+previous][hw-prev] or [the next][hw-next] sites in the ring.
+
+This site is a proud member of the [geekring]! Check out [the previous
+site][gr-prev], [the next site][gr-next], or a [random
+ring-member][gr-rand].
+
+
+[on this site]: @/posts/_index.md
+[Atom feed]: /atom.xml
+[Privacy Redirect for Safari]: @/projects/privacy-redirect-for-safari/index.md
+[SMMR Software]: https://smmr.software
+[txtodo]: https://txtodo.app/
+[the App Store]: https://apps.apple.com/us/app/txtodo/id1504609185
+[writeup]: @/projects/txtodo/index.md
+[source code for this site]: https://git.figbert.com/figbert.com-website/
+[One Angry Wizard]: /files/one-angry-wizard.gblorb
+
+[my code]: https://git.figbert.com
+[Stagit]: https://codemadness.org/stagit.html
+[mailing lists]: https://lists.figbert.com
+[Crabmail]: https://crabmail.flounder.online
+[Github]: https://github.com/figbert
+[Twitter]: https://twitter.com/therealfigbert
+[Mastodon]: https://fosstodon.org/@figbert
+[Reddit]: https://www.reddit.com/user/therealFIGBERT
+[Hacker News]: https://news.ycombinator.com/user?id=figbert
+
+[figbert@figbert.com]: mailto:figbert@figbert.com
+[this PGP key]: /files/publickey-pgp.asc
+[age]: /files/age.txt
+[minisign]: /files/minisign.pub
+
+[Bitcoin]: /files/bitcoin.txt
+[Monero]: /files/monero.txt
+[ZCash]: /files/zcash.txt
+
+[Geminispace]: gemini://figbert.com
+
+[Burning Silicon]: https://burningsilicon.dev/
+[Jacob Neplokh]: https://jacobneplokh.com
+[Tame Impala]: https://en.wikipedia.org/wiki/Tame_Impala
+[art3mis]: https://art3mis.pm
+
+[Hotline Webring]: https://hotlinewebring.club/
 [hw-prev]: https://hotlinewebring.club/FIGBERT/previous
 [hw-next]: https://hotlinewebring.club/FIGBERT/next
 [geekring]: https://geekring.net/
 [gr-prev]: http://geekring.net/site/79/previous
 [gr-next]: http://geekring.net/site/79/next
 [gr-rand]: http://geekring.net/site/79/random
-
