@@ -1,33 +1,28 @@
 @font-face {
     font-family: "vistaserv";
     src: url("/fonts/vistaserv/regular.woff") format("woff");
-    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv";
     src: url("/fonts/vistaserv/bold.woff") format("woff");
     font-weight: bold;
-    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv";
     src: url("/fonts/vistaserv/italic.woff") format("woff");
     font-style: italic;
-    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv";
     src: url("/fonts/vistaserv/bolder.woff") format("woff");
     font-weight: 800;
-    font-display: swap;
 }
 
 @font-face {
     font-family: "vistaserv";
     src: url("/fonts/vistaserv/superbold.woff") format("woff");
     font-weight: 900;
-    font-display: swap;
 }
