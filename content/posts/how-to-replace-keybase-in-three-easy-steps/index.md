@@ -1,6 +1,5 @@
 +++
 title = "How to Replace Keybase in 3 Easy Steps"
-description = "Ever since Keybase was acquired by Zoom, a company with a very bad history with security/privacy, people wanted an alternative. There have been a few different alternatives proposed: this is mine."
 date = 2020-07-03
 updated = 2021-04-12
 +++
@@ -177,4 +176,3 @@ thoughts as well.
 [jitsi]: https://jitsi.org/
 [jitsi-in-matrix]: https://matrix.org/blog/2020/04/06/running-your-own-secure-communication-service-with-matrix-and-jitsi
 [jitsi-e2e]: https://jitsi.org/blog/e2ee/
-

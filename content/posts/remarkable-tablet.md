@@ -1,6 +1,5 @@
 +++
 title = "Quite the reMarkable Device"
-description = "Lately, there’s been renewed interest in clean, simple technology built to help us focus. Protocols like Gemini strip away the chaos of the web. Hardware hackers fit screens in mirrors and build beautiful minimalist displays to read the news, display data neatly in a picture frame, or provide a daily summary. Hidden amongst these many awesome projects is the reMarkable 2."
 date = 2021-01-22
 updated = 2021-08-10
 +++

@@ -1,7 +1,7 @@
 +++
 title = "SimplyTranslate"
-description = "SimplyTranslate is a collection of “translation scrapers with interfaces for gemini and the web,” made by metalune. In other words, it’s a privacy-respecting front end for Google Translate, similar to Twitter’s Nitter. Over the course of a couple days – and one synchronous hacking session – I containerized the program to make it easier to deploy on servers worldwide."
 date = 2021-07-02
+updated = 2022-06-15
 weight = 4
 +++
 
@@ -52,4 +52,4 @@ browse the source code [on sourcehut][st].
 [repo]: https://git.sr.ht/~metalune/simplytranslate_docker/
 [patch]: https://lists.sr.ht/~metalune/simplytranslate-devel/patches/23516
 [committed]: https://git.sr.ht/~metalune/simplytranslate_docker/commit/4fc34e3503def3a8436dab4f84a1731070a715ba
-[hosted instance]: https://translate.metalune.xyz/
+[hosted instance]: https://simplytranslate.org

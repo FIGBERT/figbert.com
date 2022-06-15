@@ -1,7 +1,7 @@
 +++
 title = "d3c3nt"
-description = "d3c3nt is a simple, clean, and flexible theme for Zola. The theme evolved from use on my site, made with vanilla CSS and HTML – and completely sans Javascript. All in all, it’s fairly… decent."
 date = 2022-02-19
+updated = 2022-06-15
 weight = 2
 +++
 
@@ -16,15 +16,11 @@ plus semantic elements like blockquotes, tables, abbreviations, [and
 more]. It also provides [custom shortcodes] to incorporate modern web
 elements in your markdown.
 
-To see the theme in action, poke around this site and [the demo
-instance][**d3c3nt**] – and explore the source code [on Gitea].
-
-Shout out to [hegz] for being the first person to adopt my theme in
-the wild!
+To see the theme in action, poke around [the demo instance][**d3c3nt**]
+– and explore the source code [on my forge].
 
 [**d3c3nt**]: https://d3c3nt.figbert.com
 [Zola]: https://www.getzola.org
 [and more]: https://d3c3nt.figbert.com/posts/markdown-syntax/
 [custom shortcodes]: https://d3c3nt.figbert.com/posts/rich-content/
-[on Gitea]: https://git.figbert.com/figbert/d3c3nt
-[hegz]: https://hegz.me
+[on my forge]: https://git.figbert.com/d3c3nt/

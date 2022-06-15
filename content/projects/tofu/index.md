@@ -1,6 +1,5 @@
 +++
 title = "Tofu"
-description = "Tofu is an easy-to-use, open-source, two-factor authentication app designed specifically for iOS, made by Calle Luks. I adopted it after migrating from Authy, and ended up overhauling its icon system."
 date = 2021-04-07
 weight = 3
 +++

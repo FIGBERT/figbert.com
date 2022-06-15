@@ -1,6 +1,5 @@
 +++
 title = "My First RegEx"
-description = "Yesterday, I wrote my first regular expression. I’ve always regarded regex as an arcane art of true shell wizards – and for the most part, I still do. Now though, I’ve gotten a glimpse of their world."
 date = 2021-01-21
 +++
 
@@ -52,4 +51,3 @@ direction.
 [pr]: https://github.com/calleerlandsson/Tofu/pull/60
 [sl]: https://drewdevault.com/2020/12/12/Shell-literacy.html
 [tc]: https://github.com/ThinkChaos
-

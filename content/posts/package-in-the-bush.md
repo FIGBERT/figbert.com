@@ -1,6 +1,5 @@
 +++
 title = "A Package in the Bush"
-description = "After using my Macbook Pro for a time, I noticed that my charger had slightly yellowed at the ends. Though I’m unsure how, it seemed like my charger had sustained some sort of heat damage. I went over to Wirecutter to pick one out, ordered it off Amazon, and... it never came."
 date = 2021-03-19
 +++
 

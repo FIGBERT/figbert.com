@@ -1,17 +1,16 @@
 +++
 title = "The Wrong Way to Switch Operating Systems on Your Server"
-description = "After moving my server to Hetzner, I built up a large collection of self-hosted services I use on a daily basis: from fun things like an RSS reader and an IRC bouncer, to critical services like my email. I ran them all with docker-compose from a Debian VPS. For the last couple months, however, I’ve been meaning to move away from Debian and towards something more minimal and clean. Over this last weekend, I decided to move to Alpine Linux."
 date = 2021-06-17
+updated = 2022-06-15
 +++
 
 After [moving my server to Hetzner][mv], I built up a large collection
 of self-hosted services I use on a daily basis: from fun things like
 an [RSS reader] and an [IRC bouncer], to critical services like my
-[email]. I ran them all with `docker-compose` from a [Debian] VPS.
-
-For the last couple months, however, I've been meaning to move away
-from Debian and towards something more minimal and clean. Over this
-last weekend, I decided to move to [Alpine Linux].
+[email]. I ran them all with `docker-compose` from a [Debian] VPS. For
+the last couple months, however, I've been meaning to move away from
+Debian and towards something more minimal and clean. Over this last
+weekend, I decided to move to [Alpine Linux].
 
 <!-- more -->
 

@@ -9,4 +9,3 @@ nuts ripped off than play this game for another hour." – Dbama 57.028, played
 2046.2 hrs at review time.](terraria.jpg)
 
 If I wasn't certain I wanted this game before, I am now.
-

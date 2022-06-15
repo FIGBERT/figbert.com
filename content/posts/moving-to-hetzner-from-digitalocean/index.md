@@ -1,6 +1,5 @@
 +++
 title = "Moving To Hetzner Cloud from DigitalOcean"
-description = "Since I began working on self-hosting, I've been using a DigitalOcean VPS running Debian 10. However, after investigating the alternatives in the space, I'll be moving to Hetzner Cloud when my DigitalOcean credits run out in six months. Here's why."
 date = 2020-11-01
 +++
 
@@ -79,4 +78,3 @@ Until then, this is FIGBERT signing off. I should make a more consistent outro.
 [k3s]: https://k3s.io/
 [umami]: https://umami.is/
 [plausible]: https://plausible.io/
-
