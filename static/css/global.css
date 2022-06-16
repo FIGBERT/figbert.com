@@ -82,3 +82,19 @@ small > a {
   color: var(--secondary-color);
   font-size: 90%;
 }
+
+.zola-anchor {
+  opacity: 0;
+  position: absolute;
+  right: 101%;
+  transition: opacity .1s linear;
+}
+
+h1:hover > .zola-anchor,
+h2:hover > .zola-anchor,
+h3:hover > .zola-anchor,
+h4:hover > .zola-anchor,
+h5:hover > .zola-anchor,
+h6:hover > .zola-anchor {
+  opacity: 100;
+}
