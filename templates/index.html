@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="{{ get_url(path="css/global.css") }}">
     <link rel="stylesheet" href="{{ get_url(path="css/nav.css") }}">
 
-    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="posts/atom.xml") }} title="Posts :: {{ config.title }}">
-    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="projects/atom.xml") }} title="Projects :: {{ config.title }}">
+    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="posts/atom.xml") }}" title="Posts :: {{ config.title }}">
+    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="projects/atom.xml") }}" title="Projects :: {{ config.title }}">
 
     <meta name="description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title | safe }} :: {% endif %}{{ config.title }}">
