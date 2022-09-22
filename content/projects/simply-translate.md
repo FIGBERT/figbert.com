@@ -1,7 +1,7 @@
 +++
 title = "SimplyTranslate"
 date = 2021-07-02
-updated = 2022-06-15
+updated = 2022-09-22
 weight = 4
 +++
 
@@ -42,14 +42,15 @@ submitting the patch via `git send-email`. Compared to the GitHub
 workflow, this feels very natural!
 
 You can use SimplyTranslate over on metalune's [hosted instance], and
-browse the source code [on sourcehut][st].
+browse the source code [on Codeberg].
 
-[st]: https://sr.ht/~metalune/SimplyTranslate/sources
+[st]: https://simple-web.org/projects/simplytranslate.html
 [metalune]: gemini://metalune.xyz
 [Nitter]: https://github.com/zedeus/nitter
 [Libera.Chat]: https://libera.chat
 [uvicorn]: https://www.uvicorn.org
-[repo]: https://git.sr.ht/~metalune/simplytranslate_docker/
+[repo]: https://codeberg.org/SimpleWeb/SimplyTranslate-Docker
 [patch]: https://lists.sr.ht/~metalune/simplytranslate-devel/patches/23516
-[committed]: https://git.sr.ht/~metalune/simplytranslate_docker/commit/4fc34e3503def3a8436dab4f84a1731070a715ba
+[committed]: https://codeberg.org/SimpleWeb/SimplyTranslate-Docker/commit/4fc34e3503def3a8436dab4f84a1731070a715ba
 [hosted instance]: https://simplytranslate.org
+[on Codeberg]: https://codeberg.org/SimpleWeb
