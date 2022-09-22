@@ -1,18 +1,17 @@
 +++
 title = "Privacy Redirect for Safari"
 date = 2021-08-14
-updated = 2022-06-14
+updated = 2022-09-22
 weight = 0
 +++
 
 [**Privacy Redirect for Safari**] is a web extension that automatically
-redirects Twitter, Reddit, YouTube, Instagram, Google Translate, Google
-Maps, Google Search, and Medium to alternative front-ends like [Nitter]
-and [Teddit]. These front-ends provide users with ways to access the
-content of popular sites, without exploiting your private information.
-Until now, extensions that could redirect to these front-ends were
-limited to users of Chrome and Firefox. Privacy Redirect for Safari
-expands this functionality to Apple's native browser.
+redirects sites to alternative front-ends like [Nitter] and [Teddit].
+These front-ends provide users with ways to access the content of
+popular platforms, without exploiting your private information. Until
+now, extensions that could redirect to these front-ends were limited to
+users of Chrome and Firefox. Privacy Redirect for Safari expands this
+functionality to Apple's native browser.
 
 <!-- more -->
 
@@ -39,8 +38,7 @@ edit them for you.
 
 Privacy Redirect for Safari is the first public release of [SMMR
 Software], a collaboration between [FIGBERT] and [Jacob Neplokh]. It's
-currently available on macOS, and will arrive on iOS with the release of
-iOS 15 later this year.
+currently available for Mac, iPhone, and iPad.
 
 Download the app [on the App Store], and explore the source
 code [on GitHub][**Privacy Redirect for Safari**].
