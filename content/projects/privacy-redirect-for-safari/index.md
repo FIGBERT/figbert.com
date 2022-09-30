@@ -2,7 +2,7 @@
 title = "Privacy Redirect for Safari"
 date = 2021-08-14
 updated = 2022-09-22
-weight = 0
+weight = 1
 +++
 
 [**Privacy Redirect for Safari**] is a web extension that automatically
