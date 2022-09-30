@@ -12,7 +12,7 @@ interesting problems in challenging areas that matter.
 To see some of the things I do, you can:
 
 - Read my writing [on this site] or in the [Atom feed].
-- Check out [Privacy Redirect for Safari], a [SMMR Software] creation.
+- Check out [Mabel] and [Privacy Redirect for Safari].
 - Download [txtodo] on [the App Store] and read the [writeup].
 - Take a look at the [source code for this site].
 - Play my text adventure, [One Angry Wizard].
@@ -56,6 +56,7 @@ I have some friends. Some of them have blogs:
 
 [on this site]: @/posts/_index.md
 [Atom feed]: /atom.xml
+[Mabel]: @/projects/mabel/index.md
 [Privacy Redirect for Safari]: @/projects/privacy-redirect-for-safari/index.md
 [SMMR Software]: https://smmr.software
 [txtodo]: https://txtodo.app/
