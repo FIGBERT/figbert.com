@@ -2,11 +2,10 @@
 insert_anchor_links = "left"
 +++
 
-I'm FIGBERT, an Israeli-American high school student with a passion for
-Computer Science and Engineering. I spend my time coding side-projects,
-doing schoolwork, and playing the occasional videogame. My current goal
-is to become a full-stack developer, proficient in everything from
-front-end design to cybersecurity.
+I'm FIGBERT, an Israeli-American programmer building secure, clean, and
+effective systems. I use modern technologies to build software that
+avoids bloat and unnecessary complexity. I want to work on real and
+interesting problems in challenging areas that matter.
 
 ## My Work
 
