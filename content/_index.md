@@ -52,7 +52,7 @@ I have some friends. Some of them have blogs:
   and a variety of other subjects coming out of Purdue University.
 - [Jacob Neplokh] co-founded SMMR Software and introduced me to [Tame
   Impala]
-- [art3mis] is the better at web design than all of us :/
+- [art3mis] is better at web design than all of us :/
 
 [on this site]: @/posts/_index.md
 [Atom feed]: /atom.xml
