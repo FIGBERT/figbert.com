@@ -1,6 +1,7 @@
 +++
 title = "Movies I Saw Other People Watching on the Plane"
 date = 2023-01-21
+updated = 2023-02-18
 +++
 
 Everybody has to entertain themselves somehow on fifteen hour flights.
@@ -31,9 +32,9 @@ them to post on my blog.
 </details>
 <details>
   <summary><strong>
-    Stanley Tucci Searching for Italy (Umbria?)
+    Stanley Tucci Searching for Italy
   </strong></summary>
-  I can't quite tell which of those is the title. Seems rather pleasant
+  This might actually be titled <em>Umbria</em>. Seems rather pleasant
   in any case.
 </details>
 <details>
