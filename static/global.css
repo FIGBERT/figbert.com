@@ -29,6 +29,7 @@ nav {
 footer {
   width: 100%;
   color: GrayText;
+  text-align: center;
 
   & > section {
     width: 30%;
