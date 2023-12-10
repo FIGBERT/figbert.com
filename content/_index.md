@@ -2,7 +2,7 @@
 insert_anchor_links = "left"
 +++
 
-I'm FIGBERT, an Israeli-American programmer building secure, clean, and
+I'm Benji, an Israeli-American programmer building secure, clean, and
 effective systems. I use modern technologies to build software that
 avoids bloat and unnecessary complexity. I want to work on real and
 interesting problems in challenging areas that matter.
@@ -52,6 +52,9 @@ I have some friends. Some of them have blogs:
   and a variety of other subjects coming out of Purdue University.
 - [Jacob Neplokh] co-founded SMMR Software and introduced me to [Tame
   Impala]
+
+![The top-half of a traffic light, bordered in yellow, and a U-turn
+sign, contrasted against a light blue sky](/banner.jpeg)
 
 [on this site]: @/posts/_index.md
 [Atom feed]: /atom.xml
