@@ -5,7 +5,8 @@ insert_anchor_links = "left"
 I'm Benji, an Israeli-American programmer building secure, clean, and
 effective systems. I use modern technologies to build software that
 avoids bloat and unnecessary complexity. I want to work on real and
-interesting problems in challenging areas that matter.
+interesting problems in challenging areas that matter. I am an
+undergraduate student at Stanford University.
 
 ## My Work
 
