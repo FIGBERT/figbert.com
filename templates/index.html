@@ -11,6 +11,7 @@
 
     <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="posts/atom.xml") }}" title="Posts :: {{ config.title }}">
     <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="projects/atom.xml") }}" title="Projects :: {{ config.title }}">
+    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="reading/atom.xml") }}" title="Reading :: {{ config.title }}">
 
     <meta name="description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{ page.title | safe }} :: {% endif %}{{ config.title }}">
