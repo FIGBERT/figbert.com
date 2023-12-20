@@ -4,7 +4,7 @@ description = "figbert.com is the website and home of FIGBERT on the clearnet. I
 author = "FIGBERT"
 
 default_language = "en"
-generate_feed = false
+generate_feed = true
 minify_html = true
 
 [markdown]
