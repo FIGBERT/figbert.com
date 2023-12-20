@@ -94,14 +94,14 @@ small {
   transition: opacity .1s linear;
 }
 
-#section-list {
+.section-list {
   list-style: none;
   margin: 0;
 
   padding-inline-start: 0;
 }
 
-#section-title {
+.section-title {
   text-decoration: none;
 }
 

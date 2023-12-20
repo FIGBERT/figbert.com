@@ -10,12 +10,12 @@
           {{ subsection.content | safe }}
         {% endif %}
         {% for page in subsection.pages %}
-          <ul id="section-list">
+          <ul class="section-list">
             <li>
               {% if subsection.extra is not containing("no_link") %}
-                <a href="{{ page.permalink }}" id="section-title">{{ page.extra.book }}</a>
+                <a href="{{ page.permalink }}" class"section-title">{{ page.extra.book }}</a>
               {% else %}
-                <span id="section-title">{{ page.extra.book }}</span>
+                <span class="section-title">{{ page.extra.book }}</span>
               {% endif %}
               <div class="summary">
                 By: {{ page.extra.author }} <br/>
