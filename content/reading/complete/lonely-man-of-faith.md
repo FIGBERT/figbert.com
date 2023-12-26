@@ -18,6 +18,8 @@ an abstract level, and as such there are many things within its pages
 that Rabbi Soloveitchik and I agree on and indeed within which we can
 find shared meaning.
 
+<!-- more -->
+
 Now, assorted quotes and commentary:
 
 > The Halakhah believes that there is only one world—not divisible into
