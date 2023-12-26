@@ -55,7 +55,6 @@ them to post on my blog.
   </strong></summary>
   IGN says this is called <em>Taken</em>.
 </details>
-<br/>
 
 The `<details>` element is really fun and I should use it more. Though
 it does lead to a scary amount of `HTML` in my Markdown.

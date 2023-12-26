@@ -53,7 +53,7 @@ a {
   }
 }
 
-p {
+p, details {
   margin-block-start: 0ch;
   margin-block-end: 2ch;
 }
