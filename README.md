@@ -1,12 +1,11 @@
 # figbert.com
-[figbert.com] is the official website and home of FIGBERT on the
-clearnet.
+[figbert.com] is my personal stash floating on the open web.
 
 ## About
 The site is made with [Zola] to host my blog, portfolio, and other
-information about me and my life. The design is inspired by a number of
-sites and themes such as [Daring Fireball], [Bear], and many others.
-Blog posts are written wih [CommonMark] and [Tera] [shortcodes].
+information. The design is inspired by a number of sites and themes such
+as [Daring Fireball], [Bear], and many others. Blog posts are written
+with [CommonMark] and [Tera] [shortcodes].
 
 ## Licenses
 The site is licensed under the [GNU AGPLv3]. The [Zola] static site
