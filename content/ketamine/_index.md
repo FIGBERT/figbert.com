@@ -19,3 +19,5 @@ d88'      d88' `?88P'`88bd88'`?88P'`?888P'd88'       `?8b
 
 69 66  79 6F 75  77 69 6C 6C  69 74  69 74  69 73  6E 6F  64 72 65 61 6D
 </pre>
+
+![The simple bare necessities of life](the-bare-necessities.jpg)
