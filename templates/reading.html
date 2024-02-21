@@ -12,7 +12,7 @@
         {% for page in subsection.pages %}
           <ul class="section-list">
             <li>
-              {% if subsection.extra is not containing("no_link") %}
+              {% if subsection.extra is not containing("no_link") and page.extra is not containing("no_link") %}
                 <a href="{{ page.permalink }}" class"section-title">{{ page.extra.book }}</a>
               {% else %}
                 <span class="section-title">{{ page.extra.book }}</span>
