@@ -18,7 +18,7 @@ To see some of the things I do, you can:
 - Take a look at the [source code for this site].
 - Play my text adventure, [One Angry Wizard].
 
-I'm constantly working on more stuff, so continue checking back for more
+I'm always working on more stuff, so continue checking back for more
 project highlights.
 
 ## Web Presence
@@ -26,12 +26,10 @@ project highlights.
 I host a few things and have accounts in a few places:
 
 - All of [my code] is hosted with [Stagit]
-- The corresponding [mailing lists] are on my [Crabmail]
 - I am unfortunately still on [Github]
-- Professionally lurking on [Twitter]
 - Actually quite active these days on [Mastodon]
-- I really don't use [Reddit]
 - Curing my addiction to [Hacker News]
+- Secretely a streamer on my [Owncast] instance
 
 ## Keys and Crypto
 
@@ -49,10 +47,12 @@ Some people say they have seen me over in [Geminispace].
 
 I have some friends. Some of them have blogs:
 
-- [Burning Silicon] has content on machine learning, computer vision,
-  and a variety of other subjects coming out of Purdue University.
+- [Burning Silicon] has content on machine learning, biotechnology, and cool
+  research on many subjects coming out of Pittsburgh.
 - [Jacob Neplokh] co-founded SMMR Software and introduced me to [Tame
-  Impala]
+  Impala].
+- [R. Miles McCain] is a schoolmate of mine and quick to remind you that
+  it is not a matter of skill but rather will.
 
 ![The top-half of a traffic light, bordered in yellow, and a U-turn
 sign, contrasted against a light blue sky](/banner.jpeg)
@@ -70,13 +70,10 @@ sign, contrasted against a light blue sky](/banner.jpeg)
 
 [my code]: https://git.figbert.com
 [Stagit]: https://codemadness.org/stagit.html
-[mailing lists]: https://lists.figbert.com
-[Crabmail]: https://crabmail.flounder.online
 [Github]: https://github.com/figbert
-[Twitter]: https://twitter.com/therealfigbert
 [Mastodon]: https://fosstodon.org/@figbert
-[Reddit]: https://www.reddit.com/user/therealFIGBERT
 [Hacker News]: https://news.ycombinator.com/user?id=figbert
+[Owncast]: https://live.figbert.com
 
 [figbert@figbert.com]: mailto:figbert@figbert.com
 [this PGP key]: /files/publickey-pgp.asc
@@ -92,3 +89,4 @@ sign, contrasted against a light blue sky](/banner.jpeg)
 [Burning Silicon]: https://burningsilicon.dev/
 [Jacob Neplokh]: https://jacobneplokh.com
 [Tame Impala]: https://en.wikipedia.org/wiki/Tame_Impala
+[R. Miles McCain]: https://miles.land
