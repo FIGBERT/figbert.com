@@ -1,5 +1,5 @@
 +++
-title = "Why by Fire"
+title = "Who by Fire"
 date = 2022-11-22
 [extra]
 book = "Who by Fire"
