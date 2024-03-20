@@ -150,5 +150,5 @@ cool, has nice hair, and writes [a blog of his own][nash-blog].
 freshman is something you can do. If you're insane.
 
 [corner]: https://www.corner.inc/clouds
-[war-of-return]: @/reading/complete/war-of-return/index.md
+[war-of-return]: @/reading/war-of-return/index.md
 [nash-blog]: https://adamnash.blog
