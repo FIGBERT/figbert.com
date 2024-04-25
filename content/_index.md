@@ -16,6 +16,18 @@ To see some of the things I do, you can:
 - Sporadically tune in to my [Owncast] livestreams.
 - Witness me tentatively embrace social media on [Mastodon].
 
+### Hire Me
+
+For the next three years, I'm available for in-person work anywhere in
+the world from June through mid-September. I'm interested in joining
+great teams who are pushing the envelope and want to give me a voice in
+designing product while I code my ass off.
+
+During the school year, I'm looking for remote-first work, on projects
+both long- and short-term, concurrent with my studies.
+
+If any of this speaks to you, [give my CV a once-over][cv].
+
 ### Contact
 You can contact me via email at: [figbert@figbert.com].  Encrypt your
 messages, if you would like, with [age] or [PGP]. If I am signing my
@@ -43,6 +55,8 @@ sign, contrasted against a light blue sky](/banner.jpeg)
 [code I did it with]: https://git.figbert.com
 [Owncast]: https://live.figbert.com
 [Mastodon]: https://fosstodon.org/@figbert
+
+[cv]: /files/cv.pdf
 
 [figbert@figbert.com]: mailto:figbert@figbert.com
 [PGP]: /files/publickey-pgp.asc
