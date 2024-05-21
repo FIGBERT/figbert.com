@@ -2,7 +2,7 @@
 title = "d3c3nt"
 date = 2022-02-19
 updated = 2022-06-15
-weight = 3
+weight = 4
 +++
 
 [**d3c3nt**] is a simple, clean, and flexible theme for [Zola]. The
