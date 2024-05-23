@@ -2,7 +2,7 @@
 title = "SimplyTranslate"
 date = 2021-07-02
 updated = 2022-09-22
-weight = 6
+weight = 7
 +++
 
 [**SimplyTranslate**][st] is a collection of "translation scrapers with
