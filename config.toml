@@ -4,7 +4,7 @@ description = "world wide web benji-style"
 author = "FIGBERT"
 
 default_language = "en"
-generate_feed = true
+generate_feeds = true
 minify_html = true
 
 [markdown]
