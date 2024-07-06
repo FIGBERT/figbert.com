@@ -1,7 +1,7 @@
 +++
 title = "Tofu"
 date = 2021-04-07
-weight = 6
+weight = 7
 +++
 
 [**Tofu**][tofu] is an easy-to-use, open-source, two-factor
