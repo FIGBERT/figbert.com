@@ -1,6 +1,7 @@
 +++
 title = "Stanford Quarterly Reflection (Y1Q3)"
 date = 2024-07-18
+updated = 2024-07-22
 +++
 
 This quarter was a radical departure from the previous two. It was
@@ -26,8 +27,8 @@ This significantly reduced courseload was a mistake. I felt unmoored
 with so little work, attending to my classes by catching assignments
 just before they fell off my metaphorical plate. I don't believe this
 was the most effective means of learning or academic growth. I ended up
-in this situation because I was afraid to to adapt my schedule to
-change, and I could have avoided it by embracing risk and authoritative
+in this situation because I was afraid to adapt my schedule to change,
+and I could have avoided it by embracing risk and authoritative
 decision-making. "Strong opinions, loosely held" feels like a phrase
 that could be adapted here. I had structured my schedule around a
 specific class (DESIGN 11) but ended up dropping the class in
