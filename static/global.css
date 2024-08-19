@@ -115,8 +115,9 @@ small {
 .zola-anchor {
   opacity: 0;
   position: absolute;
+  top: -1ch;
   right: 100.5%;
-  font-size: 60%;
+  width: 2ch;
   transition: opacity 0.3s cubic-bezier(1, 0, 0, 1);
 }
 
