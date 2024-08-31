@@ -1,6 +1,8 @@
 +++
 title = "Quotes from My Camera Roll"
 date = 2023-12-19
+[extra]
+type = "post"
 +++
 
 I have been collecting fun little writings in Photos with the intent of

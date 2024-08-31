@@ -1,6 +1,8 @@
 +++
 title = "Toward Tangible Deliverables"
 date = 2024-02-05
+[extra]
+type = "post"
 +++
 
 I would like to become the kind of person who consistently produces

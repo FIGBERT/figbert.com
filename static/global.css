@@ -1,68 +1,164 @@
-:root {
-  color-scheme: light dark;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    avenir next,
-    avenir,
-    segoe ui,
-    helvetica neue,
-    helvetica,
-    Cantarell,
-    Ubuntu,
-    roboto,
-    noto,
-    arial,
-    sans-serif;
-  line-height: 1.618;
+@font-face {
+  font-family: "Tobias";
+  src: url("/fonts/tobias.woff2") format("woff2");
 }
 
-body {
+:root {
+  --serif-font-family: "Tobias", Iowan Old Style, Apple Garamond, Baskerville,
+    Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --sans-serif-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu,
+    roboto, noto, arial, sans-serif;
+  --primary-color: light-dark(#333, #fafafa);
+  --secondary-color: light-dark(#999, #c7c7c7);
+  --background-color: light-dark(#fafafa, #333);
+
+  font-family: var(--sans-serif-font-family);
+  line-height: 1.618;
+
+  color-scheme: light dark;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+}
+
+header {
+  padding-block-start: 2em;
+  padding-inline: 2em;
+  margin-inline: auto;
+
+  #back svg {
+    width: 3ch;
+  }
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  .index {
+    display: none;
+  }
+
+  &:has(div.index) {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 92ch;
+    padding-inline: 0;
+
+    svg {
+      width: 12em;
+    }
+  }
+}
+
+main {
   width: 75%;
   max-width: 72ch;
-  margin: 2rem auto 2rem auto;
-}
+  margin: 2em;
 
-nav {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 1ch;
+  &:has(div.index) {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 0.5fr 1fr 1fr 0.75fr 1.25fr;
+    grid-template-areas:
+      "par par par par par par"
+      "writing writing writing projects projects projects"
+      "about about reviews reviews reviews reviews"
+      "about about links links links links"
+      "work work work work work work";
+    gap: 2ch;
+    width: 100%;
+    margin-inline: auto;
 
-  background-color: CanvasText;
-  color: Canvas;
-  font-weight: bold;
+    section {
+      padding: 1.5em;
+      border-style: solid;
+      border-width: 10px;
+      place-self: start;
 
-  padding-block: 1ch;
-  margin-block-end: 2ch;
+      border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 491 209"><path fill="SelectedItem" d="m449.708 208.766 16.795-1.736 1.971.822 4.08.01 4.631-2.575 3.839-2.816 3.269-4.294 2.573-5.618-.014-3.085-.837-1.978-.001-6.99 4.972-26.013v-40.986l-1.98-23.958-3.022-15.691-2.813-33.781-5.956-18.546-2.699-6.463-2.292-3.318-7.095-2.785-28.636-3.951-4.019.133-.974.652-2.004-.784h-29.993l-3.066.853-34.738-2.463-12.206-1.391-15.993-.013-20.547 2.123-26.41 1.719-2.047-.828-8.996-.014-2.026.147-1.978.837-7.989.001L210.5.001 190.786 1.92 171.18 4.484l-13.094 2.03-6.552 1.465-.375.497.338 1.504.977.871 5.019.135 44.014-5.972 16.993-.013 38.007 4.985 19.989-.001 3.031-.828 1.976.828 21.997.014 37-3.97 40.007 3.957 28.989-.001 3.067-.854 36.405 1.904 15.706 2.856 4.551 1.86 2.086 3.027 1.904 4.753 4.144 12.187 1.7 6.784 2.95 35.702 2.909 14.332 2.068 38.971v18.986l-4.031 23.453-1.766 20.359-3.263 4.828-3.896 2.766-32.537 3.087-35-1.972-24.99.001-3.066.854-76.938-1.858-26.275-1.53-16.724-1.48-39.993.013-35.431 1.94L171.5 202l-38.993-.014-27.007-2.957-59.993 2.956-22.975-1.94-8.908-1.819-3.809-1.938-3.1-3.098-1.577-2.636-.124-10.047 1.856-8.945L7 168.5l-1.986-17.007L5 145.5l2.573-24.65 1.398-9.35-1.957-37.007V46.507l3.767-18.329 2.884-8.323 58.842-4.841 16.99.001 1.977.837L95.5 16l42.996-.015 1.978-.837 3.02-.134 3.952 1.848 2.05.122 2.007-1.004.472-1.541-4.449-3.29-1.03-.134h-17.993l-3.007.97L116.5 12l-4.026-.148-1.978-.836-2.022.131-.974.652-.974-.652-4.023-.132-2.003.784-2.004-.784-40.989-.001-22.944 2.853-2.106-.709-18.967 1.919-3.65 1.613-1.167 2.14-1.892 6.348-4.767 24.329v9.986l1.972 27.014v28.986l-2.972 20.014.001 21.989.97 3.007.001 13.99-1.855 7.945-.117 5.056 3.062 8.638 4.74 4.156 4.027 2.061 8.095 1.886 12.57 1.751h31.985l18.014-1.972 25.993-.013 14.509 1.194 34.484 1.791 33.777-2.11 53.23-1.875 79.007 4.985 3.989-.001 1.978-.837 2.026-.147 7 .999 7.996-.015 1.977-.828 3.031.828h16.992l1.978-.837 4.022-.133 1.978.837 3.026.148 4.026-.148 1.977-.837 8.997-.014 25.007 1.985"/></svg>')
+        10 10 10 10 stretch stretch;
 
-  > a {
-    text-decoration: none;
+      h2 {
+        text-transform: uppercase;
+      }
+
+      h3 {
+        font-family: var(--serif-font-family);
+        font-weight: 500;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2ch;
+        column-gap: 8ch;
+      }
+
+      .caption {
+        color: var(--secondary-color);
+      }
+
+      .more svg {
+        width: 14ch;
+      }
+    }
+
+    #par {
+      grid-area: par;
+      padding-inline: 4ch;
+      text-align: center;
+      font-style: italic;
+      place-self: center;
+    }
+    #writing {
+      grid-area: writing;
+    }
+    #reviews {
+      grid-area: reviews;
+    }
+    #projects {
+      grid-area: projects;
+    }
+    #work {
+      grid-area: work;
+    }
+    #about {
+      grid-area: about;
+    }
+    #links {
+      grid-area: links;
+    }
   }
 }
 
 footer {
-  width: 100%;
-  color: GrayText;
-  text-align: center;
+  margin: 2em;
 
-  & > section {
-    width: 30%;
+  .index {
+    display: none;
+  }
+
+  &:has(div.index) {
     display: flex;
-    margin-inline: auto;
     justify-content: center;
-    align-items: center;
+  }
 
-    & > * {
-      padding-inline: 1ch;
-      text-decoration: none;
-    }
+  svg {
+    color: var(--secondary-color);
+    width: 3ch;
   }
 }
 
 a {
   color: inherit;
+
   &:hover,
   &:focus {
     color: #8e60a7;
@@ -84,7 +180,7 @@ h6 {
   margin: 0;
   position: relative;
 
-  & > a {
+  a {
     text-decoration: none;
   }
 
@@ -104,43 +200,58 @@ img {
 }
 
 small {
-  color: GrayText;
+  color: var(--secondary-color);
+  font-family: var(--serif-font-family);
   font-size: 100%;
 
-  & > a {
+  a {
     text-decoration: none;
   }
 }
 
-.zola-anchor {
-  opacity: 0;
-  position: absolute;
-  top: -1ch;
-  right: 100.5%;
-  width: 2ch;
-  transition: opacity 0.3s cubic-bezier(1, 0, 0, 1);
+blockquote {
+  margin-inline: 0;
+  padding-inline-start: 1em;
+
+  border-left: 20px solid;
+  border-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 50 517"><path fill="SelectedItem" fill-rule="evenodd" d="m36.64 516.8.113-28.62.998-46.39 1.531-19.77 7.165-66.88 2.748-43.05-.057-66.405-1.687-18.46-1.916-12.444-7.503-30.777-6.584-21.107-15.946-39.892-6.928-20.626-2.075-8.16-1.753-10.401-1.012-17.45.998-18.632.746-2.84 2.112-6.127 2.434-4.714 16.154-27.66 1.988.344-2.224-5.82-6.466 11.74L8.996 29.23l-4.4 8.511-1.989 5.893-.856 4.138-1.015 18.61 1.991 24.452 3.836 16.481 3.99 11.788 16.945 42.892 6.927 20.626 8.012 34.851 2.825 22.139 1.058 38.369-1.068 38.04-3.73 49.45-5.882 50.35-1.779 19.91.424 72.54m.398-17.52h-.366l.183-18.61" clip-rule="evenodd"/></svg>')
+    1 10 1 10 stretch stretch;
 }
 
-.section-list {
+.zola-anchor {
+  opacity: 0%;
+  position: absolute;
+  top: -0.5em;
+  right: 100%;
+  width: 1em;
+  transition: opacity 0.3s cubic-bezier(1, 0, 0, 1);
+
+  &.visible {
+    opacity: 100%;
+  }
+}
+
+.plain-list {
   list-style: none;
   margin: 0;
-
   padding-inline-start: 0;
+
+  li {
+    position: relative;
+  }
 }
 
 .section-title {
+  font-family: var(--serif-font-family);
   text-decoration: none;
 }
 
 .summary {
-  color: GrayText;
+  color: var(--secondary-color);
   font-size: 90%;
-
-  & > p {
-    margin-block-start: 0;
-  }
 }
 
-#article-header {
-  margin-block-end: 1ch;
+.icon svg {
+  padding-inline-start: 0.5ch;
+  width: 1ch;
 }

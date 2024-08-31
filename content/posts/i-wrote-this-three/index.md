@@ -2,6 +2,8 @@
 title = "I Wrote This #3"
 date = 2020-07-04
 updated = 2022-06-14
+[extra]
+type = "post"
 +++
 
 It appears I'm not that great at keeping a weekly schedule. Right after
@@ -278,7 +280,7 @@ but the site has been down for years now and I neglected to archive it. Such is 
 
 [macOS malware]: https://www.wired.com/story/new-mac-ransomware-thiefquest-evilquest/
 
-[Mastodon account]: https://fosstodon.org/@figbert 
+[Mastodon account]: https://fosstodon.org/@figbert
 [Mast]: https://apps.apple.com/us/app/mast/id1437429129
 [open source]: https://github.com/tiagomartinho/Mast2
 

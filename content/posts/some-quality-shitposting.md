@@ -2,6 +2,8 @@
 title = "Some quality shitposting"
 date = 2021-02-10
 updated = 2022-06-15
+[extra]
+type = "post"
 +++
 
 I was doing my daily HN and Lobster trawling, when I stumbled on [a

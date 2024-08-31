@@ -2,6 +2,8 @@
 title = "SASS and Light Mode"
 date = 2021-01-02
 updated = 2022-06-15
+[extra]
+type = "post"
 +++
 
 I'm on a roll! A second blog post in less than a month! Crazy. Anyway,

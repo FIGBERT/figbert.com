@@ -1,6 +1,8 @@
 +++
 title = "Ideating Tragit"
 date = 2024-07-30
+[extra]
+type = "post"
 +++
 
 There are many, many `git` forges to pick from. I'm going to make
@@ -79,7 +81,7 @@ bearing on security or access rights.
 
 [dovecot]: https://www.dovecot.org
 [mailcow]: https://mailcow.email
-[maddy]: https://maddy.email 
+[maddy]: https://maddy.email
 [GitHub]: https://github.com
 [email-based method]: https://git-send-email.io
 [My own setup]: https://git.figbert.com
@@ -87,5 +89,5 @@ bearing on security or access rights.
 [`git-daemon`]: https://git-scm.com/docs/git-daemon
 [crabmail]: https://crabmail.flounder.online
 [tangible]: @/posts/tangible-deliverables.md
-[deliverable]: https://fosstodon.org/@FIGBERT/112734909021642855 
+[deliverable]: https://fosstodon.org/@FIGBERT/112734909021642855
 [facilitate collaboration]: https://pr.pico.sh

@@ -2,6 +2,8 @@
 title = "Problem Exists Between Keyboard and Chair: How I Spent 2 Days Chasing a Bug that Didn't Exist"
 date = 2020-07-28
 updated = 2022-06-14
+[extra]
+type = "post"
 +++
 
 Post-[WWDC2020], I decided to rewrite the backend of txtodo in SwiftUI
@@ -13,7 +15,7 @@ exist. This is the story of that last bit.
 
 <!-- more -->
 
-## Structural Changes 
+## Structural Changes
 
 The new app, so far, was mostly the same as the old version but without
 the `AppDelegate.swift` or `SceneDelegate.swift` files (using the new

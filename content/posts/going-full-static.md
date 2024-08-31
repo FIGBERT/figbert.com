@@ -2,6 +2,8 @@
 title = "Going Full Static with Zola"
 date = 2020-08-22
 updated = 2022-06-14
+[extra]
+type = "post"
 +++
 
 Those of you who read [my last "I Wrote This" post] will know that I was

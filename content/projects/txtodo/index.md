@@ -2,15 +2,16 @@
 title = "txtodo"
 date = 2020-05-20
 updated = 2022-06-14
-weight = 5
+description = "A minimalist open-source todo list app."
+[extra]
+type = "project"
+done = true
 +++
 
 [**txtodo**] is a minimalist open-source todo list app inspired by Jeff
 Huang's [*One File to Rule Them All*] and [Mac-assed Mac apps] like
 [IINA], [Sketch], and Safari. It's available for download on iOS and
 macOS via the App Store.
-
-<!-- more -->
 
 ![txtodo on MacOS Big Sur, with no tasks][macos]
 

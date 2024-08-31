@@ -1,14 +1,15 @@
 +++
 title = "Caret"
+description = "A command line tool for browsing Lobsters in your terminal."
 date = 2024-05-22
-weight = 3
+[extra]
+type = "project"
+done = true
 +++
 
 [**Caret**][crt] is a command line tool for browsing Lobsters in your
 terminal. It brings the Hacker News alternative just a few keystrokes
 away in the environment that you're probably already using.
-
-<!-- more -->
 
 ![A view of the Lobsters homepage in Caret](list.png)
 

@@ -2,6 +2,8 @@
 title = "How to Replace Keybase in 3 Easy Steps"
 date = 2020-07-03
 updated = 2021-04-12
+[extra]
+type = "post"
 +++
 
 Ever since [Keybase was acquired by Zoom][keybase-joins-zoom], a

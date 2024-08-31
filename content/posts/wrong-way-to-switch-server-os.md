@@ -2,6 +2,8 @@
 title = "The Wrong Way to Switch Operating Systems on Your Server"
 date = 2021-06-17
 updated = 2022-06-15
+[extra]
+type = "post"
 +++
 
 After [moving my server to Hetzner][mv], I built up a large collection

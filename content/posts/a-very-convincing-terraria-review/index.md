@@ -2,6 +2,8 @@
 title = "A Very Convincing Review of Terraria"
 description = "If I wasn't certain I wanted this game before, I am now."
 date = 2020-11-16
+[extra]
+type = "post"
 +++
 
 !["I have never hated a game more in my life, i would rather get the skin on my

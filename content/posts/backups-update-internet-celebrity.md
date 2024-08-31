@@ -2,6 +2,8 @@
 title = "An Update on Bad Backups and Internet Celebrity"
 date = 2021-06-27
 updated = 2022-06-15
+[extra]
+type = "post"
 +++
 
 My recent post on the [Great Alpine Migration Tragedy] of 2021 garnered

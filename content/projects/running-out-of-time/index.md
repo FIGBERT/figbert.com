@@ -1,12 +1,13 @@
 +++
 title = "Running Out of Time Wallpaper"
 date = 2024-07-05
-weight = 4
+description = "A minimalist macOS wallpaper to remind you that time is ticking."
+[extra]
+type = "project"
+done = true
 +++
 
 A minimalist macOS wallpaper to remind you that time is ticking.
-
-<!-- more -->
 
 ![A canvas with the words "You are running out of time" written across
 it in all-caps](preview.png)

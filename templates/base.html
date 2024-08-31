@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }} :: {% endif %}{{ config.title }}</title>
+
+    <link rel="stylesheet" href="{{ get_url(path="global.css") }}">
+    <link rel="me" href="https://fosstodon.org/@FIGBERT">
+
+    <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" title="{{ config.title }}">
+
+    <meta name="description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | safe }} :: {% endif %}{{ config.title }}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
+    <meta property="og:type" content="website">
+
+    {% if current_url %}
+    <meta property="og:url" content="{{ current_url }}">
+    <link rel="canonical" href="{{ current_url }}">
+    {% endif %}
+
+    <link rel="icon" href="{{ get_url(path="icon.png") }}">
+  </head>
+  <body>
+    <header>
+      {% block header %}{% endblock header %}
+    </header>
+    <main>
+      {% block content %}{% endblock content %}
+    </main>
+    <footer>
+      {% block footer %}{% endblock footer %}
+      <!-- ✡ -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 68 55"><path fill="currentColor" d="m40.81 54.37.845-1.02-.655-.97-.015-2.09 1.66-4.89 3.96-8.77.724-.63 9.017-.14 5.946 1.86 2.403-.34.008-2.05-5.135-4.29-3.43-5.38L53 22.38l-.133-2.02.3-1.32 3.71-6.18 6.146-2.71 4.72-3.16-.049-2.67-1.346-.45-3.05.12-4.63 2.57-2.557 2.51-5.698 1.65-5.058.11-1.485-.48-3.828-3.78-4.612-2.83-6.04-1.86L27.378 0h-4.053L22 1.32l-.132 3.03.478 1.3 1.655-.87 1.706-1.8.637.01 3.073 2.04 8.62 3.53 2.508 2.51-10.132 2.65-2.083-.03-.154-.63 1.538-2.66.122-1.06-.142-2.02-1.368-.31-.76.66-3.524 6.46-5.663 2.54-2-1.67-1.03-.13-7.05.12-2.892 1.72-1.06.12-2.02-.13-.975-.65L.01 17.32l.642 2.03-.652.97.01 3.06 1.37.31 1.458-1.75 13.51-2.93 2.694 1.56.632.81-7.068 12.24-1.504 3.46-1.092 1.24v1.06l1.316 1.32 3.02.14 15.946-3.86 2.703-.02 3.86 7.01 1.797 10.16.677.56m.809-12.17-3.17-5.71L40.351 35l3.252 1.57M15.43 37.7l-1.401-.37 4.538-8.67 3.144-4.67 1.125.36 3.04 3.03 1.693 2.66 3.082 3.31-.554.73-4.36 1.27m10.692-1.65-1.71.05-4.15-4.71-1.43-2.38-4.788-4.83-.354-1.53 1.634-2.71 10.662-2.61 7.087.02 2.758 2.66 2.557 3.66-2.343 7.48-1.975 3.9h-3.05l-.945-.69-1.084-.02m17.1.68-6.04.16-1.347-.45-.023-2.09 2.57-5.15 3.578 4.52 1.543 2.67m-6.544-14.81-2.78-2.69-.026-.82 3.02-.14 1.339.45-.157 1.34m.844-2.02-.026-.59z"/></svg>
+    </footer>
+  </body>
+</html>

@@ -1,6 +1,8 @@
 +++
 title = "Pomegranate Seeds"
 date = 2022-09-29
+[extra]
+type = "post"
 +++
 
 Just before the start of Rosh Hashanah, I found myself standing over a

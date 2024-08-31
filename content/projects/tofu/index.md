@@ -1,15 +1,16 @@
 +++
 title = "Tofu"
 date = 2021-04-07
-weight = 7
+description = "An easy-to-use, open-source, two-factor authentication app designed specifically for iOS."
+[extra]
+type = "project"
+done = true
 +++
 
 [**Tofu**][tofu] is an easy-to-use, open-source, two-factor
 authentication app designed specifically for iOS, made by
 [Calle Luks][calle]. I adopted it after migrating from Authy,
 and ended up overhauling its icon system.
-
-<!-- more -->
 
 It's a really well designed app:
 

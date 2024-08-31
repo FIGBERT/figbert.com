@@ -1,6 +1,8 @@
 +++
 title = "A Package in the Bush"
 date = 2021-03-19
+[extra]
+type = "post"
 +++
 
 A little more than a month ago, I noticed that my computer charger had
@@ -39,4 +41,3 @@ Now I've got two chargers, for the price of one. One from Amazon.
 One from the bush.
 
 [NYT]: https://www.nytimes.com/wirecutter/
-

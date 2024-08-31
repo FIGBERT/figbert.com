@@ -1,6 +1,8 @@
 +++
 title = "My First RegEx"
 date = 2021-01-21
+[extra]
+type = "post"
 +++
 
 `(?<=\.\/IssuerIcons\/).*(?=\.png)`

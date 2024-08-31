@@ -2,6 +2,8 @@
 title = "I Wrote This #2"
 date = 2020-06-27
 updated = 2022-06-15
+[extra]
+type = "post"
 +++
 
 Hi! So, I just started this series and I already missed a week. Oh well.

@@ -1,6 +1,8 @@
 +++
 title = "James Hoffmann x Bellwether Coffee"
 date = 2023-08-18
+[extra]
+type = "post"
 +++
 
 Today, I'm going to talk about [this video][vid].

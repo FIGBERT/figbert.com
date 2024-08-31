@@ -2,6 +2,8 @@
 title = "Movies I Saw Other People Watching on the Plane"
 date = 2023-01-21
 updated = 2023-02-18
+[extra]
+type = "post"
 +++
 
 Everybody has to entertain themselves somehow on fifteen hour flights.

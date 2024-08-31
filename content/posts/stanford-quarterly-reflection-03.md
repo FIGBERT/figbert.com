@@ -2,6 +2,8 @@
 title = "Stanford Quarterly Reflection (Y1Q3)"
 date = 2024-07-18
 updated = 2024-07-22
+[extra]
+type = "post"
 +++
 
 This quarter was a radical departure from the previous two. It was

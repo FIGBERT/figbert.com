@@ -1,6 +1,8 @@
 +++
 title = "Stanford Quarterly Reflection (Y1Q2)"
 date = 2024-04-20
+[extra]
+type = "post"
 +++
 
 In this quarter, Stanford became my default. As such, my memory of my

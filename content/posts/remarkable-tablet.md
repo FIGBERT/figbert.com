@@ -2,6 +2,8 @@
 title = "Quite the reMarkable Device"
 date = 2021-01-22
 updated = 2021-08-10
+[extra]
+type = "post"
 +++
 
 Lately, there's been renewed interest in clean, simple technology

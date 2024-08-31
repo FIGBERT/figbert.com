@@ -2,6 +2,8 @@
 title = "I Wrote This #1"
 date = 2020-06-13
 updated = 2022-06-15
+[extra]
+type = "post"
 +++
 
 So, I'm FIGBERT – I wrote this. ~~nailed that intro.~~ I'm a

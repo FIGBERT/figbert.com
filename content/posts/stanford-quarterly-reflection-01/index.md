@@ -1,6 +1,8 @@
 +++
 title = "Stanford Quarterly Reflection (Y1Q1)"
 date = 2024-01-09
+[extra]
+type = "post"
 +++
 
 Life changes slowly and then all at once. I started at Stanford

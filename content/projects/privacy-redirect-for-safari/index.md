@@ -1,8 +1,11 @@
 +++
 title = "Privacy Redirect for Safari"
+description = "A web extension that automatically redirects sites to alternative front-ends like Nitter and Teddit."
 date = 2021-08-14
 updated = 2022-09-22
-weight = 1
+[extra]
+type = "project"
+done = true
 +++
 
 [**Privacy Redirect for Safari**] is a web extension that automatically
@@ -12,8 +15,6 @@ popular platforms, without exploiting your private information. Until
 now, extensions that could redirect to these front-ends were limited to
 users of Chrome and Firefox. Privacy Redirect for Safari expands this
 functionality to Apple's native browser.
-
-<!-- more -->
 
 ![Privacy Redirect for Safari running on MacOS Monterey][native-app]
 
@@ -51,6 +52,6 @@ code [on GitHub][**Privacy Redirect for Safari**].
 [twitter]: twitter.jpg
 [Chrome and Firefox extension]: https://github.com/SimonBrazell/privacy-redirect
 [SMMR Software]: https://smmr.software/
-[FIGBERT]: @/_index.md
+[FIGBERT]: /
 [Jacob Neplokh]: https://jacobneplokh.com/
 [on the App Store]: https://apps.apple.com/us/app/privacy-redirect/id1578144015

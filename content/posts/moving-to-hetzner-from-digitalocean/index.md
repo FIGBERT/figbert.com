@@ -1,6 +1,8 @@
 +++
 title = "Moving To Hetzner Cloud from DigitalOcean"
 date = 2020-11-01
+[extra]
+type = "post"
 +++
 
 Since I began working on self-hosting, I've been using a

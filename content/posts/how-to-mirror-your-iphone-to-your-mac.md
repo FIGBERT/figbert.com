@@ -2,6 +2,8 @@
 title = "How to Mirror Your iDevice to your Mac"
 date = 2020-12-31
 updated = 2022-06-14
+[extra]
+type = "post"
 +++
 
 I recently found myself debugging a mobile game I'm working on ([sneak

@@ -1,7 +1,10 @@
 +++
 title = "CSS System Colors Dashboard"
+description = "A website that gives developers a visual preview of CSS' underused system-color data type."
 date = 2024-05-20
-weight = 2
+[extra]
+type = "project"
+done = true
 +++
 
 [**CSS System Colors Dashboard**][dash] is a website that gives
@@ -9,8 +12,6 @@ developers a visual preview of CSS' underused `system-color` data type.
 These colors are context-dependent, changing between operating systems
 and browsers; the dashboard provides effective visualization of the
 colors across environments.
-
-<!-- more -->
 
 I discovered native colors in CSS through [Jim Nielsen][jim]. These
 colors are extremely useful for developing "along the grain" of a

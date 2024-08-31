@@ -1,36 +1,49 @@
-{% extends "index.html" %}
+{% extends "base.html" %}
+
+{% block header %}
+  <a href=".." id="back">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 62 37"><path fill="currentColor" d="m17.83 36.55.021-3.077-4.566-6.663-7.136-7.284v-2.052l8.136-8.284 2.557-3.661L15.247.775l-.723-.616h-1.048l-.725.62-2.5 6.442-9.753 9.797-.35 2.508 7.137 7.284 5.43 7.38 2.303 2.312 1.48.467m3.226-15.214 12.49-2.35 18.224-4.275 6.058-.115 1.978.837 2.052-.001 1.316-1.324v-1.054l-2.316-2.324-12.02-.135-18.76 4.522-18.728 2.561.13 2.429 1.326 1.325"/></svg>
+  </a>
+  <h1>{{ section.title }}</h1>
+{% endblock header %}
+
 {% block content %}
-      {% if section.content %}
-      {{ section.content | safe }}
+  {% if section.content %}
+  {{ section.content | safe }}
+  {% endif %}
+  <ul class="plain-list">
+  {% for page in section.pages %}
+    <li>
+      {% if page.extra is containing("book") %}
+        {% if page.extra is containing("no_link") %}
+          <span class="section-title">{{ page.extra.book }}</span>
+        {% else %}
+          <a href="{{ page.permalink }}" class="section-title">{{ page.extra.book }}</a>
+        {% endif %}
+      {% elif page.extra.type and page.extra.type == "link" %}
+        <a href="{{ page.permalink }}" class="zola-anchor visible">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 50 41"><path fill="currentColor" d="m31.314 40.785 1.506-.455 1.309-1.322 1.842-3.584 2.553-7.752 9.495-4.556 1.688-1.802-2.376-2.336-4.937 1.639-3.804 1.95-1.525-7.05 11.994-4.443.624-.727.001-1.051-1.316-1.324-4.02-.135-7.551 2.868L34.093 4.6l-1.325-1.91L30.342.985 27.944 2.69l-.084 2.678 2.289 2.289 1.554 2.61.024 1.712-5.349 2.672-.746-.56-1.706-6.962-2.774-5.468L18.371 0l-1.662.897-1.705 2.426 1.556 2.689.782.607.793-.506.974 1.463 1.599 3.688-.015 5.082-.627.724-8.083 3.138L.566 22.617l-.565.682L0 24.349l1.316 1.325 8.02.135 10.947-3.846 1.089.026.453 1.338-.117 2.055-1.713 3.759-14.069 5.63.067 1.58 1.323 1.323 3.023.134 3.03-.827 1.944 1.684 1.084.014 2.635-1.571 2.633-2.578L32.321 30l.381 1.382-2.845 6.947.142 2.02m-3.604-12.71-.535-1.312.131-6.027.627-.724 5.492-2.501 1.564 4.21-.685 1.012-.229 2.578"/></svg>
+        </a>
+        <a href="{{ page.extra.link }}" class="section-title">{{ page.title }}</a>
+      {% else %}
+        <a href="{{ page.permalink }}" class="section-title">{{ page.title }}</a>
       {% endif %}
-      <ul class="section-list">
-      {% for page in section.pages %}
-        <li>
-          {% if page.extra is containing("book") %}
-            {% if page.extra is containing("no_link") %}
-              <span>{{ page.extra.book }}</span>
-            {% else %}
-              <a href="{{ page.permalink }}">{{ page.extra.book }}</a>
-            {% endif %}
-          {% else  %}
-            <a href="{{ page.permalink }}" class="section-title">{{ page.title }}</a>
+      {% if page.extra is containing("book") %}
+        <p class="summary">
+          By: {{ page.extra.author }} <br/>
+          {% if page.extra is containing("no_link") %}
+          Finished: {{ page.extra.finished | date(format="%B %d, %Y") }} <br/>
           {% endif %}
-          {% if page.extra is containing("book") %}
-              <p class="summary">
-                By: {{ page.extra.author }} <br/>
-                {% if page.extra is containing("no_link") %}
-                Finished: {{ page.extra.finished | date(format="%B %d, %Y") }} <br/>
-                {% endif %}
-                Rating: {{ page.extra.rating }}
-              </p>
-          {% else %}
-            {% if page.summary %}
-              <div class="summary">{{ page.summary | safe }}</div>
-            {% else %}
-              <p class="summary">{{ page.description }}</p>
-            {% endif %}
-          {% endif %}
-        </li>
-      {% endfor %}
-      </ul>
+          Rating: {{ page.extra.rating }}
+        </p>
+      {% else %}
+        {% if page.summary %}
+          <div class="summary">{{ page.summary | safe }}</div>
+        {% else %}
+          <p class="summary">{{ page.description }}</p>
+        {% endif %}
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
 {% endblock content %}

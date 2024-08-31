@@ -1,6 +1,8 @@
 +++
 title = "MacOS Control Center is Better"
 date = 2020-10-07
+[extra]
+type = "post"
 +++
 
 I've been using the macOS Big Sur Beta for a couple of months now. So

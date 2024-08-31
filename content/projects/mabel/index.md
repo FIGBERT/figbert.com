@@ -1,14 +1,15 @@
 +++
 title = "Mabel"
+description = "A fancy BitTorrent client for the terminal."
 date = 2022-09-29
-weight = 0
+[extra]
+type = "project"
+done = true
 +++
 
 [**Mabel**] is a fancy BitTorrent client for the terminal. Programmed in
 performant and memory-safe [Go], the TUI is the torrenting
 state-of-the-art on macOS and Linux (and anywhere UNIX-y).
-
-<!-- more -->
 
 ![Mabel downloading several Linux distros]
 
@@ -38,5 +39,5 @@ the source code [on GitHub][**Mabel**].
 [Charm]: https://charm.sh
 [anacrolix]: https://github.com/anacrolix/torrent
 [SMMR Software]: https://smmr.software/
-[FIGBERT]: @/_index.md
+[FIGBERT]: /
 [Jacob Neplokh]: https://jacobneplokh.com/

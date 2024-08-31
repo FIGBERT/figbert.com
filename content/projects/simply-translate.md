@@ -1,8 +1,11 @@
 +++
 title = "SimplyTranslate"
+description = "A collection of translation scrapers with interfaces for gemini and the web."
 date = 2021-07-02
 updated = 2022-09-22
-weight = 8
+[extra]
+type = "project"
+done = true
 +++
 
 [**SimplyTranslate**][st] is a collection of "translation scrapers with
@@ -11,8 +14,6 @@ it's a privacy-respecting front end for Google Translate, similar to
 Twitter's [Nitter]. Over the course of a couple days – and one
 synchronous hacking session – I containerized the program to make it
 easier to deploy on servers worldwide.
-
-<!-- more -->
 
 When I first found the program, I immediately wanted to add it to my
 collection of self-hosted front ends. I had only one problem: I run my

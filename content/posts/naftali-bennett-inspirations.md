@@ -1,6 +1,8 @@
 +++
 title = "Naftali Bennett's Inspirations"
 date = 2023-01-20
+[extra]
+type = "post"
 +++
 
 I recently had the opportunity to meet former Israeli prime minister

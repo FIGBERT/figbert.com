@@ -1,6 +1,8 @@
 +++
 title = "Aggregation Theory, Virtuous Cycles, and Nitter"
 date = 2022-06-27
+[extra]
+type = "post"
 +++
 
 In 2015, Ben Thompson first proposed [Aggregation Theory] in an article
