@@ -42,7 +42,6 @@ header {
   &:has(div.index) {
     display: flex;
     justify-content: space-between;
-    gap: 5ch;
 
     width: 100%;
     max-width: 92ch;
@@ -50,6 +49,7 @@ header {
 
     svg {
       width: 12em;
+      padding-inline: 1em;
     }
   }
 }
