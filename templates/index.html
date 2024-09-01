@@ -31,9 +31,9 @@
       <li>
         {% if page.extra is containing("book") %}
           {% if page.extra is containing("no_link") %}
-            <span>{{ page.extra.book }} {{ page.extra.rating }}</span>
+            <span>{{ page.extra.book }}</span>
           {% else %}
-            <a href="{{ page.permalink }}">{{ page.extra.book }} {{ page.extra.rating }}</span></a>
+            <a href="{{ page.permalink }}">{{ page.extra.book }}</span></a>
           {% endif %}
         {% else %}
           <a href="{{ page.permalink }}">{{ page.title }}</a>
