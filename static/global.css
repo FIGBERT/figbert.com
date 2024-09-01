@@ -70,7 +70,6 @@ main {
       "about about links links links links"
       "work work work work work work";
     gap: 2ch;
-    width: 100%;
     margin-inline: auto;
 
     section {
@@ -255,4 +254,31 @@ blockquote {
 .icon svg {
   padding-inline-start: 0.5ch;
   width: 1ch;
+}
+
+/* Vertical grid for mobile screens */
+@media (max-width: 115ch) {
+  main {
+    &:not(:has(div.index)) {
+      width: unset;
+    }
+
+    &:has(div.index) {
+      grid-template-columns: 1fr;
+      grid-template-rows: unset;
+      grid-template-areas:
+        "par"
+        "writing"
+        "projects"
+        "reviews"
+        "about"
+        "work"
+        "links";
+
+      #par {
+        padding-inline: 0;
+        width: 110%;
+      }
+    }
+  }
 }
