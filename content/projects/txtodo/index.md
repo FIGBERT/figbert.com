@@ -3,9 +3,6 @@ title = "txtodo"
 date = 2020-05-20
 updated = 2022-06-14
 description = "A minimalist open-source todo list app."
-[extra]
-type = "project"
-done = true
 +++
 
 [**txtodo**] is a minimalist open-source todo list app inspired by Jeff

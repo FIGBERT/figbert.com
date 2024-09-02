@@ -3,9 +3,6 @@ title = "SimplyTranslate"
 description = "A collection of translation scrapers with interfaces for gemini and the web."
 date = 2021-07-02
 updated = 2022-09-22
-[extra]
-type = "project"
-done = true
 +++
 
 [**SimplyTranslate**][st] is a collection of "translation scrapers with

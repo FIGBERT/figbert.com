@@ -2,9 +2,6 @@
 title = "CSS System Colors Dashboard"
 description = "A website that gives developers a visual preview of CSS' underused system-color data type."
 date = 2024-05-20
-[extra]
-type = "project"
-done = true
 +++
 
 [**CSS System Colors Dashboard**][dash] is a website that gives

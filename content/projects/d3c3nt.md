@@ -3,9 +3,6 @@ title = "d3c3nt"
 description = "A simple, clean, and flexible theme for Zola."
 date = 2022-02-19
 updated = 2022-06-15
-[extra]
-type = "project"
-done = true
 +++
 
 [**d3c3nt**] is a simple, clean, and flexible theme for [Zola]. The

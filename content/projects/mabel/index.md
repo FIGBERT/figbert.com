@@ -2,9 +2,6 @@
 title = "Mabel"
 description = "A fancy BitTorrent client for the terminal."
 date = 2022-09-29
-[extra]
-type = "project"
-done = true
 +++
 
 [**Mabel**] is a fancy BitTorrent client for the terminal. Programmed in

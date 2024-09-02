@@ -2,9 +2,6 @@
 title = "Tofu"
 date = 2021-04-07
 description = "An easy-to-use, open-source, two-factor authentication app designed specifically for iOS."
-[extra]
-type = "project"
-done = true
 +++
 
 [**Tofu**][tofu] is an easy-to-use, open-source, two-factor

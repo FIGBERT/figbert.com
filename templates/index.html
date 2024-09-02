@@ -115,18 +115,8 @@
     <h2>Projects</h2>
 
     <div class="content">
-      <div>
-        <h3>Current</h3>
-        <div class="caption">
-          {{ self::first_from_grouped(path="projects/_index.md", limit=2, att="done", val=false) }}
-        </div>
-      </div>
-
-      <div>
-        <h3>Done</h3>
-        <div class="caption">
-          {{ self::first_from_grouped(path="projects/_index.md", limit=3, att="done", val=true) }}
-        </div>
+      <div class="caption">
+        {{ self::first_from(path="projects/_index.md", limit=4) }}
       </div>
 
       <div class="caption">

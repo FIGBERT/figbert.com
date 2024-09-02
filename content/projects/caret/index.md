@@ -2,9 +2,6 @@
 title = "Caret"
 description = "A command line tool for browsing Lobsters in your terminal."
 date = 2024-05-22
-[extra]
-type = "project"
-done = true
 +++
 
 [**Caret**][crt] is a command line tool for browsing Lobsters in your

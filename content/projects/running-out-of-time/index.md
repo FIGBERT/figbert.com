@@ -2,9 +2,6 @@
 title = "Running Out of Time Wallpaper"
 date = 2024-07-05
 description = "A minimalist macOS wallpaper to remind you that time is ticking."
-[extra]
-type = "project"
-done = true
 +++
 
 A minimalist macOS wallpaper to remind you that time is ticking.
