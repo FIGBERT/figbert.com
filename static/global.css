@@ -62,7 +62,7 @@ main {
   &:has(div.index) {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 0.5fr 1fr 1fr 0.75fr 1.25fr;
+    grid-template-rows: 0.5fr 0.75fr 1fr 0.75fr 1.25fr;
     grid-template-areas:
       "par par par par par par"
       "writing writing writing projects projects projects"
