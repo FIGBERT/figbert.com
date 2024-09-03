@@ -39,6 +39,11 @@
       {% else %}
         {% if page.summary %}
           <div class="summary">{{ page.summary | safe }}</div>
+        {% elif page.extra.type and page.extra.type == "work" %}
+          <p class="summary">
+            {{ page.description }} <br/>
+            {{ page.extra.start | date(format="%d %b %Y") }} - {{ page.extra.end | date(format="%d %b %Y") }}
+          </p>
         {% else %}
           <p class="summary">{{ page.description }}</p>
         {% endif %}

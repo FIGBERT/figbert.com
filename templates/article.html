@@ -11,11 +11,14 @@
   {% endif %}
   <small>
     {% if page.extra is containing("book") %}
-    <i>{{ page.extra.book }}</i> by {{ page.extra.author }}. <br/>
-    Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. <br/>
-    Rating: {{ page.extra.rating }} <br/>
+      <i>{{ page.extra.book }}</i> by {{ page.extra.author }}. <br/>
+      Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. <br/>
+      Rating: {{ page.extra.rating }} <br/>
+    {% elif page.extra.type and page.extra.type == "work" %}
+      Began: {{ page.extra.start | date(format="%d %b %Y") }} <br/>
+      Concluded: {{ page.extra.end | date(format="%d %b %Y") }}
     {% else %}
-    Published on <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+      Published on <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
     {% endif %}
   </small>
 {% endblock header %}
