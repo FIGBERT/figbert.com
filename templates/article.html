@@ -15,9 +15,7 @@
     Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. <br/>
     Rating: {{ page.extra.rating }} <br/>
     {% else %}
-    Published by <a href="{{ config.base_url }}">{{ config.title }}</a> on
-    <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
-    <br/>
+    Published on <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
     {% endif %}
   </small>
 {% endblock header %}
