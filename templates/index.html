@@ -45,13 +45,29 @@
 
 {% block content %}
   <div class="index"></div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const quotes = [
+        "Last of the Big Spenders",
+        "i forgot how to use my crypto wallets",
+        "boisterous",
+      ];
+      const quote = document.createElement("p");
+      quote.innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
 
-  <p id="par">
-    I’m Benji, an Israeli-American programmer building secure, clean, and
-    effective systems. I use modern technologies to build software that avoids
-    bloat and unnecessary complexity. I want to work on real and interesting
-    problems in challenging areas that matter.
-  </p>
+      const elem = document.getElementById("par");
+      elem.appendChild(quote);
+    });
+  </script>
+
+  <div id="par">
+    <p>
+      I’m Benji, an Israeli-American programmer building secure, clean,
+      and effective systems. I use modern technologies to build software
+      that avoids bloat and unnecessary complexity. I want to work on
+      real and interesting problems in challenging areas that matter.
+    </p>
+  </div>
 
   <section id="writing">
     <h2>Blog</h2>
