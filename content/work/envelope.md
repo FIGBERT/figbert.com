@@ -8,6 +8,7 @@ start = 2024-06-17
 end = 2024-09-06
 +++
 
-So much swag.
+Reflection coming soon!
 
-Josh is brilliant. Working a 9-5. Frontend? Startups?
+<!--So much swag.
+Josh is brilliant. Working a 9-5. Frontend? Startups?-->
