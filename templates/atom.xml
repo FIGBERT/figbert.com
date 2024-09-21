@@ -1,43 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
-    <title>{{ config.title }}
-    {%- if term %} - {{ term.name }}
-    {%- elif section.title %} - {{ section.title }}
+  <title>{{ config.title }}
+  {%- if term %} - {{ term.name }}
+  {%- elif section.title %} - {{ section.title }}
+  {%- endif -%}
+  </title>
+  {%- if config.description %}
+  <subtitle>{{ config.description }}</subtitle>
+  {%- endif %}
+  <link href="{{ feed_url | safe }}" rel="self" type="application/atom+xml"/>
+  <link href="
+    {%- if section -%}
+      {{ section.permalink | escape_xml | safe }}
+    {%- else -%}
+      {{ config.base_url | escape_xml | safe }}
     {%- endif -%}
-    </title>
-    {%- if config.description %}
-    <subtitle>{{ config.description }}</subtitle>
-    {%- endif %}
-    <link href="{{ feed_url | safe }}" rel="self" type="application/atom+xml"/>
-    <link href="
-      {%- if section -%}
-        {{ section.permalink | escape_xml | safe }}
+  "/>
+  <generator uri="https://www.getzola.org/">Zola</generator>
+  <updated>{{ last_updated | date(format="%+") }}</updated>
+  <id>{{ feed_url | safe }}</id>
+  {%- for page in pages %}
+  <entry xml:lang="{{ page.lang }}">
+    <title>{{ page.title }}</title>
+    <published>{{ page.date | date(format="%+") }}</published>
+    <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
+    <author>
+      <name>
+        {%- if page.authors -%}
+          {{ page.authors[0] }}
+        {%- elif config.author -%}
+          {{ config.author }}
+        {%- else -%}
+          Unknown
+        {%- endif -%}
+      </name>
+    </author>
+    <link rel="alternate" href="
+      {%- if page.extra.type and page.extra.type == "link" -%}
+        {{ page.extra.link | safe }}
       {%- else -%}
-        {{ config.base_url | escape_xml | safe }}
+        {{ page.permalink | safe }}
       {%- endif -%}
-    "/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>{{ last_updated | date(format="%+") }}</updated>
-    <id>{{ feed_url | safe }}</id>
-    {%- for page in pages %}
-    <entry xml:lang="{{ page.lang }}">
-        <title>{{ page.title }}</title>
-        <published>{{ page.date | date(format="%+") }}</published>
-        <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
-        <author>
-          <name>
-            {%- if page.authors -%}
-              {{ page.authors[0] }}
-            {%- elif config.author -%}
-              {{ config.author }}
-            {%- else -%}
-              Unknown
-            {%- endif -%}
-          </name>
-        </author>
-        <link rel="alternate" href="{{ page.permalink | safe }}" type="text/html"/>
-        <id>{{ page.permalink | safe }}</id>
-        <content type="html">{{ page.content }}</content>
-    </entry>
-    {%- endfor %}
+    " type="text/html"/>
+    <id>{{ page.permalink | safe }}</id>
+    <content type="html">
+      {%- if page.extra is containing("book") %}
+      &lt;small&gt;
+        &lt;i&gt;{{ page.extra.book }}&lt;&#x2F;i&gt; by {{ page.extra.author }}. &lt;br&#x2F;&gt;
+        Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. &lt;br&#x2F;&gt;
+        Rating: {{ page.extra.rating }} &lt;br&#x2F;&gt;
+      &lt;&#x2F;small&gt;
+      {%- elif page.extra.type and page.extra.type == "work" %}
+      &lt;small&gt;
+        Began: {{ page.extra.start | date(format="%d %b %Y") }} &lt;br&#x2F;&gt;
+        Concluded: {{ page.extra.end | date(format="%d %b %Y") }}
+      &lt;&#x2F;small&gt;
+      {%- endif %}
+      {{ page.content }}
+      {%- if page.extra.type and page.extra.type == "link" %}
+      &lt;a href=&quot;{{ page.permalink | safe }}&quot;&gt;★&lt;&#x2F;a&gt;
+      {%- endif %}
+    </content>
+  </entry>
+  {%- endfor %}
 </feed>
