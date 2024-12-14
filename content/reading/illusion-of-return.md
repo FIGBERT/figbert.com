@@ -1,7 +1,7 @@
 +++
 title = "The Novel of Palestinian Disillusionment"
 date = 2024-11-01T17:25:51-07:00
-updated = 2024-12-14
+updated = 2024-12-14T15:09:50-08:00
 [extra]
 book = "The Illusion of Return"
 author = "Samir El-Youssef"
@@ -12,9 +12,10 @@ rating = "★★★☆☆"
 **Author's Note:** I write everything in a conversational tone, so I
 doubt anybody reading this will notice much difference, but this review
 was originally a presentation. It is one of two I gave in Russell
-Berman's wonderful [Zionism and the Novel], the second of which [you can
-read here]. It was first written in [iA Presenter]. The title I have
-given the review here on the website was taken from our syllabus.
+Berman's wonderful [Zionism and the Novel]. It was first written in [iA
+Presenter]. The title I have given the review here on the website was
+taken from our syllabus. For another artifact of my work in the class,
+check out my review of [Waking Lions].
 
 ## Let's begin
 ~~Alright close your laptops and let's do this for real.~~ To get you up
@@ -219,7 +220,7 @@ reconcile this position with the reality of Israel—a return that worked?
 What, if anything, makes the case of the Jews different?
 
 [Zionism and the Novel]: https://explorecourses.stanford.edu/search?q=COMPLIT37Q
-[you can read here]: @/reading/waking-lions.md
 [iA Presenter]: https://ia.net/presenter
+[Waking Lions]: @/reading/waking-lions.md
 [HISTORY81B]: https://explorecourses.stanford.edu/search?q=HISTORY81B
 [*The War of Return*]: @/reading/war-of-return/index.md
