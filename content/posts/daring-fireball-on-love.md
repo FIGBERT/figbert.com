@@ -1,5 +1,5 @@
 +++
-title = "Daring Fireball Posts That Mention Love"
+title = "Daring Fireball on Love"
 date = 2024-11-01T17:28:15-07:00
 [extra]
 type = "post"
