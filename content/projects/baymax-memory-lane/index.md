@@ -4,7 +4,7 @@ description = "A 3D scene leveraging advanced graphical techniques in Blender"
 date = 2024-12-14T17:31:45-08:00
 +++
 
-![Baymax staring inquisitively at a wall of memory orbs from Inside Out](render.png)
+![Baymax staring inquisitively at a wall of memory orbs from Inside Out](render.webp)
 
 The above image was created as my final project for [CS148], under the
 auspices of renown bodybuilder and occasional professor [Ron Fedkiw].
@@ -19,7 +19,7 @@ brought another charismatic Pixar character into the scene, Baymax. We
 would like to think that he’s having a happy moment perusing good times
 past.
 
-![An additional angle and a version without any textures](alt.png)
+![An additional angle and a version without any textures](alt.webp)
 
 The stars of the show when it comes to this 3D model are the memory
 orbs. Most impressively, there's actually only one canonical orb in the
