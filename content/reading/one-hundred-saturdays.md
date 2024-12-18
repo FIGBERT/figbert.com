@@ -1,6 +1,7 @@
 +++
 title = "What I've Learned from Stella Levi (So Far)"
 date = 2024-12-16T18:28:00-08:00
+updated = 2024-12-17
 [extra]
 book = "One Hundred Saturdays"
 author = "Michael Frank"
@@ -58,6 +59,11 @@ stance—the fate of the Rhodeslis must ensure that—but a softening.
 I would finally like to extend a huge thank you to my wonderful mom, who
 recommended me this book.
 
+**EDIT:** I sent this book to my TA from HISTORY81B [last year], because
+I vaguely remembered that her area of research was something to do with
+Ottoman Jewry and thought she might be interested. Turns out she did all
+the Ladino/Judeo-Spanish transcription. Nutty.
+
 ---
 
 [^1]: Or, for that matter, never existed, as is the case with my
@@ -70,3 +76,5 @@ hypocrisy of adjudicating myself as a special case, and also think that
 the American acceptance of Jews does make it something of a special
 case. It is worse than Israel, but it is better than everywhere else
 where we are totally unwanted.
+
+[last year]: @/posts/stanford-quarterly-reflection-01/index.md
