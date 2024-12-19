@@ -1,6 +1,6 @@
 +++
 title = "Baymax on Memory Lane"
-description = "A 3D scene leveraging advanced graphical techniques in Blender"
+description = "A 3D scene leveraging advanced graphical techniques in Blender."
 date = 2024-12-14T17:31:45-08:00
 +++
 

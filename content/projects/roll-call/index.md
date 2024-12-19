@@ -1,6 +1,6 @@
 +++
 title = "Roll Call"
-description = "An experiment in replacing the phone in your morning routine"
+description = "An experiment in replacing the phone in your morning routine."
 date = 2024-12-17T14:52:00-08:00
 +++
 
