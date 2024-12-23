@@ -285,4 +285,10 @@
 
 {% block footer %}
   <div class="index"></div>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/figbert" method="post">
+    <label for="email" id="buttondown_label">If you're interested in getting all this in your inbox:</label>
+    <input type="email" name="email" placeholder="your@email.com"/>
+    <input type="hidden" value="1" name="embed" />
+    <input type="submit" id="buttondown_submit" value="Subscribe" />
+  </form>
 {% endblock footer %}
