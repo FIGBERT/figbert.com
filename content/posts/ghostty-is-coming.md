@@ -1,10 +1,13 @@
 +++
 title = "Contra Shipping in Public"
 date = 2024-10-23
+updated = 2025-01-12
 [extra]
 type = "link"
 link = "https://mitchellh.com/writing/ghostty-is-coming"
 +++
+
+Mitchell Hashimoto, announcing the release of his new terminal emulator:
 
 > ...I am nostalgic for the days when software was released when it was
 > ready. I like to imagine that if stores like CompUSA still existed,

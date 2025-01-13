@@ -1,10 +1,13 @@
 +++
 title = "Biting the Hand That Feeds You"
 date = 2024-12-24
+updated = 2025-01-12
 [extra]
 type = "link"
 link = "https://om.co/2024/12/21/dark-musings-on-media-ai/"
 +++
+
+Om, on his blog:
 
 > Unlike search engines, AI platforms are built on precision and
 > summaries. They’re unlikely to be a major source of traffic or
