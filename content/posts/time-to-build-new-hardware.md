@@ -1,6 +1,7 @@
 +++
 title = "It's Time to Build New Hardware"
 date = 2025-01-14T17:57:00-08:00
+updated = 2025-01-14T22:05:00-08:00
 [extra]
 type = "post"
 +++
@@ -81,7 +82,7 @@ I want to be a part of that.
 There are numerous significant and cool initiatives in this area these
 days. [Humane] has been universally panned but I'm extremely interested
 in rapidly developing their laser display technology as an alternative
-to traditional display panels. [Matcha Computing Co.] is actually the
+to traditional display panels. [Origami Computing] is actually the
 reason I'm writing this post, because I promised Sarvasv I would do so
 over six months ago and I want to reply to his email. I steal his line
 about the love-hate relationship we have with our devices all the time.
@@ -140,7 +141,7 @@ time to turn our focus to the world we were given.
 [@missokistic]: https://x.com/missokistic/status/796870708412358657
 [Tim Cook]: https://www.youtube.com/watch?v=MU-SXaFpSts&t=1472s
 [Humane]: https://humane.com
-[Matcha Computing Co.]: https://matchacomputing.com
+[Origami Computing]: https://origamicomputing.com
 [tinyPod]: https://thetinypod.com
 [reMarkable 2]: https://remarkable.com/store/remarkable-2
 [Daylight]: https://daylightcomputer.com
