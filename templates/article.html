@@ -13,7 +13,9 @@
     {% if page.extra is containing("book") %}
       <i>{{ page.extra.book }}</i> by {{ page.extra.author }}. <br/>
       Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. <br/>
+      {% if page.extra is containing("rating") %}
       Rating: {{ page.extra.rating }} <br/>
+      {% endif %}
     {% elif page.extra.type and page.extra.type == "work" %}
       Began: {{ page.extra.start | date(format="%d %b %Y") }} <br/>
       Concluded: {{ page.extra.end | date(format="%d %b %Y") }}

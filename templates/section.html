@@ -34,7 +34,9 @@
           {% if page.extra is containing("no_link") %}
           Finished: {{ page.extra.finished | date(format="%B %d, %Y") }} <br/>
           {% endif %}
+          {% if page.extra is containing("rating") %}
           Rating: {{ page.extra.rating }}
+          {% endif %}
         </p>
       {% else %}
         {% if page.summary %}

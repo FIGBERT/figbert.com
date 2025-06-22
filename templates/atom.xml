@@ -48,7 +48,9 @@
       &lt;small&gt;
         &lt;i&gt;{{ page.extra.book }}&lt;&#x2F;i&gt; by {{ page.extra.author }}. &lt;br&#x2F;&gt;
         Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. &lt;br&#x2F;&gt;
+        {% if page.extra is containing("rating") %}
         Rating: {{ page.extra.rating }} &lt;br&#x2F;&gt;
+        {% endif %}
       &lt;&#x2F;small&gt;
       {%- elif page.extra.type and page.extra.type == "work" %}
       &lt;small&gt;
