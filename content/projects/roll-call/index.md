@@ -2,6 +2,7 @@
 title = "Roll Call"
 description = "An experiment in replacing the phone in your morning routine."
 date = 2024-12-17T14:52:00-08:00
+updated = 2025-08-05T20:30:00-04:00
 +++
 
 Roll Call is a jury-rigged receipt printer that sits on my desk and
@@ -43,7 +44,7 @@ none of its downsides. However, this only works because I can still rely
 on my phone during the rest of the day. I can replace my phone with a
 receipt in the morning and feel better because of it, but later in the
 day I still need to fall back to the harsh light of the screen to
-respond to message, mark todos as complete, and more.
+respond to messages, mark todos as complete, and more.
 
 What the Roll Call experiment allows us to do is free our minds to
 imagine what removing the phone might look like from the rest of the
@@ -76,47 +77,46 @@ the pressure is gone, now let's deal with the rest.
 
 ![An example Roll Call receipt from December 17, 2024](receipt.jpg)
 
-The current implementation of Roll Call does have some gaps, which I
-would love to address in hypothetical future versions. The most
-prominent is its deep reliance on macOS: it reads iMessage's `chat.db`
-directly from disk and searches `Contacts.app` to associate phone
-numbers with names. Beyond that, Roll Call also doesn't trigger
-automatically. Instead, I manually run the script on my laptop, which is
-significantly less sexy. The device itself is pretty large and bulky,
-and relies on some gross cabling (USB A, B, *and* C). It doesn't print
-out my gym day. Some imagined diagnoses:
-
-1. A Matrix-iMessage bridge, a-la Beeper, would make developing for the
-   messaging platform less hellish. I could also skip the middleman and
-   set up a direct API call from a Raspberry Pi to a macOS host in the
-   cloud.
-2. Developing a good CardDAV library in Python, which I shockingly
-   couldn't find, seems like a simple replacement for the `Contacts.app`
-   AppleScript-in-Python monstrosity I cooked up.
-3. Ideally, the script would run as soon as I wake up. I wear an Oura
-   Ring every night; it would be super cool to connect the printer to a
-   webhook that gets called when the ring detects that I'm awake. That
-   endpoint doesn't exist at the moment, and probably would be very
-   difficult to create given Oura's current periodic-sync-over-Bluetooth
-   technology. I'll keep my eye out though!
-4. Barring the above, I would love to hook up the whole thing to a smart
-   button (no screen!) that I can just smack and have the whole thing
-   print.
-5. Making the code asynchronous where it makes sense. Initially, I had
-   the script fetch the data and then print it all out really fast. Then
-   I introduced some styling that I had to weave throughout and couldn't
-   do before printing: I miss the smooth all-at-once feeling. I think
-   some smart code jockey-ing could bring this back.
-6. Put the gym day in my calendar?
-
 As a last component of my time in DESIGN11, we made little
 advertisements. You can check out mine [here on YouTube]! Remind me
 never to film when I have a stuffy nose ever again.
 
+## Eight Months Later...
+
+Iteration continues. One random day at the [Recurse Center], my friend
+[Frank] brought in a small device that caught my attention—a receipt
+printer, in miniature! After one glance at its cute cat visage I knew I
+couldn't pass up the opportunity.
+
+![The product of a long day's testing](cat.jpg)
+
+This version of Roll Call [exists parallel] to the primary
+implementation, and is interesting as a proof-of-concept of how extreme
+portability might impact the device (it fits comfortably on top of my
+MacBook Air trackpad). It ditches the cables in favor of Bluetooth—I
+wrote a bespoke [Python package] to render receipts and submit them for
+printing using the device's largely undocumented communication protocol.
+Ultimately though, as entertaining as the new form factor may be
+visually and as rewarding as it was to overcome the progamming
+challenges in making it functional, I think this evolution of Roll Call
+is likely a dead end.
+
+There remain gaps in the current implementation worth exploring in
+hypothetical future versions, however. Roll Call's deep reliance on my
+laptop, for iMessage and Contacts as well as to drive the printer, is a
+flaw in my screen-free vision. Ideally, all this would be replaced by a
+simple button-computer that could talk to a cloud macOS server as well
+as the receipt printer. As it happens, I have six weeks left at Recurse
+and a whole bag full of microcontrollers...
+
 [DESIGN11]: https://explorecourses.stanford.edu/search?q=DESIGN11
-[a couple hundred lines]: https://git.sr.ht/~figbert/morning-receipt
+[a couple hundred lines]: https://github.com/figbert/roll-call
 [I customized]: https://github.com/figbert/imessage_reader
 [startlingly]: https://github.com/hedgertronic/oura-ring
 [good]: https://github.com/thingsapi/things.py
 [this blog post]: https://aschmelyun.com/blog/i-built-a-receipt-printer-for-github-issues/
 [here on YouTube]: https://www.youtube.com/watch?v=rNGusG71qD8
+[Recurse Center]: https://www.recurse.com/scout/click?t=0d85c06dc14f97552f2130471d4e3086
+[Frank]: https://www.frankchiarulli.com/
+[exists parallel]: https://github.com/FIGBERT/roll-call/tree/cat
+[Python package]: https://github.com/FIGBERT/bleprinter
