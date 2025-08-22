@@ -1,12 +1,9 @@
-FROM alpine as builder
-
+FROM alpine AS builder
 WORKDIR /home/site
 COPY . .
-
-RUN apk add zola --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ \
+RUN apk add --no-cache --repository https://dl-cdn.alpinelinux.org/alpine/edge/community/ zola \
   && zola build
 
-FROM nginx:alpine
-
-COPY --from=builder /home/site/public /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/nginx.conf
+FROM caddy:alpine
+COPY --from=builder /home/site/public /usr/share/caddy
+COPY ./Caddyfile /etc/caddy/Caddyfile
