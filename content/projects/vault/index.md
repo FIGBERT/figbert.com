@@ -74,6 +74,6 @@ Perhaps you'll hear more about that from me and my incredible teammates
 ![My team celebrating the completion of the device (from right to left: Vivek, Benji, Trun).](celebration.png)
 
 [Vivek]: https://vivekvivek.com/
-[Trun]: https://trun.space
+[Trun]: https://trunramteke.com/
 [507]: https://507movements.com/mm_099.html
 [a restroom in the Cantor Arts Museum]: https://x.com/jordanbpeterson/status/1633882580746653696
