@@ -1,5 +1,5 @@
 +++
-title = "Ping Pong Launcher"
+title = "Projectile Launcher"
 description = "Style, distance, accuracy: choose only three."
 date = 2025-12-21
 +++
