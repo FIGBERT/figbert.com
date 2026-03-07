@@ -65,10 +65,10 @@ main {
     grid-template-rows: 0.5fr 0.75fr 1fr 0.75fr 1.25fr;
     grid-template-areas:
       "par par par par par par"
-      "work work work work work work"
       "writing writing writing projects projects projects"
       "about about reviews reviews reviews reviews"
-      "about about links links links links";
+      "about about links links links links"
+      "work work work work work work";
     gap: 2ch;
     margin-inline: auto;
     margin-block-end: 0;
