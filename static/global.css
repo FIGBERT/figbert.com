@@ -295,11 +295,11 @@ code {
       grid-template-rows: unset;
       grid-template-areas:
         "par"
-        "work"
         "writing"
         "projects"
         "reviews"
         "about"
+        "work"
         "links";
 
       #par {
