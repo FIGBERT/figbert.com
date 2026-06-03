@@ -340,6 +340,22 @@ code {
   width: 1ch;
 }
 
+.footnotes {
+  ol {
+    list-style-position: inside;
+    padding-inline-start: 0;
+
+    li::marker {
+      font-size: smaller;
+    }
+  }
+
+  a[href^="#fr"] {
+    text-decoration: none;
+    vertical-align: sub;
+  }
+}
+
 /* Vertical grid for mobile screens */
 @media (max-width: 115ch) {
   main {
