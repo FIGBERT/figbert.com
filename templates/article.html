@@ -10,6 +10,9 @@
     <h1><a href="{{ current_url }}">{{ page.title }}</a></h1>
   {% endif %}
   <small>
+    {% if page.extra is containing("location") %}
+    From the desk of Benji Welner in {{ page.extra.location }}.<br>
+    {% endif %}
     {% if page.extra is containing("book") %}
       <i>{{ page.extra.book }}</i> by {{ page.extra.author }}. <br/>
       Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. <br/>
