@@ -1,12 +1,19 @@
 +++
 title = "Like Someone Who Actually Just Wants to Talk About the Settlements"
 date = 2026-06-03T20:00:00-07:00
+updated = 2026-06-09T14:30:00-07:00
 [extra]
 book = "Like Dreamers"
 author = "Yossi Klein Halevi"
 finished = 2026-05-22
 rating = "★★★★★"
 +++
+
+_**Update:** I wrote my final paper for [POLISCI114] on this book, which
+I've [uploaded for you to peruse][essay] should you be interested. The
+original, much shorter, and somewhat less formal review is preserved
+below (with a tweak to the penultimate paragraph, which contains a new
+direct quote)._
 
 When I first picked out this book, I anticipated that "the story of the
 Israeli paratroopers who reunited Jerusalem" would have a lot more to
@@ -74,19 +81,19 @@ for an incredible future.
 
 Like all good, focused book reviews, I will end with a tangent. _Like
 Dreamers_ formalized my conception of one of Israel's most impactful
-military doctrines: never fight a war on the home front. In the United
-States this is not something one needs to think about, as America's
-enemies are oceans away. But in Israel it's a big deal—fighting on the
-(tiny and densely populated) home front means untold Israeli civilian
-casualties. This doctrine's impact is obvious in the case of 1967, when
-a then-smaller Israel fought the Jordanians in the West Bank (annexing
-Jerusalem), the Syrians in the Golan Heights (now also annexed), and the
-Egyptians in Sinai (returned for peace). The doctrine is still very much
-relevant: just look at the maps of the current conflicts in [Lebanon]
-and [Syria]. Despite what the American zeitgest may imply, I do not
-believe that Israel is a radical expansionist power in the Middle East.
-Rather, it's implementing the same doctrine as always: the West is just
-profoundly forgetful.
+practices: "the IDF's doctrine of preemption, of taking the war into
+enemy territory." In the United States this is not something one needs
+to think about, as America's enemies are oceans away. But in Israel it's
+a big deal—fighting on the (tiny and densely populated) home front means
+untold Israeli civilian casualties. This doctrine's impact is obvious
+in the case of 1967, when a then-smaller Israel fought the Jordanians
+in the West Bank (annexing Jerusalem), the Syrians in the Golan Heights
+(now also annexed), and the Egyptians in Sinai (returned for peace).
+But the doctrine is still very much relevant: just look at the maps of
+the current conflicts in [Gaza] and [the North]. Despite what the
+American zeitgest may imply, I do not believe that Israel is a radical
+expansionist power in the Middle East. Rather, it's implementing the
+same doctrine as always. The West is just profoundly forgetful.
 
 In any case, as you may have observed already, I quite liked this
 book. I found it rather engaging: it managed to skip the part of most
@@ -105,9 +112,11 @@ but from some research appears to be more commonly referred to as the
 Israeli trilemma (aparrently coined at least in part by Tom Friedman,
 whom I had the pleasure of hearing speak last year).
 
+[POLISCI114]: https://explorecourses.stanford.edu/search?q=POLISCI114
+[essay]: essay.pdf
 [laser defense systems]: https://www.timesofisrael.com/israel-sent-laser-system-to-uae-to-help-intercept-iranian-missiles-and-drones-report/
 [toi]: https://www.timesofisrael.com/liveblog_entry/israel-lebanon-agree-to-renew-truce-create-pilot-zones-where-hezbollah-is-banned/
 [Hoover]: https://www.hoover.org/
 [converge]: https://heb.hartman.org.il/meir-ariel/
-[Lebanon]: https://commons.wikimedia.org/wiki/File:October_2023_Gaza%E2%88%92Israel_conflict.svg
-[Syria]: https://commons.wikimedia.org/wiki/File:2026_Lebanon_War_Map.svg
+[Gaza]: gaza.webp
+[the North]: north.webp
