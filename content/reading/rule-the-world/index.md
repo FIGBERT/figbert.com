@@ -1,6 +1,6 @@
 +++
 title = "The Stanford Machine"
-date = 2026-06-30T16:30:00-05:00
+date = 2026-07-02T15:00:00-05:00
 [extra]
 book = "How to Rule the World"
 author = "Theo Baker"
