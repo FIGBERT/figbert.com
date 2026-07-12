@@ -6,6 +6,7 @@ book = "In The Dark"
 author = "Brian Gitt"
 finished = 2026-06-27
 rating = "☆☆☆☆☆"
+location = "Austin, TX"
 +++
 
 I finally [got around to reading][rocket] _In The Dark_. It was
