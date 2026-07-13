@@ -45,7 +45,9 @@
     <id>{{ page.permalink | safe }}</id>
     <content type="html">
       {% if page.extra is containing("location") %}
+      &lt;small&gt;
       From the desk of Benji Welner in {{ page.extra.location }}.&lt;br&gt;
+      &lt;&#x2F;small&gt;
       {% endif %}
       {%- if page.extra is containing("book") %}
       &lt;small&gt;
