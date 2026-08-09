@@ -40,7 +40,7 @@ All in all, I spent around USD$21 on tweaks, which is infinitely more
 than I have spent on the App Store – so maybe charging upfront does
 work. Huh.
 
-{{ gif(sources=["jailbreak.webm", "jailbreak.mp4"]) }}
+{{<gif source="jailbreak.webm" url={config.base_url} path={page.path} />}}
 
 ## Updating my iDevices to Developer Betas
 
@@ -70,7 +70,7 @@ didn't. Thanks internet! I powered through the incredible [Blender
 Beginner Tutorial Series] by the [Blender Guru]. Here's my final
 animation:
 
-{{ gif(sources=["doughnut.webm", "doughnut.mp4"]) }}
+{{<gif source="doughnut.webm" url={config.base_url} path={page.path} />}}
 
 ## Replacing Keybase
 
@@ -110,7 +110,7 @@ the app that causes issues when tasks are modified by CloudKit instead
 of the user, so I'm going to have to work on that as well. Shouldn't be
 hard!
 
-{{ image(sources=["rick-and-morty.jpg"], fallback_path="rick-and-morty.jpg", fallback_alt="Let's go. In and out. Twenty-minute adventure.") }}
+![Let's go. In and out. Twenty-minute adventure.](rick-and-morty.jpg)
 
 ## Interesting Blog Tidbits
 

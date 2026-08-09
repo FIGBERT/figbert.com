@@ -13,7 +13,7 @@ one key way: Control Center on macOS actually turns off services.
 
 <!-- more -->
 
-{{ gif(sources=["cc.webm", "cc.mp4"]) }}
+{{<gif source="cc.webm" url={config.base_url} path={page.path} />}}
 
 Did you catch that? It's pretty subtle. When you try and turn off
 Bluetooth or Wifi on iOS, they aren't actually turned off: they're just

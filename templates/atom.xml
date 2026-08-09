@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
   <title>{{ config.title }}
   {%- if term %} - {{ term.name }}
-  {%- elif section.title %} - {{ section.title }}
+  {%- elif section and section.title %} - {{ section.title }}
   {%- endif -%}
   </title>
   {%- if config.description %}
@@ -17,13 +17,13 @@
     {%- endif -%}
   "/>
   <generator uri="https://www.getzola.org/">Zola</generator>
-  <updated>{{ last_updated | date(format="%+") }}</updated>
+  <updated>{{ last_updated | date(format="%FT%T%:z") }}</updated>
   <id>{{ feed_url | safe }}</id>
   {%- for page in pages %}
   <entry xml:lang="{{ page.lang }}">
     <title>{{ page.title }}</title>
-    <published>{{ page.date | date(format="%+") }}</published>
-    <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
+    <published>{{ page.date | date(format="%FT%T%:z") }}</published>
+    <updated>{{ page.updated | default(value=page.date, boolean=true) | date(format="%FT%T%:z") }}</updated>
     <author>
       <name>
         {%- if page.authors -%}
@@ -44,16 +44,16 @@
     " type="text/html"/>
     <id>{{ page.permalink | safe }}</id>
     <content type="html">
-      {% if page.extra is containing("location") %}
+      {% if page.extra is containing(pat="location") %}
       &lt;small&gt;
       From the desk of Benji Welner in {{ page.extra.location }}.&lt;br&gt;
       &lt;&#x2F;small&gt;
       {% endif %}
-      {%- if page.extra is containing("book") %}
+      {%- if page.extra is containing(pat="book") %}
       &lt;small&gt;
         &lt;i&gt;{{ page.extra.book }}&lt;&#x2F;i&gt; by {{ page.extra.author }}. &lt;br&#x2F;&gt;
         Finished on {{ page.extra.finished | date(format="%B %d, %Y") }}. &lt;br&#x2F;&gt;
-        {% if page.extra is containing("rating") %}
+        {% if page.extra is containing(pat="rating") %}
         Rating: {{ page.extra.rating }} &lt;br&#x2F;&gt;
         {% endif %}
       &lt;&#x2F;small&gt;

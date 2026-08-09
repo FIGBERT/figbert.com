@@ -49,7 +49,7 @@ styling, which I planned to port over after I got the UI functional.
 
 I ran the app on my device, and this happened:
 
-{{ video(sources=["ascending-checkmarks-error.webm", "ascending-checkmarks-error.mp4"])  }}
+{{<video source="ascending-checkmarks-error.webm" url={config.base_url} path={page.path} />}}
 
 Well that was unexpected. Instead of checking off the tasks I selected,
 tasks were checked off starting from the bottom and ascending –
@@ -134,7 +134,7 @@ newTask.daily = Bool.random()
 
 I ran the app again and saw this:
 
-{{ video(sources=["randomized-test-values.webm", "randomized-test-values.mp4"])  }}
+{{<video source="randomized-test-values.webm" url={config.base_url} path={page.path} />}}
 
 ## Intentional Behavior
 
@@ -162,7 +162,7 @@ and category (as seen above) and added an animation with
 `.animation(.easeIn(duration: 0.25))`. The current prototype looks
 something like this:
 
-{{ video(sources=["update-preview.webm", "update-preview.mp4"]) }}
+{{<video source="update-preview.webm" url={config.base_url} path={page.path} />}}
 
 This has been a really fun blog post to write! A got a big laugh out of
 this bug chase, and I hope you've enjoyed reading it.

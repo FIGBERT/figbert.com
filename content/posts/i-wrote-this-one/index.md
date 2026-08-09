@@ -59,7 +59,7 @@ fantastic [Jetbrains Mono] font. I'm still not that good at actually
 using vim to its fullest potential but I'm confident that I'll improve
 with a little practice and ascend to elite vim status in no time.
 
-{{ image(sources=["chad.jpg"], fallback_path="chad.jpg", fallback_alt="The virgin classic developer vs the chad linux dev") }}
+![The virgin classic developer vs the chad linux dev](chad.jpg)
 
 ## Maybe Rust?
 
@@ -86,7 +86,7 @@ launched a [weird Zoom competitor] with no fanfare or announcement, and
 refuse to get rid of their [required KYC]. Anyways, I dropped it. Now my
 dock is all blue!
 
-{{ image(sources=["dock.png"], fallback_path="dock.png", fallback_alt="My dock with all blue apps") }}
+![My dock with all blue apps](dock.png)
 
 ## New Music
 

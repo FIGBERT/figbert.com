@@ -1,0 +1,7 @@
+{% component gif(source: string, url: string, path: string) %}
+<video autoplay loop muted playsinline>
+  {% set type = source | split(pat=".") | last -%}
+  <source src="{{ url | safe }}{{ path | safe }}{{ source | safe }}" type="{{ 'video/' ~ type }}">
+  Your browser doesn't appear to support the video tag, which I use in place of .gifs – niche!
+</video>
+{% endcomponent gif %}

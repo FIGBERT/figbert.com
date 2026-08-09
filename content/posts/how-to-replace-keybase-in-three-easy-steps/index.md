@@ -82,7 +82,7 @@ note that though Kev recommends hiding your h-card with the
 merged my about and contact pages onto my homepage, and added the
 microformats classes to my existing markup.
 
-{{ image(sources=["h-card.png"], fallback_path="h-card.png", fallback_alt="My Indieweb h-card") }}
+![My Indieweb h-card](h-card.png)
 
 ### Step #3: File Storage
 

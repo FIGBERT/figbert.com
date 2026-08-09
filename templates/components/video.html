@@ -1,0 +1,7 @@
+{% component video(source: string, url: string, path: string) %}
+<video controls>
+  {% set type = source | split(pat=".") | last -%}
+  <source src="{{ url | safe }}{{ path | safe }}{{ source | safe }}" type="{{ 'video/' ~ type }}">
+  Your browser doesn't support the video tag – niche!
+</video>
+{% endcomponent video %}

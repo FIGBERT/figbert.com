@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title }} :: {% endif %}{{ config.title }}</title>
+    <title>{% if page and page.title %}{{ page.title }} :: {% endif %}{{ config.title }}</title>
 
     <link rel="stylesheet" href="{{ get_url(path="global.css") }}">
     <link rel="me" href="https://fosstodon.org/@FIGBERT">
 
     <link type="application/atom+xml" rel="alternate" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" title="{{ config.title }}">
 
-    <meta name="description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title | safe }} :: {% endif %}{{ config.title }}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
+    <meta name="description" content="{% if page and page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
+    <meta property="og:title" content="{% if page and page.title %}{{ page.title | safe }} :: {% endif %}{{ config.title }}">
+    <meta property="og:description" content="{% if page and page.description %}{{ page.description | safe }}{% else %}{{ config.description }}{% endif %}">
     <meta property="og:type" content="website">
 
     {% if current_url %}
